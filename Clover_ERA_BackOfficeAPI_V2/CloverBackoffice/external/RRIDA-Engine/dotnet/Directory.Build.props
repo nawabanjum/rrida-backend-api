@@ -1,0 +1,24 @@
+<Project>
+
+  <!--
+    One place for what every project in the port shares.
+
+    net8.0 because that is what the developers' Azure environment runs. The SDK on the
+    build machine is 9.0.200, which targets net8.0 by restoring its targeting pack; it
+    does not need an 8.0 SDK installed.
+
+    Warnings are errors. A port whose job is to reproduce another implementation to nine
+    decimal places cannot afford a nullable warning it has stopped reading.
+  -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>12.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <EnforceCodeStyleInBuild>false</EnforceCodeStyleInBuild>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+</Project>

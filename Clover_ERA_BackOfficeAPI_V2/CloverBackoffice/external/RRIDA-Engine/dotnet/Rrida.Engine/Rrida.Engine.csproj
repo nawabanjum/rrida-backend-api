@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    The engine.
+
+    NO PackageReference, and none may be added. Everything it needs is in the net8.0
+    shared framework, System.Text.Json included.
+
+    NO ProjectReference to Rrida.State, and that is the boundary spec 7.1 draws. The team
+    state is a RRIDA-level computation: the engine emits the atom upward and takes the
+    resolved state as an input. A test asserts this file has no reference to it, because a
+    comment claiming a boundary is not a boundary.
+  -->
+
+</Project>

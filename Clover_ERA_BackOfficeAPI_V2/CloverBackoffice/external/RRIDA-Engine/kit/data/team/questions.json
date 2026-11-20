@@ -1,0 +1,542 @@
+[
+ {
+  "id": 301,
+  "text": "Between you, does this team have the skills the work needs?",
+  "element": "Structure",
+  "track": "Team"
+ },
+ {
+  "id": 302,
+  "text": "Could you describe what success would look like for this team?",
+  "element": "Goal Affinity",
+  "track": "Team"
+ },
+ {
+  "id": 303,
+  "text": "Is the work on this team shared out fairly?",
+  "element": "Accountability",
+  "track": "Team"
+ },
+ {
+  "id": 304,
+  "text": "Does the way this team runs its work suit the work you actually do?",
+  "element": "Coordination Quality",
+  "track": "Team"
+ },
+ {
+  "id": 305,
+  "text": "Do decisions that affect this team actually get made?",
+  "element": "Leadership",
+  "track": "Team"
+ },
+ {
+  "id": 306,
+  "text": "Whatever gets thrown at this team, will you find a way to handle it?",
+  "element": "Potency",
+  "track": "Team"
+ },
+ {
+  "id": 307,
+  "text": "Does this team regularly step back and look at how it works?",
+  "element": "Learning",
+  "track": "Team"
+ },
+ {
+  "id": 308,
+  "text": "Does this team deliver work you can be proud of?",
+  "element": "Results",
+  "track": "Team"
+ },
+ {
+  "id": 309,
+  "text": "Do you feel like part of this team?",
+  "element": "Belonging",
+  "track": "Team"
+ },
+ {
+  "id": 310,
+  "text": "Are things outside this team making it harder to deliver right now?",
+  "element": "Structure",
+  "track": "Team"
+ },
+ {
+  "id": 311,
+  "text": "If the team's goal got difficult, would you want to push on?",
+  "element": "Goal Affinity",
+  "track": "Team"
+ },
+ {
+  "id": 312,
+  "text": "When something goes badly wrong, does this team recover well?",
+  "element": "Potency",
+  "track": "Team"
+ },
+ {
+  "id": 313,
+  "text": "Do your team meetings help you get your work done?",
+  "element": "Coordination Quality",
+  "track": "Team"
+ },
+ {
+  "id": 314,
+  "text": "When the work is not good enough, does anyone say so?",
+  "element": "Results",
+  "track": "Team"
+ },
+ {
+  "id": 315,
+  "text": "Does this feel like a team, or a group of people with the same manager?",
+  "element": "Belonging",
+  "track": "Team"
+ },
+ {
+  "id": 316,
+  "text": "When you hit something nobody knows how to do, can you get help?",
+  "element": "Structure",
+  "track": "Team"
+ },
+ {
+  "id": 317,
+  "text": "Has anyone restated the team's goal recently enough to be useful?",
+  "element": "Goal Affinity",
+  "track": "Team"
+ },
+ {
+  "id": 318,
+  "text": "Can you see what others on this team are contributing?",
+  "element": "Accountability",
+  "track": "Team"
+ },
+ {
+  "id": 319,
+  "text": "When work passes to you, do you have what you need to pick it up?",
+  "element": "Coordination Quality",
+  "track": "Team"
+ },
+ {
+  "id": 320,
+  "text": "Once made, do decisions about this team stay made?",
+  "element": "Leadership",
+  "track": "Team"
+ },
+ {
+  "id": 321,
+  "text": "Does a setback make this team regroup or fragment?",
+  "element": "Potency",
+  "track": "Team"
+ },
+ {
+  "id": 322,
+  "text": "When this team reviews its work, do people say what they think?",
+  "element": "Learning",
+  "track": "Team"
+ },
+ {
+  "id": 323,
+  "text": "Does this team meet the commitments it makes to other people?",
+  "element": "Results",
+  "track": "Team"
+ },
+ {
+  "id": 324,
+  "text": "Would you miss this team if you moved somewhere else?",
+  "element": "Belonging",
+  "track": "Team"
+ },
+ {
+  "id": 325,
+  "text": "Is this team absorbing decisions that were made somewhere else?",
+  "element": "Structure",
+  "track": "Team"
+ },
+ {
+  "id": 326,
+  "text": "Does the team's goal matter to you beyond it being your job?",
+  "element": "Goal Affinity",
+  "track": "Team"
+ },
+ {
+  "id": 327,
+  "text": "Would this team take on something harder than its current work?",
+  "element": "Potency",
+  "track": "Team"
+ },
+ {
+  "id": 328,
+  "text": "Do things get picked up cleanly as they move between people?",
+  "element": "Coordination Quality",
+  "track": "Team"
+ },
+ {
+  "id": 329,
+  "text": "Do you know what a good quarter would look like for this team?",
+  "element": "Results",
+  "track": "Team"
+ },
+ {
+  "id": 330,
+  "text": "If you were choosing again, would you choose this team?",
+  "element": "Belonging",
+  "track": "Team"
+ },
+ {
+  "id": 331,
+  "text": "Are there enough of you for what you are being asked to deliver?",
+  "element": "Structure",
+  "track": "Team"
+ },
+ {
+  "id": 332,
+  "text": "Is the team's goal specific enough to know when it is met?",
+  "element": "Goal Affinity",
+  "track": "Team"
+ },
+ {
+  "id": 333,
+  "text": "Is your own contribution visible to the rest of the team?",
+  "element": "Accountability",
+  "track": "Team"
+ },
+ {
+  "id": 334,
+  "text": "Is the amount of coordinating in your week about right?",
+  "element": "Coordination Quality",
+  "track": "Team"
+ },
+ {
+  "id": 335,
+  "text": "When your priorities change, do you find out why?",
+  "element": "Leadership",
+  "track": "Team"
+ },
+ {
+  "id": 336,
+  "text": "Between you, does this team have what it takes?",
+  "element": "Potency",
+  "track": "Team"
+ },
+ {
+  "id": 337,
+  "text": "Do things this team agrees to change actually get changed?",
+  "element": "Learning",
+  "track": "Team"
+ },
+ {
+  "id": 338,
+  "text": "Do you know how this team is performing?",
+  "element": "Results",
+  "track": "Team"
+ },
+ {
+  "id": 339,
+  "text": "Are you glad to tell people which team you are on?",
+  "element": "Belonging",
+  "track": "Team"
+ },
+ {
+  "id": 340,
+  "text": "Are outside demands pulling this team off what it planned?",
+  "element": "Structure",
+  "track": "Team"
+ },
+ {
+  "id": 341,
+  "text": "Is the team's current goal worth the effort it will take?",
+  "element": "Goal Affinity",
+  "track": "Team"
+ },
+ {
+  "id": 342,
+  "text": "Does this team believe it can handle what is coming?",
+  "element": "Potency",
+  "track": "Team"
+ },
+ {
+  "id": 343,
+  "text": "Can you get an answer when you need one without losing a day?",
+  "element": "Coordination Quality",
+  "track": "Team"
+ },
+ {
+  "id": 344,
+  "text": "Does this team see its own results, or only hear about them?",
+  "element": "Results",
+  "track": "Team"
+ },
+ {
+  "id": 345,
+  "text": "Does being on this team mean something to you?",
+  "element": "Belonging",
+  "track": "Team"
+ },
+ {
+  "id": 346,
+  "text": "Has this team been stable enough to work well together?",
+  "element": "Structure",
+  "track": "Team"
+ },
+ {
+  "id": 347,
+  "text": "Would you and your teammates describe the goal the same way?",
+  "element": "Goal Affinity",
+  "track": "Team"
+ },
+ {
+  "id": 348,
+  "text": "When someone here commits to something, does it get done?",
+  "element": "Accountability",
+  "track": "Team"
+ },
+ {
+  "id": 349,
+  "text": "Do you know what you are responsible for on this team?",
+  "element": "Coordination Quality",
+  "track": "Team"
+ },
+ {
+  "id": 350,
+  "text": "When you raise something you cannot solve, does it come back to you?",
+  "element": "Leadership",
+  "track": "Team"
+ },
+ {
+  "id": 351,
+  "text": "Do you feel good about what is coming up for this team?",
+  "element": "Potency",
+  "track": "Team"
+ },
+ {
+  "id": 352,
+  "text": "Do improvements this team makes tend to last?",
+  "element": "Learning",
+  "track": "Team"
+ },
+ {
+  "id": 353,
+  "text": "Can you tell whether this team is getting better or worse?",
+  "element": "Results",
+  "track": "Team"
+ },
+ {
+  "id": 354,
+  "text": "Do you have a real connection with anyone on this team?",
+  "element": "Belonging",
+  "track": "Team"
+ },
+ {
+  "id": 355,
+  "text": "Does this team get enough warning about changes coming from outside?",
+  "element": "Structure",
+  "track": "Team"
+ },
+ {
+  "id": 356,
+  "text": "Can you see why this work is worth doing?",
+  "element": "Goal Affinity",
+  "track": "Team"
+ },
+ {
+  "id": 357,
+  "text": "When this team hits a wall, does it find a way through?",
+  "element": "Potency",
+  "track": "Team"
+ },
+ {
+  "id": 358,
+  "text": "Do you know who decides what on this team?",
+  "element": "Coordination Quality",
+  "track": "Team"
+ },
+ {
+  "id": 359,
+  "text": "Has the quality of this team's work held up over the last few weeks?",
+  "element": "Results",
+  "track": "Team"
+ },
+ {
+  "id": 360,
+  "text": "Is there anyone on this team you would go to with a bad day?",
+  "element": "Belonging",
+  "track": "Team"
+ },
+ {
+  "id": 361,
+  "text": "Is this team the right size for the work it does?",
+  "element": "Structure",
+  "track": "Team"
+ },
+ {
+  "id": 362,
+  "text": "Do you understand how your own work moves the team's goal forward?",
+  "element": "Goal Affinity",
+  "track": "Team"
+ },
+ {
+  "id": 363,
+  "text": "If someone here is struggling, do others step in?",
+  "element": "Accountability",
+  "track": "Team"
+ },
+ {
+  "id": 364,
+  "text": "Is it clear who owns a piece of work when it starts?",
+  "element": "Coordination Quality",
+  "track": "Team"
+ },
+ {
+  "id": 365,
+  "text": "Is someone shielding this team from things it should not handle?",
+  "element": "Leadership",
+  "track": "Team"
+ },
+ {
+  "id": 366,
+  "text": "Has this team proved to itself it can do difficult things?",
+  "element": "Potency",
+  "track": "Team"
+ },
+ {
+  "id": 367,
+  "text": "Is this team better at its work than it was six months ago?",
+  "element": "Learning",
+  "track": "Team"
+ },
+ {
+  "id": 368,
+  "text": "Does this team hold itself to a high standard?",
+  "element": "Results",
+  "track": "Team"
+ },
+ {
+  "id": 369,
+  "text": "Would you want to work with these people again?",
+  "element": "Belonging",
+  "track": "Team"
+ },
+ {
+  "id": 370,
+  "text": "Is something outside this team slowing you down this week?",
+  "element": "Structure",
+  "track": "Team"
+ },
+ {
+  "id": 371,
+  "text": "Do your own objectives sit comfortably alongside the team's goal?",
+  "element": "Goal Affinity",
+  "track": "Team"
+ },
+ {
+  "id": 372,
+  "text": "Do you back this team to deliver the next big thing it is given?",
+  "element": "Potency",
+  "track": "Team"
+ },
+ {
+  "id": 373,
+  "text": "Do handovers across locations or time zones work well?",
+  "element": "Coordination Quality",
+  "track": "Team"
+ },
+ {
+  "id": 374,
+  "text": "Do you get to see how your work landed once it left the team?",
+  "element": "Results",
+  "track": "Team"
+ },
+ {
+  "id": 375,
+  "text": "Does this team feel like somewhere you belong?",
+  "element": "Belonging",
+  "track": "Team"
+ },
+ {
+  "id": 376,
+  "text": "Do you know who is on this team and who is not?",
+  "element": "Structure",
+  "track": "Team"
+ },
+ {
+  "id": 377,
+  "text": "Does what you are measured on pull the same way as the team's goal?",
+  "element": "Goal Affinity",
+  "track": "Team"
+ },
+ {
+  "id": 378,
+  "text": "Is anyone on this team carrying more than their share right now?",
+  "element": "Accountability",
+  "track": "Team"
+ },
+ {
+  "id": 379,
+  "text": "Are the tools you share making coordination easier?",
+  "element": "Coordination Quality",
+  "track": "Team"
+ },
+ {
+  "id": 380,
+  "text": "Are decisions made quickly enough for this team to keep moving?",
+  "element": "Leadership",
+  "track": "Team"
+ },
+ {
+  "id": 381,
+  "text": "Does this team meet a hard challenge or brace against it?",
+  "element": "Potency",
+  "track": "Team"
+ },
+ {
+  "id": 382,
+  "text": "Does this team try new ways of working, not just new work?",
+  "element": "Learning",
+  "track": "Team"
+ },
+ {
+  "id": 383,
+  "text": "Can you see the difference your work makes to the people it is for?",
+  "element": "Results",
+  "track": "Team"
+ },
+ {
+  "id": 384,
+  "text": "Do you feel included in what this team does day to day?",
+  "element": "Belonging",
+  "track": "Team"
+ },
+ {
+  "id": 385,
+  "text": "Is this team shielded from noise it should not have to handle?",
+  "element": "Structure",
+  "track": "Team"
+ },
+ {
+  "id": 386,
+  "text": "When priorities are traded off, is it clear which one wins?",
+  "element": "Goal Affinity",
+  "track": "Team"
+ },
+ {
+  "id": 387,
+  "text": "Is this team's confidence holding up at the moment?",
+  "element": "Potency",
+  "track": "Team"
+ },
+ {
+  "id": 388,
+  "text": "When two people could own something, does it get sorted quickly?",
+  "element": "Coordination Quality",
+  "track": "Team"
+ },
+ {
+  "id": 389,
+  "text": "Is the bar this team works to still where it should be?",
+  "element": "Results",
+  "track": "Team"
+ },
+ {
+  "id": 390,
+  "text": "Have you felt more or less part of this team lately?",
+  "element": "Belonging",
+  "track": "Team"
+ }
+]

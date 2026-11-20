@@ -1,0 +1,39 @@
+- vars:
+    csv_data: |
+      CloverCategory,Question,Sentiment,Reason,Answer
+      Communication,Did you find clarity in your communications today?,1,Lack of transparency,Information was fragmented and inconsistent.
+      Learning,Were you able to face and admit your mistakes today?,2,Fear of judgment,No opportunity to discuss or learn from mistakes.
+      Vulnerability,Were you supported by your team today?,2,Lack of trust,Support offered was ineffective or irrelevant.
+  assert:
+    - type: javascript
+      value: "output.includes('Priority Area: Communication')"
+    - type: javascript
+      value: "output.includes('Sentiment Score: 0%')"
+    - type: icontains
+      value: "Theme 1:"
+
+- vars:
+    csv_data: |
+      CloverCategory,Question,Sentiment,Reason,Answer
+      Enablement,Were your methods for completing tasks personally satisfying today?,3,Good hardware,Methods allowed for creativity and innovation.
+      Reflection,Did you receive constructive feedback today?,4,Supportive feedback,Feedback helped clarify expectations.
+  assert:
+    - type: llm-rubric
+      value: "The output discusses team satisfaction with creative methods or enablement"
+    - type: javascript
+      value: "output.includes('Sentiment Score: 66%')"
+      description: "Expect 66% because Enablement is the Priority Area (lowest sentiment 3 < 4)"
+
+- vars:
+    csv_data: |
+      CloverCategory,Question,Sentiment,Reason,Answer
+      Communication,How is info shared?,1,Lack of transparency,Management keeps secrets.
+      Communication,How is info shared?,2,Lack of transparency,Information is usually late.
+  assert:
+    - type: javascript
+      value: "output.includes('Sentiment Score: 16.5%') || output.includes('Sentiment Score: 17%')"
+      description: "Handles potential rounding or exact decimal representation"
+    - type: javascript
+      value: "!output.includes('**')"
+      description: "Ensures no bolding is used"
+

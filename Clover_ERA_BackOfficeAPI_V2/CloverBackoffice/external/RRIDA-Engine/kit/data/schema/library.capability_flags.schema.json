@@ -1,0 +1,59 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "rrida.kit.capability_flags.v1",
+ "title": "Capability gaps and the runs each file delivers",
+ "description": "Two runs per file and they are different deliveries. The content run is the fix and exists on capability gaps. The locus-discovery run is the answer to a majority-neutral signal (spec 4.6): its output is data rather than change, and every file carries one, including the files that are not capability gaps.",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "required": [
+   "issue_file",
+   "capability_gap",
+   "worksheets",
+   "content_phases",
+   "locus_discovery_phases",
+   "locus_discovery_action"
+  ],
+  "additionalProperties": true,
+  "properties": {
+   "issue_file": {
+    "type": "string"
+   },
+   "capability_gap": {
+    "type": "boolean"
+   },
+   "worksheets": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "rationale": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "content_phases": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "locus_discovery_phases": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    },
+    "minItems": 1
+   },
+   "locus_discovery_action": {
+    "type": [
+     "string",
+     "null"
+    ],
+    "description": "Must resolve to an action on the \"locus\" route sitting in this same file. Borrowing another route's row is closed (spec 4.6)."
+   }
+  }
+ }
+}

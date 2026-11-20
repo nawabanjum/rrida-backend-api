@@ -1,0 +1,38 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "rrida.kit.questions.v1",
+ "title": "A question bank",
+ "description": "One track's questions. Ids share one space across both banks: the individual bank uses 121-210 and the team bank 301-390, and a collision halts the loader rather than overwriting.",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "required": [
+   "id",
+   "text",
+   "element",
+   "track"
+  ],
+  "additionalProperties": false,
+  "properties": {
+   "id": {
+    "type": "integer",
+    "minimum": 1
+   },
+   "text": {
+    "type": "string",
+    "minLength": 1
+   },
+   "element": {
+    "type": "string",
+    "minLength": 1,
+    "description": "Open value, not an enumeration (spec 7.1a). Element identity is the pair (track, element): the team bank has a condition called Learning which is the old Improvement Loop, not the CLOVER element of the same name."
+   },
+   "track": {
+    "enum": [
+     "Individual",
+     "Team"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,69 @@
+INPUT SECTION: Data Analysis Instructions
+Data Structure
+You'll receive CSV data with these columns:
+CloverCategory: One of six elements (Communication, Learning, Opportunity, Vulnerability, Enablement, Reflection)
+Question: The survey question asked
+Sentiment: Score from 1-4 where 1=0%, 2=33%, 3=66%, 4=100%
+Reason: Dropdown-selected reason (linked to CLOVER element). Low scores (1-2) have negative reasons. High scores (3-4) have positive reasons.
+Answer: Free text response that may align with or contradict the Sentiment+Reason
+
+Analysis Steps
+Step 1: Reason Clustering
+Group all responses by their Reason value. Each unique Reason represents a theme. Count how many responses selected each Reason and organize them by CLOVER element.
+Step 2: Sentiment Calculation
+For each Reason cluster, calculate the average sentiment percentage using this conversion:
+Score 1 = 0%
+Score 2 = 33%
+Score 3 = 66%
+Score 4 = 100%
+Step 3: Answer Congruence Check
+Assess whether the Answer matches Sentiment: Aligned, Amplified, Contradicted, or Neutral.
+Step 4: Priority Element Selection
+Identify the CLOVER element that requires most urgent attention based on lowest average sentiment and ties (contradictions/diversity).
+Step 5: Theme Extraction
+Identify top 2 themes from the priority element.
+
+----------
+DATA TO ANALYZE (CSV format):
+{{csv_data}}
+
+----------
+OUTPUT SECTION: Report Format
+Structure your analysis as a text report following this exact format:
+Team Engagement Analysis Report
+Priority Area: [CLOVER Element Name]
+Sentiment Score: [X]% (based on [N] responses)
+Confidence Level: [High/Medium/Low]
+Why This Matters
+[Explanation referencing data]
+
+Key Themes Requiring Attention
+Theme 1: [Human-Friendly Theme Name]
+Primary Issue: [Exact reason text]
+Affected Responses: [N]
+Average Sentiment: [X]%
+What Team Members Said:
+"[Exact quote]"
+Notable Discrepancies: [Discrepancy description or "Responses align with sentiment scores."]
+
+Theme 2: [Human-Friendly Theme Name]
+...
+
+Recommended Actions
+Action 1: Complete [Element] [Number]: [Worksheet Title]
+...
+Action 2: [Quick Action Title]
+...
+
+Data Quality Notes
+...
+
+Critical Formatting Rules
+- MUST NOT USE markdown bolding (**text**) or italics (*text*) for ANY part of the report headers, labels, or content.
+- Extract exactly 2 themes (never 3 or more)
+- Action 1 title MUST include worksheet number: "Complete [Element] [Number]: [Title]"
+- Quotes must be EXACT
+- Exactly 2 actions: one 30-min, one 5-min
+- Sentiment conversion: 1→0%, 2→33%, 3→66%, 4→100%
+- Priority Element Selection: You MUST select the element with the mathematical LOWEST average sentiment score. If 0% exists, it must be selected over 33%.
+- Do not use markdown bolding (**text**) for report headers or labels (e.g., use "Priority Area:" instead of "**Priority Area:**"). This is a CRITICAL rule.

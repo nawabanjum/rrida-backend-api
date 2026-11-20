@@ -1,0 +1,48 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "rrida.kit.rotation.team.v1",
+ "title": "The team rotation",
+ "description": "The team bank ships its own order rather than having one inferred. Under both_daily the team track walks its ninety questions one a day, so any one returns every ninety days and the fifteen-day condition cycle repeats six times inside that. It does not share the individual six-day cycle length: the two tracks are on different clocks.",
+ "type": "object",
+ "required": [
+  "track",
+  "cycleLength",
+  "questionOrder"
+ ],
+ "additionalProperties": true,
+ "properties": {
+  "track": {
+   "const": "team"
+  },
+  "cycleLength": {
+   "type": "integer",
+   "minimum": 1
+  },
+  "cycle": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "day",
+     "element"
+    ],
+    "additionalProperties": true,
+    "properties": {
+     "day": {
+      "type": "integer"
+     },
+     "element": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "questionOrder": {
+   "type": "array",
+   "items": {
+    "type": "integer"
+   },
+   "minItems": 1
+  }
+ }
+}

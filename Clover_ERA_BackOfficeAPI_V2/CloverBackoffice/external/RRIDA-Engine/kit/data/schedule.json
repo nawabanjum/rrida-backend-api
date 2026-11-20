@@ -1,0 +1,20 @@
+{
+ "mode": "both_daily",
+ "note": "How the two question tracks share a day. Settled by the RRIDA master specification: two questions a day, one from each track, every day. Stored as data rather than as code so the shape can change without an engine change, and so the engine never has to decide it.",
+ "modes": {
+  "both_daily": {
+   "implemented": true,
+   "description": "Both tracks are asked every day. The individual track keeps its six-day element rotation untouched. The team track follows its own fifteen-day condition cycle, walking its ninety questions in Q ID order so any one question returns every ninety days.",
+   "individual": "data/rotation.json, unchanged",
+   "team": "data/demo-data/team/rotation.json, questionOrder walked one per day"
+  },
+  "alternating": {
+   "implemented": false,
+   "description": "One track per day. Halves signal density per track and gives a twelve-day element cycle on the individual side, which would widen the window and move every threshold downstream of it. Recorded because it was the other candidate, not because anything here supports it."
+  },
+  "individual_only": {
+   "implemented": false,
+   "description": "The team bank loads and is never asked. What this build did before the master specification settled the question."
+  }
+ }
+}

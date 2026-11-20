@@ -1,0 +1,94 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "rrida.kit.chips.v1",
+ "title": "A chip bank",
+ "description": "18 chips per question, six per polarity set. Every negative and indifferent chip carries all of ask, team and rung two; content exists exactly where the issue file is a capability gap. A positive chip carries one rung one action and does not route (spec 4.4.1).",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "required": [
+   "chip_id",
+   "question_id",
+   "track",
+   "element",
+   "polarity",
+   "chip",
+   "locus",
+   "issue_file",
+   "capability_gap",
+   "rung_1_ask",
+   "rung_1_team",
+   "rung_1_content",
+   "rung_2"
+  ],
+  "additionalProperties": true,
+  "properties": {
+   "chip_id": {
+    "type": "string",
+    "pattern": "^\\d+-[NIP][1-6]$",
+    "description": "<question>-<N|I|P><1-6>. The letter is the polarity set."
+   },
+   "question_id": {
+    "type": "integer"
+   },
+   "question_text": {
+    "type": "string"
+   },
+   "track": {
+    "enum": [
+     "Individual",
+     "Team"
+    ]
+   },
+   "element": {
+    "type": "string"
+   },
+   "polarity": {
+    "enum": [
+     "Negative",
+     "Indifferent",
+     "Positive"
+    ]
+   },
+   "chip": {
+    "type": "string",
+    "minLength": 1
+   },
+   "locus": {
+    "enum": [
+     "Internal",
+     "External",
+     "Neutral"
+    ],
+    "description": "Where the chip says the cause lives (spec 4.5). Authored, never inferred. Absent is a data fault, not neutral: neutral is a positive claim that the chip locates no cause."
+   },
+   "issue_file": {
+    "type": "string"
+   },
+   "capability_gap": {
+    "type": "boolean"
+   },
+   "rung_1_ask": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "rung_1_team": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "rung_1_content": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "rung_2": {
+    "type": "string"
+   }
+  }
+ }
+}

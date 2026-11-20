@@ -1,0 +1,109 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>ff4ac170-c3e0-4809-b325-1f2a85801959</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ExcelFiles\FeedbackData.xlsx" />
+    <None Remove="ExcelFiles\RRIDA_Engine_Test_Data_8_teams.xlsx" />
+    <None Remove="CloverEra\Prompts\*.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ExcelFiles\FeedbackData.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ExcelFiles\RRIDA_Engine_Test_Data_8_teams.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CloverEra\Prompts\*.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="CloverEra\Data\*.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="CloverEra\Prompts\*.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="CloverEra\Data\knowledge\*.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="CloverEra\Data\exemplars\*.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+
+    <!--
+      The RRIDA conformance kit, vendored at ..\external\RRIDA-Engine (see VENDORED.md).
+      This is what the deterministic engine loads at run time: thresholds, calendar, meta,
+      the two chip banks, questions, actions, worksheets, capability flags and rotation.
+      Copied rather than edited — the files are byte-identical to upstream and several of
+      its checks assert that.
+    -->
+    <!--
+      Demo scenarios from the engine's reference side: eight scripted teams, used to
+      seed a team for testing. Test data, not product content, and only read by the
+      seeding endpoint.
+    -->
+    <Content Include="..\external\RRIDA-Engine\scenarios\*.json"
+             Link="CloverEra\Data\rrida-scenarios\%(Filename)%(Extension)">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+
+    <Content Include="..\external\RRIDA-Engine\kit\data\**\*.json"
+             Link="CloverEra\Data\rrida-kit\%(RecursiveDir)%(Filename)%(Extension)">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+
+    <!--
+      D34. The production rotation: all ninety individual questions, one a day, looping
+      (upstream data/rotation-90/rotation.json). The kit's own rotation/individual.json is the
+      demo's six and is kept for the authored scenarios and the workbook, which are pinned to it.
+    -->
+    <Content Include="..\external\RRIDA-Engine\rotations\*.json"
+             Link="CloverEra\Data\rrida-rotations\%(Filename)%(Extension)">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+
+    <!--
+      The 19 coaching directions from the reference's demo data: the manager-facing name of
+      what a move is about, which Eran is given as what_this_is_about. A label only; nothing
+      in the engine reads it.
+    -->
+    <Content Include="..\external\RRIDA-Engine\demo-data\coaching-directions.json"
+             Link="CloverEra\Data\rrida-demo-data\coaching-directions.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.OpenAI" Version="2.1.0" />
+    <PackageReference Include="Azure.Extensions.AspNetCore.Configuration.Secrets" Version="1.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.5" />
+    <PackageReference Include="Microsoft.Identity.Web" Version="3.9.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Models\" />
+    <Folder Include="ExcelFiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CloverBackoffice.Logging\CloverBackoffice.Logging.csproj" />
+    <ProjectReference Include="..\CloverBackofficeInfrastructure\CloverBackoffice.Infrastructure.csproj" />
+    <ProjectReference Include="..\CloverBackofficeServices\CloverBackoffice.Services.csproj" />
+    <ProjectReference Include="..\external\RRIDA-Engine\dotnet\Rrida.Engine\Rrida.Engine.csproj" />
+    <ProjectReference Include="..\external\RRIDA-Engine\dotnet\Rrida.State\Rrida.State.csproj" />
+  </ItemGroup>
+
+</Project>

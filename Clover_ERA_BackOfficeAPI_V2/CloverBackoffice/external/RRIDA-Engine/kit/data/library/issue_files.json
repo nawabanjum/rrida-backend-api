@@ -1,0 +1,946 @@
+[
+ {
+  "issue_file": "MA-E-001",
+  "issue": "Ambiguous Priorities and Trade-offs",
+  "pillar": "Enablement",
+  "conversational": 5,
+  "structural": 19,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-E-002",
+  "issue": "Broken Processes and Bureaucracy (Slow Approvals)",
+  "pillar": "Enablement",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-E-003",
+  "issue": "Change Management for Tool/Process Adoption",
+  "pillar": "Enablement",
+  "conversational": 3,
+  "structural": 19,
+  "gesture": 1
+ },
+ {
+  "issue_file": "MA-E-004",
+  "issue": "Dependency Bottlenecks and Handoffs",
+  "pillar": "Enablement",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-E-005",
+  "issue": "Environment Instability and Tool Performance",
+  "pillar": "Enablement",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-E-006",
+  "issue": "Inadequate Documentation and SOPs",
+  "pillar": "Enablement",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-E-007",
+  "issue": "Ineffective Metrics and Dashboards",
+  "pillar": "Enablement",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-E-008",
+  "issue": "Inefficient Enablement Request Channels",
+  "pillar": "Enablement",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-E-009",
+  "issue": "Insufficient Resources and Staffing (Capacity)",
+  "pillar": "Enablement",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-E-010",
+  "issue": "Lack of Autonomy and Empowerment",
+  "pillar": "Enablement",
+  "conversational": 5,
+  "structural": 19,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-E-011",
+  "issue": "Limited Access to Customers and User Feedback",
+  "pillar": "Enablement",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-E-012",
+  "issue": "Meeting Overload and Interruptions",
+  "pillar": "Enablement",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-E-013",
+  "issue": "Missing Tools and Access (Permissions, Licenses)",
+  "pillar": "Enablement",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-E-014",
+  "issue": "Poor Onboarding and Ramp-up",
+  "pillar": "Enablement",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-E-015",
+  "issue": "Recognition and Incentives for Enablement Work",
+  "pillar": "Enablement",
+  "conversational": 3,
+  "structural": 19,
+  "gesture": 1
+ },
+ {
+  "issue_file": "MA-E-016",
+  "issue": "Remote and Hybrid Enablement Gaps",
+  "pillar": "Enablement",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-E-017",
+  "issue": "Risk Management and Guardrails Missing",
+  "pillar": "Enablement",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-E-018",
+  "issue": "Siloed Information and Knowledge Management",
+  "pillar": "Enablement",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-E-019",
+  "issue": "Training Gaps for Tools and Processes",
+  "pillar": "Enablement",
+  "conversational": 5,
+  "structural": 19,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-E-020",
+  "issue": "Unclear Roles and Decision Rights (RACI)",
+  "pillar": "Enablement",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-R-021",
+  "issue": "After-Action Reviews (Non-Agile)",
+  "pillar": "Reflection",
+  "conversational": 5,
+  "structural": 19,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-R-022",
+  "issue": "Bias Checks and Assumption Testing",
+  "pillar": "Reflection",
+  "conversational": 4,
+  "structural": 19,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-R-023",
+  "issue": "Cross-Functional Reflection and Collaboration",
+  "pillar": "Reflection",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-R-024",
+  "issue": "Customer Reflection and Voice of Customer",
+  "pillar": "Reflection",
+  "conversational": 4,
+  "structural": 19,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-R-025",
+  "issue": "Daily Reflection and Journaling",
+  "pillar": "Reflection",
+  "conversational": 4,
+  "structural": 22,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-R-026",
+  "issue": "Decision Logs and Pre/Post Mortems",
+  "pillar": "Reflection",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-R-027",
+  "issue": "Innovation Reflection and Experimentation",
+  "pillar": "Reflection",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-R-028",
+  "issue": "Knowledge Reflection and Documentation",
+  "pillar": "Reflection",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-R-029",
+  "issue": "Leadership Reflection and Shadow Coaching",
+  "pillar": "Reflection",
+  "conversational": 7,
+  "structural": 16,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-R-030",
+  "issue": "Meeting Reflection and Hygiene",
+  "pillar": "Reflection",
+  "conversational": 5,
+  "structural": 19,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-R-031",
+  "issue": "Metrics Review and Learning Loops",
+  "pillar": "Reflection",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-R-032",
+  "issue": "Personal Development Reflection and IDPs",
+  "pillar": "Reflection",
+  "conversational": 6,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-R-033",
+  "issue": "Reflection Tools and Platforms",
+  "pillar": "Reflection",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-R-034",
+  "issue": "Risk and Safety Reflection",
+  "pillar": "Reflection",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-R-035",
+  "issue": "Strategy Reflection and OKR Alignment",
+  "pillar": "Reflection",
+  "conversational": 4,
+  "structural": 19,
+  "gesture": 1
+ },
+ {
+  "issue_file": "MA-R-036",
+  "issue": "Team Retrospectives (Agile)",
+  "pillar": "Reflection",
+  "conversational": 5,
+  "structural": 21,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-R-037",
+  "issue": "Time and Energy Reflection",
+  "pillar": "Reflection",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-R-038",
+  "issue": "Values and Culture Reflection",
+  "pillar": "Reflection",
+  "conversational": 3,
+  "structural": 19,
+  "gesture": 1
+ },
+ {
+  "issue_file": "MA-R-039",
+  "issue": "Weekly Reflection Cadence and Rituals",
+  "pillar": "Reflection",
+  "conversational": 4,
+  "structural": 22,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-R-040",
+  "issue": "Well-being and Resilience Reflection",
+  "pillar": "Reflection",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-V-041",
+  "issue": "Blame Culture (vs. Just Culture)",
+  "pillar": "Vulnerability",
+  "conversational": 4,
+  "structural": 19,
+  "gesture": 1
+ },
+ {
+  "issue_file": "MA-V-042",
+  "issue": "Breaches of Trust & Confidentiality After People Open Up",
+  "pillar": "Vulnerability",
+  "conversational": 5,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-V-043",
+  "issue": "Confusing Vulnerability with Oversharing",
+  "pillar": "Vulnerability",
+  "conversational": 5,
+  "structural": 19,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-V-044",
+  "issue": "Cultural & Power Distance Barriers",
+  "pillar": "Vulnerability",
+  "conversational": 6,
+  "structural": 18,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-V-045",
+  "issue": "Fear of Speaking Up & Retaliation",
+  "pillar": "Vulnerability",
+  "conversational": 7,
+  "structural": 15,
+  "gesture": 1
+ },
+ {
+  "issue_file": "MA-V-046",
+  "issue": "Lacking Skills for Difficult Conversations",
+  "pillar": "Vulnerability",
+  "conversational": 4,
+  "structural": 22,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-V-047",
+  "issue": "Leader Invulnerability Norms (Leaders never admit mistakes)",
+  "pillar": "Vulnerability",
+  "conversational": 6,
+  "structural": 17,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-V-048",
+  "issue": "Low Psychological Safety (Fear of Interpersonal Risk)",
+  "pillar": "Vulnerability",
+  "conversational": 4,
+  "structural": 19,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-V-049",
+  "issue": "Managers Not Trained in Vulnerability",
+  "pillar": "Vulnerability",
+  "conversational": 5,
+  "structural": 19,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-V-050",
+  "issue": "Mental Health Stigma at Work",
+  "pillar": "Vulnerability",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-V-051",
+  "issue": "No Blameless Postmortems / After-action Reviews",
+  "pillar": "Vulnerability",
+  "conversational": 5,
+  "structural": 19,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-V-052",
+  "issue": "Output-Only Culture (No learning buffer)",
+  "pillar": "Vulnerability",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-V-053",
+  "issue": "Perfectionism & Fear of Failure",
+  "pillar": "Vulnerability",
+  "conversational": 6,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-V-054",
+  "issue": "Punitive Performance Systems (Zero tolerance for mistakes)",
+  "pillar": "Vulnerability",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-V-055",
+  "issue": "Remote/Hybrid Proximity Bias",
+  "pillar": "Vulnerability",
+  "conversational": 5,
+  "structural": 18,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-V-056",
+  "issue": "Stoic 'Professionalism' Norms (Emotions off-limits)",
+  "pillar": "Vulnerability",
+  "conversational": 4,
+  "structural": 19,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-V-057",
+  "issue": "Thin Feedback Loops (No Safe Questions)",
+  "pillar": "Vulnerability",
+  "conversational": 4,
+  "structural": 21,
+  "gesture": 1
+ },
+ {
+  "issue_file": "MA-V-058",
+  "issue": "Unequal Penalties for Vulnerability (Double standards)",
+  "pillar": "Vulnerability",
+  "conversational": 4,
+  "structural": 19,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-V-059",
+  "issue": "Unsafe Whistleblowing Processes",
+  "pillar": "Vulnerability",
+  "conversational": 3,
+  "structural": 18,
+  "gesture": 2
+ },
+ {
+  "issue_file": "MA-V-060",
+  "issue": "Weak Confidential Channels for Feedback/Reporting",
+  "pillar": "Vulnerability",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-C-061",
+  "issue": "Acting as a Communication Bottleneck",
+  "pillar": "Communication",
+  "conversational": 5,
+  "structural": 3,
+  "gesture": 15
+ },
+ {
+  "issue_file": "MA-C-062",
+  "issue": "Assuming Understanding (Not Checking for Clarity)",
+  "pillar": "Communication",
+  "conversational": 12,
+  "structural": 3,
+  "gesture": 12
+ },
+ {
+  "issue_file": "MA-C-063",
+  "issue": "Avoiding Difficult Conversations (Conflict Avoidance)",
+  "pillar": "Communication",
+  "conversational": 9,
+  "structural": 8,
+  "gesture": 9
+ },
+ {
+  "issue_file": "MA-C-064",
+  "issue": "Communication Overload (Too Much Information)",
+  "pillar": "Communication",
+  "conversational": 5,
+  "structural": 4,
+  "gesture": 16
+ },
+ {
+  "issue_file": "MA-C-065",
+  "issue": "Communication Silos Between Teams/Departments",
+  "pillar": "Communication",
+  "conversational": 4,
+  "structural": 3,
+  "gesture": 18
+ },
+ {
+  "issue_file": "MA-C-066",
+  "issue": "Cultural and Language Barriers",
+  "pillar": "Communication",
+  "conversational": 7,
+  "structural": 7,
+  "gesture": 11
+ },
+ {
+  "issue_file": "MA-C-067",
+  "issue": "Failing to Explain the “Why” Behind Decisions",
+  "pillar": "Communication",
+  "conversational": 8,
+  "structural": 6,
+  "gesture": 11
+ },
+ {
+  "issue_file": "MA-C-068",
+  "issue": "Inconsistent or Mixed Messages",
+  "pillar": "Communication",
+  "conversational": 5,
+  "structural": 16,
+  "gesture": 4
+ },
+ {
+  "issue_file": "MA-C-069",
+  "issue": "Lack of Feedback and Recognition for Employees",
+  "pillar": "Communication",
+  "conversational": 9,
+  "structural": 7,
+  "gesture": 10
+ },
+ {
+  "issue_file": "MA-C-070",
+  "issue": "Lack of Transparency and Information Hoarding",
+  "pillar": "Communication",
+  "conversational": 8,
+  "structural": 12,
+  "gesture": 5
+ },
+ {
+  "issue_file": "MA-C-071",
+  "issue": "Low Trust or Credibility in Communications",
+  "pillar": "Communication",
+  "conversational": 12,
+  "structural": 4,
+  "gesture": 11
+ },
+ {
+  "issue_file": "MA-C-072",
+  "issue": "Micromanagement and Over-communication",
+  "pillar": "Communication",
+  "conversational": 7,
+  "structural": 7,
+  "gesture": 11
+ },
+ {
+  "issue_file": "MA-C-073",
+  "issue": "Misalignment with Leadership Messaging",
+  "pillar": "Communication",
+  "conversational": 6,
+  "structural": 5,
+  "gesture": 14
+ },
+ {
+  "issue_file": "MA-C-074",
+  "issue": "Not Tailoring Communication to the Audience (Overuse of Jargon)",
+  "pillar": "Communication",
+  "conversational": 7,
+  "structural": 10,
+  "gesture": 8
+ },
+ {
+  "issue_file": "MA-C-075",
+  "issue": "One-Way Communication (No Upward or Two-Way Dialogue)",
+  "pillar": "Communication",
+  "conversational": 8,
+  "structural": 4,
+  "gesture": 14
+ },
+ {
+  "issue_file": "MA-C-076",
+  "issue": "Poor Communication During Organizational Change",
+  "pillar": "Communication",
+  "conversational": 9,
+  "structural": 5,
+  "gesture": 15
+ },
+ {
+  "issue_file": "MA-C-077",
+  "issue": "Poor Listening and Ignoring Team Feedback",
+  "pillar": "Communication",
+  "conversational": 9,
+  "structural": 11,
+  "gesture": 6
+ },
+ {
+  "issue_file": "MA-C-078",
+  "issue": "Unclear Communication and Lack of Direction",
+  "pillar": "Communication",
+  "conversational": 9,
+  "structural": 13,
+  "gesture": 4
+ },
+ {
+  "issue_file": "MA-C-079",
+  "issue": "Unprofessional or Negative Communication Tone",
+  "pillar": "Communication",
+  "conversational": 6,
+  "structural": 2,
+  "gesture": 17
+ },
+ {
+  "issue_file": "MA-C-080",
+  "issue": "Using the Wrong Communication Channels or Tools",
+  "pillar": "Communication",
+  "conversational": 5,
+  "structural": 9,
+  "gesture": 11
+ },
+ {
+  "issue_file": "MA-L-081",
+  "issue": "Difficulty Measuring Learning Impact",
+  "pillar": "Learning",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-L-082",
+  "issue": "Employee Burnout and Stress",
+  "pillar": "Learning",
+  "conversational": 3,
+  "structural": 22,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-L-083",
+  "issue": "Insufficient Coaching and Mentorship",
+  "pillar": "Learning",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-L-084",
+  "issue": "Knowledge Silos and Lack of Knowledge Sharing",
+  "pillar": "Learning",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-L-085",
+  "issue": "Lack of Employee Engagement in Learning",
+  "pillar": "Learning",
+  "conversational": 5,
+  "structural": 21,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-L-086",
+  "issue": "Lack of Feedback and Recognition",
+  "pillar": "Learning",
+  "conversational": 6,
+  "structural": 19,
+  "gesture": 1
+ },
+ {
+  "issue_file": "MA-L-087",
+  "issue": "Lack of Manager Support and Encouragement",
+  "pillar": "Learning",
+  "conversational": 4,
+  "structural": 21,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-L-088",
+  "issue": "Lack of Reinforcement and Follow-Up (Forgetting Curve)",
+  "pillar": "Learning",
+  "conversational": 5,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-L-089",
+  "issue": "Limited Training Resources and Budget",
+  "pillar": "Learning",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-L-090",
+  "issue": "Low Psychological Safety",
+  "pillar": "Learning",
+  "conversational": 6,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-L-091",
+  "issue": "Multigenerational Learning Differences",
+  "pillar": "Learning",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-L-092",
+  "issue": "One-Size-Fits-All Training Programs",
+  "pillar": "Learning",
+  "conversational": 4,
+  "structural": 22,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-L-093",
+  "issue": "Poor Communication of Expectations and Knowledge",
+  "pillar": "Learning",
+  "conversational": 4,
+  "structural": 19,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-L-094",
+  "issue": "Remote and Hybrid Team Challenges",
+  "pillar": "Learning",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-L-095",
+  "issue": "Resistance to Change and New Learning",
+  "pillar": "Learning",
+  "conversational": 4,
+  "structural": 19,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-L-096",
+  "issue": "Short-Term Focus Over Long-Term Growth",
+  "pillar": "Learning",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-L-097",
+  "issue": "Time Constraints and Heavy Workload",
+  "pillar": "Learning",
+  "conversational": 3,
+  "structural": 22,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-L-098",
+  "issue": "Unclear Career Paths and Progression",
+  "pillar": "Learning",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-L-099",
+  "issue": "Unclear Learning Needs and Skill Gaps",
+  "pillar": "Learning",
+  "conversational": 5,
+  "structural": 19,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-L-100",
+  "issue": "Weak Learning Culture",
+  "pillar": "Learning",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-OP-101",
+  "issue": "Diversity and Inclusion Barriers (Glass Ceilings)",
+  "pillar": "Opportunity",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-OP-102",
+  "issue": "Favoritism and Nepotism in Advancement",
+  "pillar": "Opportunity",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-OP-103",
+  "issue": "Generational Differences in Career Expectations",
+  "pillar": "Opportunity",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-OP-104",
+  "issue": "Heavy Workloads and Burnout Hindering Development",
+  "pillar": "Opportunity",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-OP-105",
+  "issue": "Ineffective Performance Reviews and Feedback",
+  "pillar": "Opportunity",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-OP-106",
+  "issue": "Insufficient Managerial Support for Career Development",
+  "pillar": "Opportunity",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-OP-107",
+  "issue": "Insufficient Training and Development Programs",
+  "pillar": "Opportunity",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-OP-108",
+  "issue": "Lack of Mentorship and Coaching",
+  "pillar": "Opportunity",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-OP-109",
+  "issue": "Lack of Support for Upskilling and Further Education",
+  "pillar": "Opportunity",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-OP-110",
+  "issue": "Limited Promotion Opportunities",
+  "pillar": "Opportunity",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-OP-111",
+  "issue": "Overreliance on External Hiring vs. Internal Promotion",
+  "pillar": "Opportunity",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-OP-112",
+  "issue": "Poor Communication of Internal Opportunities",
+  "pillar": "Opportunity",
+  "conversational": 3,
+  "structural": 22,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-OP-113",
+  "issue": "Poor Succession Planning",
+  "pillar": "Opportunity",
+  "conversational": 3,
+  "structural": 22,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-OP-114",
+  "issue": "Remote and Hybrid Work Visibility Challenges",
+  "pillar": "Opportunity",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-OP-115",
+  "issue": "Restricted Internal Mobility (Limited Lateral Moves)",
+  "pillar": "Opportunity",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-OP-116",
+  "issue": "Talent Hoarding by Managers",
+  "pillar": "Opportunity",
+  "conversational": 3,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-OP-117",
+  "issue": "Unclear Career Paths and Progression",
+  "pillar": "Opportunity",
+  "conversational": 4,
+  "structural": 20,
+  "gesture": 0
+ },
+ {
+  "issue_file": "MA-V-118",
+  "issue": "Weak Team Connection and Belonging",
+  "pillar": "Vulnerability",
+  "conversational": 4,
+  "structural": 8,
+  "gesture": 0
+ }
+]

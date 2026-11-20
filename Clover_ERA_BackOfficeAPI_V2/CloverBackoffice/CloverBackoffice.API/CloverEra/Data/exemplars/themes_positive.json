@@ -1,0 +1,50 @@
+[
+  {
+    "id": "pos-learning-stable",
+    "pillar": "Learning",
+    "headline": "Learning produced best performance in both periods",
+    "body": "Learning returned 4 Happy and 2 Indifferent across 6 responses, zero negative sentiment. Respondents are picking up useful new knowledge through their work, finding it relevant to their role, and feeling encouraged to develop new skills. This is a stable strength over two reporting cycles and a foundation other pillars can build on."
+  },
+  {
+    "id": "pos-vulnerability-core",
+    "pillar": "Vulnerability",
+    "headline": "A core of the team has internalised safety",
+    "body": "Three Vulnerability respondents are unambiguously positive, with one writing 'I only know how to speak up, safe or not.' This is a foundation to build on. These team members are already demonstrating the behaviour the rest of the team needs to develop, which means the modelling can come from peers, not just from leadership."
+  },
+  {
+    "id": "pos-reflection-surge",
+    "pillar": "Reflection",
+    "headline": "Reflection surged from priority zone into healthy range",
+    "body": "Reflection scored 83.9 corrected this period, a 34-point climb from 49.8 in the prior window. Four of five respondents were Happy, one Indifferent, zero negative. This is the largest positive movement in the dataset by a wide margin. The two-minute reflection close recommended last period may be showing up here, or the team has found its own rhythm. Document what changed and protect it."
+  },
+  {
+    "id": "pos-reflection-proof",
+    "pillar": "Reflection",
+    "headline": "One constructive manager conversation stands out",
+    "body": "One Reflection response this period reported a genuinely constructive manager conversation: exploratory, action-oriented, and productive. This sits alongside two negative responses on the same question, meaning the experience is not uniform, but the positive case exists as proof it is possible. The gap between them is where a coaching conversation should live."
+  },
+  {
+    "id": "pos-reflection-habit",
+    "pillar": "Reflection",
+    "headline": "Reflection has shifted from prescribed to self-directed",
+    "body": "Reflection scored 83.2 corrected across 5 responses, with 4 Happy and zero negative. One respondent noted they reflect as the situation demands, which suggests the practice is becoming self-directed rather than something imposed by process. This is the most durable form of a behavioural gain: when a team owns the habit, it survives changes in leadership attention."
+  },
+  {
+    "id": "pos-communication-clear",
+    "pillar": "Communication",
+    "headline": "Communication feels connective rather than noisy",
+    "body": "Communication scored 72 corrected across 5 responses, with 3 Happy and 2 Indifferent. Respondents independently selected 'Communication helps me stay connected and aligned,' and one free-text comment highlighted the value of cross-team context-sharing. This is a quietly healthy pillar that carries weight for the rest of the system: aligned teams can absorb friction elsewhere without it compounding."
+  },
+  {
+    "id": "pos-enablement-structure",
+    "pillar": "Enablement",
+    "headline": "Process governance and workload structure are landing well",
+    "body": "Enablement scored 67.7 corrected, the closest to healthy of any element this period. Comments included 'project governance is clear' and 'my workload feels manageable and well-prioritised.' Sample size is small (3 responses) so confidence is limited, but the signal contradicts prior periods where Enablement sat in critical territory. Something changed. Worth protecting whatever it was."
+  },
+  {
+    "id": "pos-opportunities-autonomy",
+    "pillar": "Opportunities",
+    "headline": "Autonomy in task management is genuinely valued",
+    "body": "Opportunities returned 4 Happy across 6 responses, with respondents citing 'I'm trusted with work that uses my strengths' and 'My ideas have space to be explored.' The recurring thread is autonomy: the team feels the space to shape their own work. This is a leadership posture worth naming explicitly, because it is easy to erode and hard to rebuild."
+  }
+]

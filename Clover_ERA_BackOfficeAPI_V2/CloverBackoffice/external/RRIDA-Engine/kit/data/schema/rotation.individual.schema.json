@@ -1,0 +1,57 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "rrida.kit.rotation.individual.v1",
+ "title": "The individual rotation",
+ "description": "Six-day cycle, one element per day, so any individual question returns every six days. That return period is load bearing for the signal read (spec 9.3) and the loader refuses any other cycle length.",
+ "type": "object",
+ "required": [
+  "cycleLength",
+  "questions"
+ ],
+ "additionalProperties": true,
+ "properties": {
+  "cycleLength": {
+   "const": 6
+  },
+  "questions": {
+   "type": "array",
+   "minItems": 6,
+   "maxItems": 6,
+   "items": {
+    "type": "object",
+    "required": [
+     "day",
+     "element",
+     "questionId"
+    ],
+    "additionalProperties": true,
+    "properties": {
+     "day": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 6
+     },
+     "element": {
+      "type": "string"
+     },
+     "questionId": {
+      "type": "integer"
+     },
+     "teamQuestionId": {
+      "type": [
+       "integer",
+       "null"
+      ],
+      "description": "Pins the team slot for this day explicitly. Where absent the schedule mode decides, and both_daily walks the team bank's own order."
+     },
+     "why": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

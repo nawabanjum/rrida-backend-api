@@ -1,0 +1,4204 @@
+[
+ {
+  "code": "C1",
+  "title": "Communication Audit",
+  "formerly": null,
+  "pillar": "Communication",
+  "difficulty": 1,
+  "time_minutes": "40-50",
+  "group_size": "4-15",
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "C1-P1",
+    "number": 1,
+    "title": "Channel Mapping",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C1-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C1-P2",
+    "number": 2,
+    "title": "Effectiveness Rating",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C1-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C1-P3",
+    "number": 3,
+    "title": "The Gap Diagnosis",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C1-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C1-P4",
+    "number": 4,
+    "title": "Two Changes",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "C10",
+  "title": "Nonverbal Communication Awareness",
+  "formerly": null,
+  "pillar": "Communication",
+  "difficulty": 1,
+  "time_minutes": "35-45",
+  "group_size": "4-12",
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "C10-P1",
+    "number": 1,
+    "title": "The Contradiction Exercise",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C10-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C10-P2",
+    "number": 2,
+    "title": "Self-Assessment",
+    "minutes": [
+     8,
+     8
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C10-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C10-P3",
+    "number": 3,
+    "title": "The Video Call Challenge",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C10-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C10-P4",
+    "number": 4,
+    "title": "One Commitment",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "C11",
+  "title": "Communicating Complex or Sensitive Information",
+  "formerly": null,
+  "pillar": "Communication",
+  "difficulty": 2,
+  "time_minutes": "45-55",
+  "group_size": "4-10",
+  "prerequisites": [
+   "C9"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "C11-P1",
+    "number": 1,
+    "title": "The Complexity Strip-Down",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "a rehearsed technique. Nothing about this team is exposed, so it stands alone.",
+    "requires_phases": [],
+    "role": "practice",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C11-P2",
+    "number": 2,
+    "title": "The Sensitive Message Framework",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "a rehearsed technique. Nothing about this team is exposed, so it stands alone.",
+    "requires_phases": [],
+    "role": "practice",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C11-P3",
+    "number": 3,
+    "title": "Receiving Complex/Sensitive Information",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a rehearsed technique. Nothing about this team is exposed, so it stands alone.",
+    "requires_phases": [],
+    "role": "practice",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "C12",
+  "title": "Over-Communication and Information Fatigue",
+  "formerly": null,
+  "pillar": "Communication",
+  "difficulty": 1,
+  "time_minutes": "35-45",
+  "group_size": "4-15",
+  "prerequisites": [
+   "C1"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "C12-P1",
+    "number": 1,
+    "title": "The Information Audit",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C12-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C12-P2",
+    "number": 2,
+    "title": "Source Analysis",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C12-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C12-P3",
+    "number": 3,
+    "title": "The Three Rules",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C12-P4",
+    "number": 4,
+    "title": "The Quiet Experiment",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "C13",
+  "title": "Asynchronous Communication",
+  "formerly": null,
+  "pillar": "Communication",
+  "difficulty": 1,
+  "time_minutes": "35-45",
+  "group_size": "4-12",
+  "prerequisites": [
+   "C1",
+   "C8"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "C13-P1",
+    "number": 1,
+    "title": "The Async Audit",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C13-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C13-P2",
+    "number": 2,
+    "title": "The Complete Message Standard",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "a rehearsed technique. Nothing about this team is exposed, so it stands alone.",
+    "requires_phases": [],
+    "role": "practice",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C13-P3",
+    "number": 3,
+    "title": "Response Norms",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "C15",
+  "title": "Building a Feedback Culture",
+  "formerly": null,
+  "pillar": "Communication",
+  "difficulty": 2,
+  "time_minutes": "45-55",
+  "group_size": "4-12",
+  "prerequisites": [
+   "V1",
+   "V3"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "C15-P1",
+    "number": 1,
+    "title": "The Feedback Frequency Audit",
+    "minutes": [
+     8,
+     8
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C15-P3",
+     "C15-P5"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C15-P2",
+    "number": 2,
+    "title": "Barrier Identification",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C15-P3",
+     "C15-P5"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C15-P3",
+    "number": 3,
+    "title": "Designing the Feedback System",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C15-P4",
+    "number": 4,
+    "title": "Practice Round",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a rehearsed technique. Nothing about this team is exposed, so it stands alone.",
+    "requires_phases": [],
+    "role": "practice",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C15-P5",
+    "number": 5,
+    "title": "Close",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "the commitments said out loud and the session ended cleanly.",
+    "requires_phases": [],
+    "role": "close",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "C17",
+  "title": "The Honest One-to-One",
+  "formerly": null,
+  "pillar": "Communication",
+  "difficulty": null,
+  "time_minutes": null,
+  "group_size": null,
+  "prerequisites": [],
+  "contraindications": [
+   "Do not position this as a truth-surfacing meeting if a recent disclosure was met with blame or punishment. Repair that first, or the questions will read as a trap."
+  ],
+  "phases": [
+   {
+    "id": "C17-P0",
+    "number": 0,
+    "title": "Set the frame",
+    "minutes": [
+     2,
+     2
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C17-P1",
+    "number": 1,
+    "title": "Open away from the status trap",
+    "minutes": [
+     3,
+     3
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C17-P2",
+    "number": 2,
+    "title": "Get the real answer",
+    "minutes": [
+     12,
+     12
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C17-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C17-P3",
+    "number": 3,
+    "title": "The question most managers skip",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C17-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C17-P4",
+    "number": 4,
+    "title": "Close with your commitments",
+    "minutes": [
+     3,
+     3
+    ],
+    "produces": "the commitments said out loud and the session ended cleanly.",
+    "requires_phases": [],
+    "role": "close",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "C2",
+  "title": "Listening Circle",
+  "formerly": null,
+  "pillar": "Communication",
+  "difficulty": 1,
+  "time_minutes": "30-40",
+  "group_size": "4-10",
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "C2-P1",
+    "number": 1,
+    "title": "Framing",
+    "minutes": [
+     3,
+     3
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C2-P2",
+    "number": 2,
+    "title": "Topic Selection",
+    "minutes": [
+     2,
+     2
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C2-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C2-P3",
+    "number": 3,
+    "title": "The Circle",
+    "minutes": [
+     20,
+     25
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C2-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C2-P4",
+    "number": 4,
+    "title": "Debrief",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "C3",
+  "title": "Transparency Workshop",
+  "formerly": null,
+  "pillar": "Communication",
+  "difficulty": 2,
+  "time_minutes": "45-55",
+  "group_size": "5-15",
+  "prerequisites": [
+   "C1"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "C3-P1",
+    "number": 1,
+    "title": "Anonymous Concern Collection",
+    "minutes": [
+     8,
+     8
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C3-P3",
+     "C3-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C3-P2",
+    "number": 2,
+    "title": "Categorise the Gaps",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C3-P3",
+     "C3-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C3-P3",
+    "number": 3,
+    "title": "Manager Transparency Commitment",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C3-P4",
+    "number": 4,
+    "title": "Team-to-Team Transparency",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "C4",
+  "title": "Information Distortion",
+  "formerly": "Whispering Gallery",
+  "pillar": "Communication",
+  "difficulty": 1,
+  "time_minutes": "25-35",
+  "group_size": "5-12",
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "C4-P1",
+    "number": 1,
+    "title": "The Telephone Round",
+    "minutes": [
+     8,
+     8
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C4-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C4-P2",
+    "number": 2,
+    "title": "Distortion Analysis",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C4-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C4-P3",
+    "number": 3,
+    "title": "Real-World Application",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "C6",
+  "title": "Inclusive Participation",
+  "formerly": "Inclusive Brainstorm",
+  "pillar": "Communication",
+  "difficulty": 2,
+  "time_minutes": "40-50",
+  "group_size": "5-12",
+  "prerequisites": [
+   "C2"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "C6-P1",
+    "number": 1,
+    "title": "The Participation Audit",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C6-P3",
+     "C6-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C6-P2",
+    "number": 2,
+    "title": "Understanding Why",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C6-P3",
+     "C6-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C6-P3",
+    "number": 3,
+    "title": "Structural Solutions",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C6-P4",
+    "number": 4,
+    "title": "Commitment",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "C8",
+  "title": "Communication Preferences Discovery",
+  "formerly": "Cross-Generational Communication",
+  "pillar": "Communication",
+  "difficulty": 1,
+  "time_minutes": "35-45",
+  "group_size": "4-12",
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "C8-P1",
+    "number": 1,
+    "title": "Individual Preference Mapping",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C8-P3",
+     "C8-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C8-P2",
+    "number": 2,
+    "title": "Sharing Round",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C8-P3",
+     "C8-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C8-P3",
+    "number": 3,
+    "title": "Surprise and Adaptation",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C8-P4",
+    "number": 4,
+    "title": "One Adaptation Each",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "C9",
+  "title": "Conflict and Tone Communication",
+  "formerly": null,
+  "pillar": "Communication",
+  "difficulty": 2,
+  "time_minutes": "55-65",
+  "group_size": "4-10",
+  "prerequisites": [
+   "V1",
+   "C2"
+  ],
+  "contraindications": [
+   "active_unresolved_conflict_between_specific_members",
+   "no_prior_trust_building"
+  ],
+  "phases": [
+   {
+    "id": "C9-P1",
+    "number": 1,
+    "title": "The Amygdala Hijack",
+    "minutes": [
+     8,
+     8
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C9-P5",
+     "C9-P6"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C9-P2",
+    "number": 2,
+    "title": "Tone Awareness",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C9-P5",
+     "C9-P6"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C9-P3",
+    "number": 3,
+    "title": "The Pause Protocol",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "C9-P5",
+     "C9-P6"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C9-P4",
+    "number": 4,
+    "title": "Scenario Practice",
+    "minutes": [
+     20,
+     20
+    ],
+    "produces": "a rehearsed technique. Nothing about this team is exposed, so it stands alone.",
+    "requires_phases": [],
+    "role": "practice",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C9-P5",
+    "number": 5,
+    "title": "Team Agreements",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "C9-P6",
+    "number": 6,
+    "title": "Close",
+    "minutes": [
+     2,
+     2
+    ],
+    "produces": "the commitments said out loud and the session ended cleanly.",
+    "requires_phases": [],
+    "role": "close",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "E1",
+  "title": "Shared Struggles",
+  "formerly": "\"And You Thought YOUR Day Was Bad",
+  "pillar": "Enablement",
+  "difficulty": 1,
+  "time_minutes": "30-40",
+  "group_size": "4-10",
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "E1-P1",
+    "number": 1,
+    "title": "Prompt Cards",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "E1-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "E1-P2",
+    "number": 2,
+    "title": "Sharing Round",
+    "minutes": [
+     15,
+     20
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "E1-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "E1-P3",
+    "number": 3,
+    "title": "The Enablement Question",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "E12",
+  "title": "Embedding Development in Daily Work",
+  "formerly": null,
+  "pillar": "Enablement",
+  "difficulty": 1,
+  "time_minutes": "30-40",
+  "group_size": "4-10",
+  "prerequisites": [
+   "L1"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "E12-P1",
+    "number": 1,
+    "title": "The Development Lens",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "E12-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "E12-P2",
+    "number": 2,
+    "title": "Development Injection Points",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "E12-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "E12-P3",
+    "number": 3,
+    "title": "Manager Development Commitment",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "E2",
+  "title": "Knowledge Sharing Diagnostic",
+  "formerly": "Centralised Knowledge Repository",
+  "pillar": "Enablement",
+  "difficulty": 1,
+  "time_minutes": "40-50",
+  "group_size": "4-12",
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "E2-P1",
+    "number": 1,
+    "title": "The Knowledge Trap Map",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "E2-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "E2-P2",
+    "number": 2,
+    "title": "Risk Assessment",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "E2-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "E2-P3",
+    "number": 3,
+    "title": "The Minimum Viable Knowledge Base",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "E3",
+  "title": "Empowerment Through Delegation",
+  "formerly": null,
+  "pillar": "Enablement",
+  "difficulty": 2,
+  "time_minutes": "40-50",
+  "group_size": null,
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "E3-P1",
+    "number": 1,
+    "title": "The Delegation Audit",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "E3-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "E3-P2",
+    "number": 2,
+    "title": "The Skill-Will Matrix",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "E3-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "E3-P3",
+    "number": 3,
+    "title": "The Delegation Conversation",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "E4",
+  "title": "Support Style Discovery",
+  "formerly": "\"Help Me, Help You\" Exchange",
+  "pillar": "Enablement",
+  "difficulty": 1,
+  "time_minutes": "30-40",
+  "group_size": "4-10",
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "E4-P1",
+    "number": 1,
+    "title": "Support Style Self-Assessment",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "E4-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "E4-P2",
+    "number": 2,
+    "title": "Sharing Round",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "E4-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "E4-P3",
+    "number": 3,
+    "title": "The Manager's Support Audit",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "E5",
+  "title": "Tools and Resources Access",
+  "formerly": null,
+  "pillar": "Enablement",
+  "difficulty": 1,
+  "time_minutes": "35-45",
+  "group_size": "4-12",
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "E5-P1",
+    "number": 1,
+    "title": "The Friction Inventory",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "E5-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "E5-P2",
+    "number": 2,
+    "title": "Impact Assessment",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "E5-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "E5-P3",
+    "number": 3,
+    "title": "What's Actually Fixable?",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "E6",
+  "title": "Decision-Making Autonomy",
+  "formerly": null,
+  "pillar": "Enablement",
+  "difficulty": 2,
+  "time_minutes": "45-55",
+  "group_size": "4-10",
+  "prerequisites": [
+   "V7"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "E6-P1",
+    "number": 1,
+    "title": "The Decision Map",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "E6-P2",
+    "number": 2,
+    "title": "The Autonomy Shift",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "E6-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "E6-P3",
+    "number": 3,
+    "title": "The Guardrails",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "E9",
+  "title": "Removing Outdated Processes",
+  "formerly": null,
+  "pillar": "Enablement",
+  "difficulty": 1,
+  "time_minutes": "35-45",
+  "group_size": "4-12",
+  "prerequisites": [
+   "E1",
+   "E5"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "E9-P1",
+    "number": 1,
+    "title": "The Process Autopsy",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "E9-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "E9-P2",
+    "number": 2,
+    "title": "The Three Questions",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "E9-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "E9-P3",
+    "number": 3,
+    "title": "The Kill List",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "L1",
+  "title": "Skills and Gaps Diagnostic",
+  "formerly": "Skill Inventory",
+  "pillar": "Learning",
+  "difficulty": 1,
+  "time_minutes": "40-50",
+  "group_size": "4-12",
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "L1-P1",
+    "number": 1,
+    "title": "Role Requirement Mapping",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "L1-P3",
+     "L1-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L1-P2",
+    "number": 2,
+    "title": "Self-Assessment with Calibration",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "L1-P3",
+     "L1-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L1-P3",
+    "number": 3,
+    "title": "Gap Prioritisation",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L1-P4",
+    "number": 4,
+    "title": "Team Gap Map",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "L10",
+  "title": "Equitable Learning Opportunities",
+  "formerly": null,
+  "pillar": "Learning",
+  "difficulty": 2,
+  "time_minutes": "40-50",
+  "group_size": "5-12",
+  "prerequisites": [
+   "L1"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "L10-P1",
+    "number": 1,
+    "title": "The Access Audit",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "L10-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L10-P2",
+    "number": 2,
+    "title": "The Honest Conversation",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "L10-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L10-P3",
+    "number": 3,
+    "title": "Rebalancing Plan",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "L2",
+  "title": "Peer-to-Peer Learning Sessions",
+  "formerly": null,
+  "pillar": "Learning",
+  "difficulty": 1,
+  "time_minutes": "45-60",
+  "group_size": "4-10",
+  "prerequisites": [
+   "L1"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "L2-P1",
+    "number": 1,
+    "title": "Topic and Teacher Matching",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L2-P2",
+    "number": 2,
+    "title": "Session Structure",
+    "minutes": [
+     45,
+     45
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L2-P3",
+    "number": 3,
+    "title": "Follow-Up Application",
+    "minutes": [],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "async",
+    "timing_note": "no stated duration; applied between sessions"
+   }
+  ]
+ },
+ {
+  "code": "L3",
+  "title": "Learning Journal",
+  "formerly": null,
+  "pillar": "Learning",
+  "difficulty": 1,
+  "time_minutes": "15",
+  "group_size": null,
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "L3-P1",
+    "number": 1,
+    "title": "Setup",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L3-P2",
+    "number": 2,
+    "title": "Weekly Review",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "L3-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L3-P3",
+    "number": 3,
+    "title": "Team Sharing",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "L4",
+  "title": "Learning Resources and Engagement",
+  "formerly": null,
+  "pillar": "Learning",
+  "difficulty": 1,
+  "time_minutes": "35-45",
+  "group_size": "4-12",
+  "prerequisites": [
+   "L1"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "L4-P1",
+    "number": 1,
+    "title": "Resource Audit",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "L4-P2",
+     "L4-P3",
+     "L4-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L4-P2",
+    "number": 2,
+    "title": "The Three-Filter Sort",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L4-P3",
+    "number": 3,
+    "title": "Engagement Design",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L4-P4",
+    "number": 4,
+    "title": "Team Resource Sharing",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "L6",
+  "title": "Accountability in Learning",
+  "formerly": null,
+  "pillar": "Learning",
+  "difficulty": 1,
+  "time_minutes": "35-40",
+  "group_size": "4-10",
+  "prerequisites": [
+   "L1",
+   "L4"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "L6-P1",
+    "number": 1,
+    "title": "Learning Contract Design",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L6-P2",
+    "number": 2,
+    "title": "Accountability Pairing",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L6-P3",
+    "number": 3,
+    "title": "Manager's Role",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "L7",
+  "title": "Real-World Application",
+  "formerly": null,
+  "pillar": "Learning",
+  "difficulty": 2,
+  "time_minutes": "40-50",
+  "group_size": "4-10",
+  "prerequisites": [
+   "L1"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "L7-P1",
+    "number": 1,
+    "title": "The Learning-Doing Gap Audit",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "L7-P2",
+     "L7-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L7-P2",
+    "number": 2,
+    "title": "Application Mapping",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L7-P3",
+    "number": 3,
+    "title": "Implementation Intentions",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "L7-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L7-P4",
+    "number": 4,
+    "title": "Follow-Up Design",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "L9",
+  "title": "Tracking Learning Progress",
+  "formerly": null,
+  "pillar": "Learning",
+  "difficulty": 1,
+  "time_minutes": "30-35",
+  "group_size": null,
+  "prerequisites": [
+   "L1",
+   "L6"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "L9-P1",
+    "number": 1,
+    "title": "Progress Dashboard Design",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L9-P2",
+    "number": 2,
+    "title": "Weekly Update Ritual",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "L9-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "L9-P3",
+    "number": 3,
+    "title": "Manager Check-In Integration (ongoing)",
+    "minutes": [],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "async",
+    "timing_note": "ongoing, integrated into existing check-ins"
+   }
+  ]
+ },
+ {
+  "code": "OP1",
+  "title": "Ambition Roadmap",
+  "formerly": null,
+  "pillar": "Opportunity",
+  "difficulty": 1,
+  "time_minutes": "40-50",
+  "group_size": null,
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "OP1-P1",
+    "number": 1,
+    "title": "The Honest Aspiration Question",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "OP1-P3",
+     "OP1-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP1-P2",
+    "number": 2,
+    "title": "The Roadmap Build",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "OP1-P3",
+     "OP1-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP1-P3",
+    "number": 3,
+    "title": "The Next Step",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP1-P4",
+    "number": 4,
+    "title": "The Review Schedule",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "OP11",
+  "title": "Project Ownership and Accountability",
+  "formerly": null,
+  "pillar": "Opportunity",
+  "difficulty": 2,
+  "time_minutes": "40-50",
+  "group_size": "4-10",
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "OP11-P1",
+    "number": 1,
+    "title": "The Ownership Diagnostic",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "OP11-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP11-P2",
+    "number": 2,
+    "title": "Barriers to Ownership",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "OP11-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP11-P3",
+    "number": 3,
+    "title": "The Ownership Transfer",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "OP11-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP11-P4",
+    "number": 4,
+    "title": "Accountability Design",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "OP14",
+  "title": "Stretch Assignment Tracking",
+  "formerly": null,
+  "pillar": "Opportunity",
+  "difficulty": 1,
+  "time_minutes": "30-40",
+  "group_size": null,
+  "prerequisites": [
+   "OP1",
+   "OP2"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "OP14-P1",
+    "number": 1,
+    "title": "The Assignment Map",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "OP14-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP14-P2",
+    "number": 2,
+    "title": "Calibrating the Stretch",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "OP14-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP14-P3",
+    "number": 3,
+    "title": "Support Design",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "OP2",
+  "title": "Opportunity Mapping",
+  "formerly": null,
+  "pillar": "Opportunity",
+  "difficulty": 1,
+  "time_minutes": "40-50",
+  "group_size": "5-15",
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "OP2-P1",
+    "number": 1,
+    "title": "The Opportunity Inventory",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "OP2-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP2-P2",
+    "number": 2,
+    "title": "Access Audit",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "OP2-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP2-P3",
+    "number": 3,
+    "title": "Personal Opportunity Selection",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "OP2-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP2-P4",
+    "number": 4,
+    "title": "Manager Commitment",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "OP3",
+  "title": "Internal Mobility Fair",
+  "formerly": null,
+  "pillar": "Opportunity",
+  "difficulty": 1,
+  "time_minutes": "60-90",
+  "group_size": "10-50",
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "OP3-P1",
+    "number": 1,
+    "title": "Preparation (1-2 weeks before)",
+    "minutes": [],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "async",
+    "timing_note": "1-2 weeks before the session"
+   },
+   {
+    "id": "OP3-P2",
+    "number": 2,
+    "title": "The Fair",
+    "minutes": [
+     60,
+     90
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "OP3-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP3-P3",
+    "number": 3,
+    "title": "Follow-Up (within 1 week)",
+    "minutes": [],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "async",
+    "timing_note": "within 1 week after the session"
+   }
+  ]
+ },
+ {
+  "code": "OP4",
+  "title": "Mentorship Kickstart",
+  "formerly": "Mentorship Program",
+  "pillar": "Opportunity",
+  "difficulty": 1,
+  "time_minutes": "35-45",
+  "group_size": null,
+  "prerequisites": [
+   "OP1"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "OP4-P1",
+    "number": 1,
+    "title": "Matching",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "OP4-P2"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP4-P2",
+    "number": 2,
+    "title": "Relationship Design",
+    "minutes": [
+     20,
+     20
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP4-P3",
+    "number": 3,
+    "title": "The First Conversation Structure",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "OP6",
+  "title": "Career Path Transparency",
+  "formerly": null,
+  "pillar": "Opportunity",
+  "difficulty": 2,
+  "time_minutes": "45-55",
+  "group_size": "5-12",
+  "prerequisites": [
+   "OP1"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "OP6-P1",
+    "number": 1,
+    "title": "The Path Map",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "OP6-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP6-P2",
+    "number": 2,
+    "title": "The Honest Q&A",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "OP6-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP6-P3",
+    "number": 3,
+    "title": "The Career Conversation Commitment",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "OP9",
+  "title": "Recognition and Celebration",
+  "formerly": null,
+  "pillar": "Opportunity",
+  "difficulty": 1,
+  "time_minutes": "35-45",
+  "group_size": "4-12",
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "OP9-P1",
+    "number": 1,
+    "title": "The Recognition Audit",
+    "minutes": [
+     8,
+     8
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "OP9-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP9-P2",
+    "number": 2,
+    "title": "What Deserves Recognition",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "OP9-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP9-P3",
+    "number": 3,
+    "title": "Designing Recognition That Lands",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "OP9-P4",
+    "number": 4,
+    "title": "Immediate Practice",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a rehearsed technique. Nothing about this team is exposed, so it stands alone.",
+    "requires_phases": [],
+    "role": "practice",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "R1",
+  "title": "Micro-Reflection Practice",
+  "formerly": null,
+  "pillar": "Reflection",
+  "difficulty": 1,
+  "time_minutes": "30",
+  "group_size": null,
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "R1-P1",
+    "number": 1,
+    "title": "Choose Your Anchor Point",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "R1-P3",
+     "R1-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R1-P2",
+    "number": 2,
+    "title": "Select Your Reflection Format",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "R1-P3",
+     "R1-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R1-P3",
+    "number": 3,
+    "title": "The 21-Day Commitment",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R1-P4",
+    "number": 4,
+    "title": "Weekly Team Reflection",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "R13",
+  "title": "Engaging Leadership in Reflection",
+  "formerly": null,
+  "pillar": "Reflection",
+  "difficulty": 2,
+  "time_minutes": "40-50",
+  "group_size": null,
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "R13-P1",
+    "number": 1,
+    "title": "The Leadership Reflection Audit",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "R13-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R13-P2",
+    "number": 2,
+    "title": "The Three Leadership Reflection Questions",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "R13-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R13-P3",
+    "number": 3,
+    "title": "Making It Visible",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "R13-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R13-P4",
+    "number": 4,
+    "title": "Commitment",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "R14",
+  "title": "Linking Reflections to Real-World Outcomes",
+  "formerly": null,
+  "pillar": "Reflection",
+  "difficulty": 2,
+  "time_minutes": "40-50",
+  "group_size": "4-12",
+  "prerequisites": [
+   "R1",
+   "R2"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "R14-P1",
+    "number": 1,
+    "title": "The Evidence Hunt",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "R14-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R14-P2",
+    "number": 2,
+    "title": "The Outcome Framework",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "a rehearsed technique. Nothing about this team is exposed, so it stands alone.",
+    "requires_phases": [],
+    "role": "practice",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R14-P3",
+    "number": 3,
+    "title": "The Team Showcase",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "R2",
+  "title": "From Ideas to Action",
+  "formerly": null,
+  "pillar": "Reflection",
+  "difficulty": 1,
+  "time_minutes": "35-45",
+  "group_size": "4-10",
+  "prerequisites": [
+   "R1"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "R2-P1",
+    "number": 1,
+    "title": "The Insight Harvest",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "R2-P3",
+     "R2-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R2-P2",
+    "number": 2,
+    "title": "The Implementation Intention",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "R2-P3",
+     "R2-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R2-P3",
+    "number": 3,
+    "title": "The Accountability Loop",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R2-P4",
+    "number": 4,
+    "title": "Close",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "the commitments said out loud and the session ended cleanly.",
+    "requires_phases": [],
+    "role": "close",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "R3",
+  "title": "Reflection Buddy System",
+  "formerly": null,
+  "pillar": "Reflection",
+  "difficulty": 1,
+  "time_minutes": "20",
+  "group_size": null,
+  "prerequisites": [
+   "R1"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "R3-P1",
+    "number": 1,
+    "title": "Pairing",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "R3-P2",
+     "R3-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R3-P2",
+    "number": 2,
+    "title": "Structure Design",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R3-P3",
+    "number": 3,
+    "title": "Confidentiality Agreement",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "R4",
+  "title": "Structured Reflection Templates",
+  "formerly": null,
+  "pillar": "Reflection",
+  "difficulty": 1,
+  "time_minutes": "20",
+  "group_size": null,
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": []
+ },
+ {
+  "code": "R5",
+  "title": "Feedback Integration Through Reflection",
+  "formerly": null,
+  "pillar": "Reflection",
+  "difficulty": 1,
+  "time_minutes": "30-40",
+  "group_size": "4-10",
+  "prerequisites": [
+   "V3",
+   "C15"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "R5-P1",
+    "number": 1,
+    "title": "The Feedback Inventory",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "R5-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R5-P2",
+    "number": 2,
+    "title": "The Integration Framework",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "a rehearsed technique. Nothing about this team is exposed, so it stands alone.",
+    "requires_phases": [],
+    "role": "practice",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R5-P3",
+    "number": 3,
+    "title": "The Feedback Request",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "R6",
+  "title": "Balanced Reflections",
+  "formerly": null,
+  "pillar": "Reflection",
+  "difficulty": 1,
+  "time_minutes": "30-35",
+  "group_size": "4-10",
+  "prerequisites": [
+   "R1"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "R6-P1",
+    "number": 1,
+    "title": "The Balance Check",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "R6-P3"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R6-P2",
+    "number": 2,
+    "title": "The 2:1 Practice",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "a rehearsed technique. Nothing about this team is exposed, so it stands alone.",
+    "requires_phases": [],
+    "role": "practice",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R6-P3",
+    "number": 3,
+    "title": "Embedding the Balance",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "R8",
+  "title": "Consistent Reflection Across Teams",
+  "formerly": null,
+  "pillar": "Reflection",
+  "difficulty": 2,
+  "time_minutes": "45-55",
+  "group_size": null,
+  "prerequisites": [
+   "R1"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "R8-P1",
+    "number": 1,
+    "title": "Cross-Team Reflection Audit",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "R8-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R8-P2",
+    "number": 2,
+    "title": "Shared Minimum Standard",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "a rehearsed technique. Nothing about this team is exposed, so it stands alone.",
+    "requires_phases": [],
+    "role": "practice",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R8-P3",
+    "number": 3,
+    "title": "Cross-Team Insight Sharing",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "R8-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "R8-P4",
+    "number": 4,
+    "title": "Review Schedule",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "V1",
+  "title": "Vulnerability Circle",
+  "formerly": null,
+  "pillar": "Vulnerability",
+  "difficulty": null,
+  "time_minutes": null,
+  "group_size": null,
+  "prerequisites": [],
+  "contraindications": [
+   "recent_layoffs_or_restructuring",
+   "active_unresolved_conflict",
+   "team_member_on_pip"
+  ],
+  "phases": [
+   {
+    "id": "V1-P1",
+    "number": 1,
+    "title": "Opening",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V1-P2",
+    "number": 2,
+    "title": "Manager Models",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V1-P3",
+    "number": 3,
+    "title": "Individual Preparation",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V1-P4",
+    "number": 4,
+    "title": "Sharing Round",
+    "minutes": [
+     20,
+     30
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V1-P5",
+     "V1-P6"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V1-P5",
+    "number": 5,
+    "title": "Synthesis",
+    "minutes": [
+     5,
+     10
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V1-P6",
+    "number": 6,
+    "title": "Close",
+    "minutes": [
+     2,
+     3
+    ],
+    "produces": "the commitments said out loud and the session ended cleanly.",
+    "requires_phases": [],
+    "role": "close",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "V10",
+  "title": "Facilitating Respectful Disagreement",
+  "formerly": null,
+  "pillar": "Vulnerability",
+  "difficulty": 2,
+  "time_minutes": "40-50",
+  "group_size": "4-10",
+  "prerequisites": [
+   "V1"
+  ],
+  "contraindications": [
+   "no_prior_trust_building"
+  ],
+  "phases": [
+   {
+    "id": "V10-P1",
+    "number": 1,
+    "title": "The Cost of Artificial Harmony",
+    "minutes": [
+     8,
+     8
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V10-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V10-P2",
+    "number": 2,
+    "title": "Disagreement Ground Rules",
+    "minutes": [
+     7,
+     7
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V10-P3",
+    "number": 3,
+    "title": "Structured Debate Practice",
+    "minutes": [
+     15,
+     20
+    ],
+    "produces": "a rehearsed technique. Nothing about this team is exposed, so it stands alone.",
+    "requires_phases": [],
+    "role": "practice",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V10-P4",
+    "number": 4,
+    "title": "The Permission Statement",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "V11",
+  "title": "Addressing Workload Struggles Openly",
+  "formerly": null,
+  "pillar": "Vulnerability",
+  "difficulty": 2,
+  "time_minutes": "45-55",
+  "group_size": "4-10",
+  "prerequisites": [
+   "V1",
+   "V8"
+  ],
+  "contraindications": [
+   "manager_is_primary_source_of_overload_and_unaware"
+  ],
+  "phases": [
+   {
+    "id": "V11-P1",
+    "number": 1,
+    "title": "The Honest Workload Check",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V11-P3",
+     "V11-P4",
+     "V11-P5"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V11-P2",
+    "number": 2,
+    "title": "Making It Visible",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V11-P3",
+     "V11-P4",
+     "V11-P5"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V11-P3",
+    "number": 3,
+    "title": "The Manager's Honest Response",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V11-P4",
+    "number": 4,
+    "title": "Building the Pressure Valve",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V11-P5",
+    "number": 5,
+    "title": "Close",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "the commitments said out loud and the session ended cleanly.",
+    "requires_phases": [],
+    "role": "close",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "V2",
+  "title": "Failure Stories",
+  "formerly": null,
+  "pillar": "Vulnerability",
+  "difficulty": 2,
+  "time_minutes": "40-50",
+  "group_size": "4-10",
+  "prerequisites": [
+   "V1"
+  ],
+  "contraindications": [
+   "recent_visible_failure_unresolved",
+   "active_blame_culture_unreformed"
+  ],
+  "phases": [
+   {
+    "id": "V2-P1",
+    "number": 1,
+    "title": "Opening and Framing",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V2-P2",
+    "number": 2,
+    "title": "Manager Models",
+    "minutes": [
+     3,
+     4
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V2-P3",
+    "number": 3,
+    "title": "Individual Preparation",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V2-P4",
+    "number": 4,
+    "title": "Sharing Round",
+    "minutes": [
+     20,
+     25
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V2-P5",
+     "V2-P6"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V2-P5",
+    "number": 5,
+    "title": "Pattern Recognition",
+    "minutes": [
+     5,
+     7
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V2-P6",
+    "number": 6,
+    "title": "Close",
+    "minutes": [
+     3,
+     3
+    ],
+    "produces": "the commitments said out loud and the session ended cleanly.",
+    "requires_phases": [],
+    "role": "close",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "V3",
+  "title": "Structured Feedback Exchange",
+  "formerly": "Feedback Roulette",
+  "pillar": "Vulnerability",
+  "difficulty": 3,
+  "time_minutes": "50-60",
+  "group_size": "4-8",
+  "prerequisites": [
+   "V1"
+  ],
+  "contraindications": [
+   "no_prior_trust_building",
+   "unresolved_interpersonal_conflicts",
+   "team_member_on_pip"
+  ],
+  "phases": [
+   {
+    "id": "V3-P1",
+    "number": 1,
+    "title": "Framing and Ground Rules",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V3-P2",
+    "number": 2,
+    "title": "Feedback Structure Teaching",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V3-P3",
+    "number": 3,
+    "title": "Preparation",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V3-P4",
+    "number": 4,
+    "title": "Feedback Exchange",
+    "minutes": [
+     25,
+     30
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V3-P5",
+     "V3-P6"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V3-P5",
+    "number": 5,
+    "title": "Debrief",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "the manager's answer to what was just heard, including what cannot change.",
+    "requires_phases": [],
+    "role": "respond",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V3-P6",
+    "number": 6,
+    "title": "Close",
+    "minutes": [
+     3,
+     3
+    ],
+    "produces": "the commitments said out loud and the session ended cleanly.",
+    "requires_phases": [],
+    "role": "close",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "V4",
+  "title": "Leadership Vulnerability Archetypes",
+  "formerly": null,
+  "pillar": "Vulnerability",
+  "difficulty": 2,
+  "time_minutes": "45-55",
+  "group_size": "3-8",
+  "prerequisites": [],
+  "contraindications": [
+   "run_with_peer_leaders_only_not_direct_reports"
+  ],
+  "phases": [
+   {
+    "id": "V4-P1",
+    "number": 1,
+    "title": "Introduce the Archetypes",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a shared frame for what follows. Nothing leaves the room with the team yet.",
+    "requires_phases": [],
+    "role": "frame",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V4-P2",
+    "number": 2,
+    "title": "Self-Identification",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V4-P5"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V4-P3",
+    "number": 3,
+    "title": "Sharing and Discussion",
+    "minutes": [
+     15,
+     20
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V4-P5"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V4-P4",
+    "number": 4,
+    "title": "The Vulnerability Gap Question",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V4-P5"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V4-P5",
+    "number": 5,
+    "title": "Close",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "the commitments said out loud and the session ended cleanly.",
+    "requires_phases": [],
+    "role": "close",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "V5",
+  "title": "Building Vulnerability Norms",
+  "formerly": null,
+  "pillar": "Vulnerability",
+  "difficulty": 2,
+  "time_minutes": "45-55",
+  "group_size": "5-15",
+  "prerequisites": [
+   "V1",
+   "V1",
+   "V2"
+  ],
+  "contraindications": [
+   "no_prior_vulnerability_experience"
+  ],
+  "phases": [
+   {
+    "id": "V5-P1",
+    "number": 1,
+    "title": "Anchoring in Experience",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V5-P2",
+     "V5-P3",
+     "V5-P4",
+     "V5-P5"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V5-P2",
+    "number": 2,
+    "title": "From Experiences to Norms",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V5-P3",
+    "number": 3,
+    "title": "Stress-Testing the Norms",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V5-P4",
+    "number": 4,
+    "title": "Accountability Design",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V5-P5",
+    "number": 5,
+    "title": "Close and Commit",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "the commitments said out loud and the session ended cleanly.",
+    "requires_phases": [],
+    "role": "close",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "V7",
+  "title": "Reducing Fear of Failure",
+  "formerly": null,
+  "pillar": "Vulnerability",
+  "difficulty": 2,
+  "time_minutes": "50-60",
+  "group_size": "5-12",
+  "prerequisites": [
+   "V1",
+   "V2"
+  ],
+  "contraindications": [
+   "recent_failure_punished_visibly",
+   "experimentation_budgets_cut",
+   "manager_cannot_protect_risk_takers"
+  ],
+  "phases": [
+   {
+    "id": "V7-P1",
+    "number": 1,
+    "title": "The Fear Inventory",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V7-P4",
+     "V7-P5"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V7-P2",
+    "number": 2,
+    "title": "The Cost of Not Trying",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V7-P4",
+     "V7-P5"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V7-P3",
+    "number": 3,
+    "title": "Defining Safe-to-Fail",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V7-P4",
+     "V7-P5"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V7-P4",
+    "number": 4,
+    "title": "Designing Recognition",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V7-P5",
+    "number": 5,
+    "title": "Close",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "the commitments said out loud and the session ended cleanly.",
+    "requires_phases": [],
+    "role": "close",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "V8",
+  "title": "Balancing Personal and Professional Vulnerability",
+  "formerly": null,
+  "pillar": "Vulnerability",
+  "difficulty": 1,
+  "time_minutes": "35-45",
+  "group_size": "4-12",
+  "prerequisites": [
+   "V1"
+  ],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "V8-P1",
+    "number": 1,
+    "title": "The Spectrum",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V8-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V8-P2",
+    "number": 2,
+    "title": "The Two-Column Exercise",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V8-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V8-P3",
+    "number": 3,
+    "title": "Testing the Line",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V8-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V8-P4",
+    "number": 4,
+    "title": "Team Agreements",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ },
+ {
+  "code": "V9",
+  "title": "Cultivating Empathy",
+  "formerly": null,
+  "pillar": "Vulnerability",
+  "difficulty": 1,
+  "time_minutes": "40-50",
+  "group_size": "4-12",
+  "prerequisites": [],
+  "contraindications": [],
+  "phases": [
+   {
+    "id": "V9-P1",
+    "number": 1,
+    "title": "The Three Types",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V9-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V9-P2",
+    "number": 2,
+    "title": "Empathy Mapping",
+    "minutes": [
+     15,
+     15
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V9-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V9-P3",
+    "number": 3,
+    "title": "The Empathy Barrier Inventory",
+    "minutes": [
+     10,
+     10
+    ],
+    "produces": "what the team actually reports, in their own words. This is the phase that exposes something.",
+    "requires_phases": [
+     "V9-P4"
+    ],
+    "role": "surface",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   },
+   {
+    "id": "V9-P4",
+    "number": 4,
+    "title": "One Commitment",
+    "minutes": [
+     5,
+     5
+    ],
+    "produces": "a written commitment with an owner.",
+    "requires_phases": [],
+    "role": "commit",
+    "excerptable": true,
+    "timing": "session",
+    "timing_note": null
+   }
+  ]
+ }
+]

@@ -1,0 +1,51 @@
+# Pre-Prod (UAT) — deployed from the pre-prod branch.
+#
+# Every run provisions the infrastructure (idempotent Bicep), seeds the vault
+# where secrets are missing, bootstraps an empty database, runs the EF
+# migrations and deploys the API. Same subscription and service connection as
+# Dev; separate resource group, database, vault and app.
+variables:
+  - name: envKey
+    value: preprod
+  - name: environmentDisplayName
+    value: Pre-Prod
+  - name: deploymentEnvironment
+    value: rrida-preprod
+  # Scoped to rg-rrida-preprod-001 only. The group is created by hand; this
+  # connection cannot create resource groups or role assignments, which is why
+  # Pre-Prod deploys main-rg.bicep and uses Key Vault access policies.
+  - name: azureServiceConnection
+    value: rrida-preprod-arm
+  - name: deployLocation
+    value: eastus2
+  - name: parameterFile
+    value: infra/params/preprod.bicepparam
+  - name: templateFile
+    value: infra/main-rg.bicep
+  # 'group' deploys into an existing resource group; 'sub' creates it.
+  - name: deploymentScope
+    value: group
+  - name: resourceGroupName
+    value: rg-rrida-preprod-001
+  - name: webAppName
+    value: app-rrida-api-preprod
+  - name: keyVaultName
+    value: kv-rrida-preprod-001
+  - name: connectionSecretName
+    value: RRIDA-PREPROD
+  - name: postgresServerName
+    value: pg-rrida-preprod-001
+
+  - name: provisionInfra
+    value: 'true'
+  - name: seedKeyVault
+    value: 'true'
+
+  # Shared application secrets are copied from here ONLY when they are missing
+  # in kv-rrida-preprod-001, so a value set by hand in Pre-Prod is never
+  # overwritten. Dev-Stripe* are copied as PreProd-Stripe* (Stripe test mode).
+  # Leave empty when the Pre-Prod service connection cannot read the Dev vault;
+  # the pipeline then only writes the connection string and tells you which
+  # secrets to add by hand.
+  - name: sourceKeyVaultName
+    value: kv-rrida-dev-001

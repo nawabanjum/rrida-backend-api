@@ -1,0 +1,7 @@
+# No line-ending conversion, anywhere.
+#
+# The exported JSON in data/demo-data is compared byte for byte against the drops it came
+# from, and several checks in this repo assert that the files on disk are byte-identical to
+# what the exporter wrote. Git normalising LF to CRLF on checkout would break that silently
+# on a Windows working copy, which is where this is built.
+* -text

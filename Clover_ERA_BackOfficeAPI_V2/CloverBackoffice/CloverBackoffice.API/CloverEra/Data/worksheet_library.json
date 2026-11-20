@@ -1,0 +1,1636 @@
+{
+  "worksheets": [
+    {
+      "code": "C1",
+      "title": "Communication Audit",
+      "pillar": "Communication",
+      "duration_minutes": 40,
+      "summary": "Unclear communication creates cognitive load. The brain expends energy decoding ambiguous messages, tracking information across fragmented channels, and filling gaps with assumptions. This consumes the same prefrontal cortex resources needed for decision-making, creativity, and collaboration.",
+      "best_for_patterns": [
+        "low communication scores",
+        "misalignment signals",
+        "frequent clarification requests",
+        "information not reaching right people",
+        "didn't know about",
+        "nobody told me",
+        "which channel",
+        "missed the update",
+        "too many tools",
+        "information falls through cracks"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "audit",
+        "channels",
+        "diagnostic",
+        "foundation",
+        "information_flow"
+      ]
+    },
+    {
+      "code": "C10",
+      "title": "Nonverbal Communication Awareness",
+      "pillar": "Communication",
+      "duration_minutes": 35,
+      "summary": "Research consistently shows that nonverbal signals carry more weight than verbal content. The brain processes body language, facial expressions, and tone in the limbic system (emotional brain) before the neocortex processes the words. When verbal and nonverbal messages conflict, the brain trusts the nonverbal.",
+      "best_for_patterns": [
+        "misunderstood messages",
+        "feeling unheard",
+        "disconnection in meetings",
+        "body language",
+        "can't read them",
+        "seems disinterested",
+        "not paying attention",
+        "looking at phone",
+        "crossed arms"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "nonverbal",
+        "body_language",
+        "video_calls",
+        "hybrid",
+        "awareness"
+      ]
+    },
+    {
+      "code": "C11",
+      "title": "Communicating Complex or Sensitive Information",
+      "pillar": "Communication",
+      "duration_minutes": 45,
+      "summary": "The brain has a limited capacity for processing new, complex information. Cognitive load theory (Sweller, 1988) shows that when a message exceeds working memory capacity (roughly 4-7 chunks of new information), comprehension collapses. The listener nods but retains almost nothing.",
+      "best_for_patterns": [
+        "misunderstood instructions",
+        "poor feedback reception",
+        "confusion around changes",
+        "complex information not landing",
+        "didn't understand",
+        "too complicated",
+        "wasn't explained well",
+        "bad news dumped",
+        "no context given",
+        "overwhelmed by detail"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 2,
+      "tags": [
+        "complexity",
+        "sensitive_information",
+        "CARE_framework",
+        "delivery_skills",
+        "bad_news"
+      ]
+    },
+    {
+      "code": "C12",
+      "title": "Over-Communication and Information Fatigue",
+      "pillar": "Communication",
+      "duration_minutes": 35,
+      "summary": "The brain's attention system is a limited resource. Each notification, email, message, and meeting draws from the same pool of cognitive energy. Research on attention residue (Leroy, 2009) shows that switching between information sources leaves a cognitive 'residue' that impairs performance on the next task for up to 15 minutes.",
+      "best_for_patterns": [
+        "information overload",
+        "feeling overwhelmed",
+        "productivity drops",
+        "decision making delays",
+        "too many emails",
+        "notification overload",
+        "can't focus",
+        "drowning in messages",
+        "too many meetings",
+        "information fatigue"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "C1"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "overload",
+        "noise_reduction",
+        "focus",
+        "productivity",
+        "information_filtering"
+      ]
+    },
+    {
+      "code": "C13",
+      "title": "Asynchronous Communication",
+      "pillar": "Communication",
+      "duration_minutes": 35,
+      "summary": "Asynchronous communication removes the real-time feedback loop the brain relies on for social calibration. In a face-to-face conversation, the brain continuously adjusts its message based on the listener's micro-expressions, tone, and body language. In async, the sender must anticipate all possible interpretations without any feedback.",
+      "best_for_patterns": [
+        "async communication challenges",
+        "response delays",
+        "unclear messages",
+        "feeling disconnected remote",
+        "waiting for response",
+        "unclear what they want",
+        "lost in async",
+        "remote feels disconnected",
+        "no reply",
+        "decision stuck"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "C1",
+        "C8"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "async",
+        "remote",
+        "hybrid",
+        "message_template",
+        "response_norms"
+      ]
+    },
+    {
+      "code": "C15",
+      "title": "Building a Feedback Culture",
+      "pillar": "Communication",
+      "duration_minutes": 45,
+      "summary": "Feedback is a dopamine delivery mechanism when done well and a cortisol bomb when done badly. The brain's reward system activates when feedback confirms progress (\"you're on the right track\") or provides a clear path to improvement (\"here's specifically what would make this better\").",
+      "best_for_patterns": [
+        "lack of proactive feedback",
+        "feedback only in reviews",
+        "performance uncertainty",
+        "positive feedback absent",
+        "constructive feedback avoided",
+        "never get feedback",
+        "only hear when wrong",
+        "no idea how I'm doing",
+        "wish someone would tell me",
+        "feedback only at review time"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "V1"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "feedback_culture",
+        "system_design",
+        "ongoing_feedback",
+        "frequency",
+        "infrastructure"
+      ]
+    },
+    {
+      "code": "C2",
+      "title": "Listening Circle",
+      "pillar": "Communication",
+      "duration_minutes": 30,
+      "summary": "Being genuinely listened to activates the brain's reward circuitry. fMRI studies show that feeling heard triggers the same neural pathways as receiving a tangible reward: dopamine and oxytocin release simultaneously. The speaker feels valued (serotonin) and connected (oxytocin).",
+      "best_for_patterns": [
+        "feeling unheard",
+        "one way communication",
+        "poor feedback reception",
+        "fear of speaking up",
+        "nobody listens",
+        "not heard",
+        "ideas ignored",
+        "talk over me",
+        "don't feel valued",
+        "what's the point of speaking up"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "listening",
+        "active_listening",
+        "being_heard",
+        "skill_building",
+        "foundation"
+      ]
+    },
+    {
+      "code": "C3",
+      "title": "Transparency Workshop",
+      "pillar": "Communication",
+      "duration_minutes": 45,
+      "summary": "Information asymmetry triggers the brain's threat detection system. When people sense that information is being withheld (even unintentionally), the amygdala interprets this as a social threat: 'What don't I know? Am I being excluded? Is something happening that affects me?' This drives cortisol and suspicion, eroding trust even when no deception exists.",
+      "best_for_patterns": [
+        "information silos",
+        "reduced trust in leadership",
+        "misalignment of goals",
+        "one way communication",
+        "erosion of accountability",
+        "don't know what's going on",
+        "kept in the dark",
+        "no transparency",
+        "decisions made without us",
+        "why weren't we told",
+        "hidden agenda"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "C1"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "transparency",
+        "trust",
+        "information_sharing",
+        "leadership_commitment",
+        "accountability"
+      ]
+    },
+    {
+      "code": "C4",
+      "title": "Information Distortion",
+      "pillar": "Communication",
+      "duration_minutes": 25,
+      "summary": "The brain does not store and retrieve information like a computer. Every time a message passes through a person, their brain reconstructs it through their own filters: assumptions, priorities, emotional state, and cognitive biases. This is not carelessness. It is how human memory and communication work at a neurological level.",
+      "best_for_patterns": [
+        "ambiguous timeframes",
+        "incomplete information",
+        "slow inconsistent communication",
+        "frequent rework",
+        "message got garbled",
+        "that's not what I said",
+        "lost in translation",
+        "Chinese whispers",
+        "by the time it reached me"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "distortion",
+        "message_accuracy",
+        "awareness",
+        "systems_thinking",
+        "quick_exercise"
+      ]
+    },
+    {
+      "code": "C6",
+      "title": "Inclusive Participation",
+      "pillar": "Communication",
+      "duration_minutes": 40,
+      "summary": "Voice equity in teams is a neurological issue, not just a fairness issue. Research by Alex Pentland at MIT found that the single best predictor of team intelligence is the equality of conversational turn-taking.",
+      "best_for_patterns": [
+        "dominating conversations",
+        "fear of speaking up",
+        "information silos within team",
+        "lack of feedback loops",
+        "feeling unheard",
+        "same people talk",
+        "can't get a word in",
+        "my ideas don't matter",
+        "meetings dominated by",
+        "quieter voices lost"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "C2"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "inclusion",
+        "voice_equity",
+        "meeting_design",
+        "structural_solutions",
+        "participation"
+      ]
+    },
+    {
+      "code": "C8",
+      "title": "Communication Preferences Discovery",
+      "pillar": "Communication",
+      "duration_minutes": 35,
+      "summary": "Communication friction often has nothing to do with content and everything to do with format mismatch. When someone receives information through a channel or style that doesn't match their processing preference, their brain works harder to decode it. This increases cognitive load and reduces comprehension, even when the message itself is perfectly clear.",
+      "best_for_patterns": [
+        "varying communication styles",
+        "cross team friction",
+        "misaligned response expectations",
+        "everyone communicates differently",
+        "wish they'd just email",
+        "too many messages",
+        "response too slow",
+        "preferred method ignored"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "preferences",
+        "communication_styles",
+        "team_reference",
+        "onboarding",
+        "accommodation"
+      ]
+    },
+    {
+      "code": "C9",
+      "title": "Conflict and Tone Communication",
+      "pillar": "Communication",
+      "duration_minutes": 55,
+      "summary": "Conflict triggers the amygdala's fight-or-flight response. Within milliseconds of perceiving a disagreement as a threat, cortisol floods the prefrontal cortex, shutting down the brain's capacity for rational thought, empathy, and creative problem-solving.",
+      "best_for_patterns": [
+        "conflict avoidance",
+        "emotional tone misinterpretation",
+        "communication style friction",
+        "poor feedback reception",
+        "managing conflict signals",
+        "tense",
+        "conflict",
+        "tone",
+        "aggressive",
+        "defensive",
+        "argument",
+        "avoid confrontation",
+        "walking on eggshells",
+        "blow up"
+      ],
+      "not_for_patterns": [
+        "active unresolved conflict between specific members",
+        "no prior trust building"
+      ],
+      "prerequisites": [
+        "V1",
+        "C2"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "conflict",
+        "tone",
+        "de_escalation",
+        "pause_protocol",
+        "scenario_practice"
+      ]
+    },
+    {
+      "code": "L1",
+      "title": "Skills and Gaps Diagnostic",
+      "pillar": "Learning",
+      "duration_minutes": 40,
+      "summary": "Learning activates neuroplasticity, the brain's ability to physically restructure itself by forming new neural connections. But neuroplasticity requires direction. The brain does not develop randomly; it strengthens the pathways that are used and prunes those that are not.",
+      "best_for_patterns": [
+        "low learning scores",
+        "uneven skill development",
+        "team capability gaps",
+        "unclear development priorities",
+        "don't know what to learn",
+        "skills gap",
+        "falling behind",
+        "not developing",
+        "no development plan",
+        "stagnating"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "skills",
+        "gaps",
+        "diagnostic",
+        "foundation",
+        "competency"
+      ]
+    },
+    {
+      "code": "L10",
+      "title": "Equitable Learning Opportunities",
+      "pillar": "Learning",
+      "duration_minutes": 40,
+      "summary": "Perceived unfairness triggers a strong threat response. Neuroscience research shows that the brain processes inequity through the same circuits it uses for physical pain (the anterior insula).",
+      "best_for_patterns": [
+        "inconsistent learning across departments",
+        "unequal access to development",
+        "never get opportunities",
+        "others always chosen",
+        "unfair",
+        "favouritism in development",
+        "overlooked for training"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "L1"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "equity",
+        "fairness",
+        "distribution",
+        "access",
+        "manager_accountability"
+      ]
+    },
+    {
+      "code": "L2",
+      "title": "Peer-to-Peer Learning Sessions",
+      "pillar": "Learning",
+      "duration_minutes": 45,
+      "summary": "Social learning activates the brain's mirror neuron system. When we learn from a peer rather than a textbook or video, the brain engages empathy circuits alongside learning circuits. The result is deeper encoding: information learned from someone we know and trust is retained more effectively than information from an anonymous source.",
+      "best_for_patterns": [
+        "lack of cross team learning",
+        "uneven skill development",
+        "low engagement in formal learning",
+        "no continuous learning culture",
+        "learn from each other",
+        "expertise not shared",
+        "same people know everything",
+        "no time for training",
+        "learning feels isolated"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "L1"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "peer_learning",
+        "knowledge_sharing",
+        "ongoing",
+        "social_learning",
+        "internal_expertise"
+      ]
+    },
+    {
+      "code": "L3",
+      "title": "Learning Journal",
+      "pillar": "Learning",
+      "duration_minutes": 15,
+      "summary": "The brain's default mode network (DMN) processes and consolidates learning during periods of reflection. Without deliberate reflection, learning experiences pass through working memory and are rapidly forgotten. The forgetting curve (Ebbinghaus) shows that without reinforcement, 70% of new information is lost within 24 hours.",
+      "best_for_patterns": [
+        "no continuous learning culture",
+        "learning not in workflow",
+        "fear of failure in learning",
+        "low learning engagement",
+        "forget what I learned",
+        "no time to reflect",
+        "learning doesn't stick",
+        "same mistakes repeated"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "journal",
+        "daily_habit",
+        "retention",
+        "reflection",
+        "individual"
+      ]
+    },
+    {
+      "code": "L4",
+      "title": "Learning Resources and Engagement",
+      "pillar": "Learning",
+      "duration_minutes": 35,
+      "summary": "Decision fatigue is neurologically real. Each decision the brain makes depletes the same cognitive resources used for learning. When employees face 50 learning options without guidance on which ones matter, the brain's response is often paralysis: no decision is made, no learning happens. This is the paradox of choice applied to professional development.",
+      "best_for_patterns": [
+        "overwhelmed by resources",
+        "lack of accessible tools",
+        "low learning engagement",
+        "decision fatigue around development",
+        "too many courses",
+        "don't know where to start",
+        "overwhelmed by options",
+        "platform not useful",
+        "resources don't match my needs"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "L1"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "resources",
+        "prioritisation",
+        "engagement",
+        "format_matching",
+        "decision_fatigue"
+      ]
+    },
+    {
+      "code": "L6",
+      "title": "Accountability in Learning",
+      "pillar": "Learning",
+      "duration_minutes": 35,
+      "summary": "Accountability leverages the brain's social commitment circuitry. When a goal is stated publicly or shared with an accountability partner, the brain treats it differently than a private intention.",
+      "best_for_patterns": [
+        "low learning accountability",
+        "goals set not followed",
+        "no visible learning progress",
+        "leaders not modelling learning",
+        "started but stopped",
+        "no follow through",
+        "nobody checks",
+        "learning gets deprioritised",
+        "too busy to learn"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "L1",
+        "L4"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "accountability",
+        "learning_contracts",
+        "partners",
+        "follow_through",
+        "habit"
+      ]
+    },
+    {
+      "code": "L7",
+      "title": "Real-World Application",
+      "pillar": "Learning",
+      "duration_minutes": 40,
+      "summary": "The gap between learning and doing is called the transfer problem, and it is the single biggest waste in corporate training. Research consistently shows that without deliberate transfer design, less than 20% of learning content is applied in the workplace.",
+      "best_for_patterns": [
+        "learning not applied",
+        "low learning engagement",
+        "skills not visible in work",
+        "learned it but don't use it",
+        "training was good but",
+        "back to normal after the course",
+        "theory doesn't match practice"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "L1"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "transfer",
+        "application",
+        "implementation_intentions",
+        "practice",
+        "70_20_10"
+      ]
+    },
+    {
+      "code": "L9",
+      "title": "Tracking Learning Progress",
+      "pillar": "Learning",
+      "duration_minutes": 30,
+      "summary": "The dopamine system responds to progress signals, not just completion. Each visible marker of advancement triggers a small dopamine release that reinforces the learning behaviour. This is why games use progress bars, experience points, and level-ups: they make progress visible to the brain's reward system.",
+      "best_for_patterns": [
+        "no feedback on learning progress",
+        "no visible outcome from learning",
+        "leaders not tracking development",
+        "am I getting better",
+        "no way to measure",
+        "don't see progress",
+        "learning feels pointless",
+        "nobody tracks development"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "L1",
+        "L6"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "tracking",
+        "progress",
+        "dashboard",
+        "visibility",
+        "milestones"
+      ]
+    },
+    {
+      "code": "OP1",
+      "title": "Ambition Roadmap",
+      "pillar": "Opportunities",
+      "duration_minutes": 40,
+      "summary": "Seeing a credible path forward activates serotonin (the chemical behind purpose and status confidence) and dopamine (anticipation of achievement). When employees can visualise their own growth trajectory, the brain treats it as a goal with a progress path, which sustains motivation over months and years rather than just during a good week.",
+      "best_for_patterns": [
+        "lack of development plans",
+        "unclear career aspirations",
+        "succession planning gaps",
+        "low opportunity scores",
+        "don't know where I'm going",
+        "no career plan",
+        "stuck",
+        "no direction",
+        "want to grow but how",
+        "what's next for me"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "career",
+        "aspiration",
+        "roadmap",
+        "planning",
+        "foundation"
+      ]
+    },
+    {
+      "code": "OP11",
+      "title": "Project Ownership and Accountability",
+      "pillar": "Opportunities",
+      "duration_minutes": 40,
+      "summary": "Ownership activates the brain's intrinsic motivation circuitry. When a person feels genuine ownership over a project (not just responsibility for tasks within it), the brain treats outcomes as personally meaningful.",
+      "best_for_patterns": [
+        "lack of project ownership",
+        "limited high impact ownership",
+        "low initiative",
+        "micromanagement signals",
+        "just do what I'm told",
+        "not my decision",
+        "no autonomy",
+        "micromanaged",
+        "don't feel ownership",
+        "not empowered"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 2,
+      "tags": [
+        "ownership",
+        "accountability",
+        "autonomy",
+        "empowerment",
+        "decision_authority"
+      ]
+    },
+    {
+      "code": "OP14",
+      "title": "Stretch Assignment Tracking",
+      "pillar": "Opportunities",
+      "duration_minutes": 30,
+      "summary": "Stretch assignments sit in the neurological sweet spot between comfort and panic. The brain's optimal learning zone (Vygotsky's 'zone of proximal development') is where a task is challenging enough to activate dopamine-driven engagement but not so overwhelming that cortisol shuts down the prefrontal cortex.",
+      "best_for_patterns": [
+        "limited stretch access",
+        "career growth stalling",
+        "high visibility concentrated",
+        "development concentrated",
+        "never get challenging work",
+        "same people get the good projects",
+        "no stretch opportunities",
+        "bored",
+        "not growing"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "OP1",
+        "OP2"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "stretch",
+        "assignments",
+        "tracking",
+        "equity",
+        "calibration",
+        "manager_tool"
+      ]
+    },
+    {
+      "code": "OP2",
+      "title": "Opportunity Mapping",
+      "pillar": "Opportunities",
+      "duration_minutes": 40,
+      "summary": "Opportunity blindness is a real neurological phenomenon. The brain's reticular activating system (RAS) filters information based on what it considers relevant. If someone has never been shown that opportunities exist for them, the RAS literally filters out opportunity signals.",
+      "best_for_patterns": [
+        "lack of transparency career paths",
+        "unequal access upskilling",
+        "lack of internal mobility",
+        "limited stretch access",
+        "no opportunities",
+        "don't know what's available",
+        "same people get chosen",
+        "can't see a path",
+        "no growth here"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "opportunity_mapping",
+        "access",
+        "growth",
+        "visibility",
+        "equity"
+      ]
+    },
+    {
+      "code": "OP3",
+      "title": "Internal Mobility Fair",
+      "pillar": "Opportunities",
+      "duration_minutes": 60,
+      "summary": "Novelty activates dopamine. Exposure to new roles, teams, and work types triggers the brain's exploratory systems in a way that routine work does not. The Internal Mobility Fair is essentially a structured novelty experience: it shows employees that their organisation contains possibilities they hadn't considered.",
+      "best_for_patterns": [
+        "lack of internal mobility",
+        "employees unaware of roles",
+        "silos between departments",
+        "retention risk no growth paths",
+        "didn't know that team existed",
+        "only option is to leave",
+        "want something different",
+        "stuck in my department"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "mobility",
+        "cross_departmental",
+        "event",
+        "exploration",
+        "periodic"
+      ]
+    },
+    {
+      "code": "OP4",
+      "title": "Mentorship Kickstart",
+      "pillar": "Opportunities",
+      "duration_minutes": 35,
+      "summary": "Mentoring activates oxytocin-driven trust circuits in both mentor and mentee. The relationship creates a safe attachment context where the mentee's brain can take risks (asking difficult questions, admitting gaps, trying new approaches) that it would avoid in hierarchical or performance-evaluated relationships.",
+      "best_for_patterns": [
+        "limited mentorship access",
+        "skills gaps needing guidance",
+        "succession planning",
+        "career development requests",
+        "need a mentor",
+        "wish I had guidance",
+        "no one to learn from",
+        "mentoring not available",
+        "want career advice"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "OP1"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "mentorship",
+        "matching",
+        "relationship_design",
+        "guidance",
+        "development"
+      ]
+    },
+    {
+      "code": "OP6",
+      "title": "Career Path Transparency",
+      "pillar": "Opportunities",
+      "duration_minutes": 45,
+      "summary": "Career uncertainty is a chronic, low-grade stressor. Unlike acute stress (a deadline, a difficult conversation), career uncertainty operates in the background, maintaining elevated baseline cortisol that erodes engagement, creativity, and loyalty without producing a visible crisis. People don't quit because of one bad day.",
+      "best_for_patterns": [
+        "lack of transparency career paths",
+        "career advancement unclear",
+        "employees dont know requirements",
+        "leadership accountability check ins",
+        "how do I get promoted",
+        "what do I need to do",
+        "career path unclear",
+        "no one talks about advancement",
+        "criteria not transparent"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "OP1"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "career_paths",
+        "transparency",
+        "progression",
+        "career_conversations",
+        "honest_constraints"
+      ]
+    },
+    {
+      "code": "OP9",
+      "title": "Recognition and Celebration",
+      "pillar": "Opportunities",
+      "duration_minutes": 35,
+      "summary": "Recognition activates the brain's reward circuitry at multiple levels. Dopamine fires when recognition is received (reward). Serotonin activates when the recognition signals status and belonging (social standing). Oxytocin releases when recognition comes from someone trusted (connection).",
+      "best_for_patterns": [
+        "lack of recognition",
+        "recognition only leadership track",
+        "informal growth unnoticed",
+        "low morale",
+        "nobody notices",
+        "work goes unrecognised",
+        "only visible people get credit",
+        "thankless work",
+        "no appreciation"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "recognition",
+        "celebration",
+        "invisible_work",
+        "appreciation",
+        "team_designed"
+      ]
+    },
+    {
+      "code": "V1",
+      "title": "Vulnerability Circle",
+      "pillar": "Vulnerability",
+      "duration_minutes": 45,
+      "summary": "When someone shares something vulnerable and the group responds with acceptance rather than judgment, the brain releases oxytocin (the trust chemical) and dials down cortisol (the stress hormone). The amygdala, your brain's threat detector, recalibrates: it learns that this group is safe.",
+      "best_for_patterns": [
+        "low vulnerability scores",
+        "declining trust",
+        "reluctance to raise issues",
+        "reluctance to admit mistakes",
+        "don't feel safe",
+        "can't be honest",
+        "afraid to speak up",
+        "don't trust",
+        "walking on eggshells"
+      ],
+      "not_for_patterns": [
+        "recent layoffs or restructuring",
+        "active unresolved conflict",
+        "team member on pip"
+      ],
+      "prerequisites": [],
+      "difficulty": 2,
+      "tags": [
+        "trust",
+        "psychological_safety",
+        "team_building",
+        "vulnerability",
+        "foundation"
+      ]
+    },
+    {
+      "code": "V10",
+      "title": "Facilitating Respectful Disagreement",
+      "pillar": "Vulnerability",
+      "duration_minutes": 40,
+      "summary": "Disagreement triggers the amygdala's threat response. The brain reads 'someone disagrees with me' as a status threat, which produces the same cortisol spike as physical confrontation. This is why people avoid disagreeing, even when they know their perspective would improve the outcome.",
+      "best_for_patterns": [
+        "groupthink indicators",
+        "ideas not challenged",
+        "artificial harmony",
+        "poor decision quality",
+        "nobody disagrees",
+        "echo chamber",
+        "we all just agree",
+        "afraid to challenge",
+        "go along to get along",
+        "decisions feel rushed"
+      ],
+      "not_for_patterns": [
+        "no prior trust building"
+      ],
+      "prerequisites": [
+        "V1"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "disagreement",
+        "debate",
+        "groupthink",
+        "decision_quality",
+        "intellectual_challenge"
+      ]
+    },
+    {
+      "code": "V11",
+      "title": "Addressing Workload Struggles Openly",
+      "pillar": "Vulnerability",
+      "duration_minutes": 45,
+      "summary": "Chronic overload sustains elevated cortisol, which progressively shuts down the prefrontal cortex's capacity for planning, prioritisation, and creative problem-solving. The tragic irony: the brain functions needed to solve workload problems are the first things cortisol destroys.",
+      "best_for_patterns": [
+        "burnout indicators",
+        "workload imbalance",
+        "declining quality",
+        "missed deadlines",
+        "overwhelmed",
+        "too much work",
+        "can't keep up",
+        "drowning",
+        "no capacity",
+        "burning out",
+        "unsustainable"
+      ],
+      "not_for_patterns": [
+        "manager is primary source of overload and unaware"
+      ],
+      "prerequisites": [
+        "V1"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "workload",
+        "burnout",
+        "capacity",
+        "honest_conversation",
+        "pressure_valve"
+      ]
+    },
+    {
+      "code": "V2",
+      "title": "Failure Stories",
+      "pillar": "Vulnerability",
+      "duration_minutes": 40,
+      "summary": "Fear of failure is a cortisol-driven response. When the brain associates failure with social punishment (criticism, loss of status, career consequences), the amygdala flags risk-taking as a threat. Over time, this creates teams that play it safe, hide mistakes, and avoid experimentation.",
+      "best_for_patterns": [
+        "low vulnerability scores",
+        "fear of admitting mistakes",
+        "blame culture signals",
+        "low innovation",
+        "afraid of mistakes",
+        "blame",
+        "can't fail here",
+        "cover up",
+        "don't admit",
+        "punished for errors"
+      ],
+      "not_for_patterns": [
+        "recent visible failure unresolved",
+        "active blame culture unreformed"
+      ],
+      "prerequisites": [
+        "V1"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "failure",
+        "learning",
+        "risk_taking",
+        "normalisation",
+        "pattern_recognition"
+      ]
+    },
+    {
+      "code": "V3",
+      "title": "Structured Feedback Exchange",
+      "pillar": "Vulnerability",
+      "duration_minutes": 50,
+      "summary": "Receiving feedback activates the brain's threat detection system. The amygdala scans incoming feedback for social danger: Am I being judged? Is my status at risk? Will this affect my standing in the group? When feedback arrives without warning, without context, or without safety, cortisol spikes and the prefrontal cortex (rational thinking) goes offline.",
+      "best_for_patterns": [
+        "low feedback culture",
+        "difficulty giving feedback",
+        "difficulty receiving feedback",
+        "feedback avoidance",
+        "never get feedback",
+        "don't know how I'm doing",
+        "afraid to give feedback",
+        "feedback feels personal",
+        "defensive when criticised"
+      ],
+      "not_for_patterns": [
+        "no prior trust building",
+        "unresolved interpersonal conflicts",
+        "team member on pip"
+      ],
+      "prerequisites": [
+        "V1"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feedback",
+        "SBI_framework",
+        "giving_feedback",
+        "receiving_feedback",
+        "skill_building"
+      ]
+    },
+    {
+      "code": "V4",
+      "title": "Leadership Vulnerability Archetypes",
+      "pillar": "Vulnerability",
+      "duration_minutes": 45,
+      "summary": "Leaders set the neurochemical tone for their teams. A leader's behaviour acts as a social signal that the brains of their team members constantly process. When a leader models openness, team members' brains release oxytocin (trust) and reduce cortisol (threat). When a leader models guardedness, team members' amygdalae mirror that defensiveness.",
+      "best_for_patterns": [
+        "leaders avoiding vulnerability",
+        "low trust under specific managers",
+        "leader self perception gap",
+        "manager doesn't share",
+        "can't read my manager",
+        "leader seems distant",
+        "never admits mistakes",
+        "always has the answer"
+      ],
+      "not_for_patterns": [
+        "run with peer leaders only not direct reports"
+      ],
+      "prerequisites": [],
+      "difficulty": 2,
+      "tags": [
+        "leadership",
+        "self_awareness",
+        "archetypes",
+        "leader_only",
+        "vulnerability_modelling"
+      ]
+    },
+    {
+      "code": "V5",
+      "title": "Building Vulnerability Norms",
+      "pillar": "Vulnerability",
+      "duration_minutes": 45,
+      "summary": "One vulnerability exercise creates a temporary oxytocin spike. For lasting change, the brain needs repeated, consistent signals that vulnerability is safe in this environment. That consistency comes from explicit norms, agreed behaviours that the team commits to and can hold each other accountable for.",
+      "best_for_patterns": [
+        "sustaining vulnerability gains",
+        "need for team norms",
+        "trust inconsistent",
+        "went back to normal",
+        "exercise was good but nothing changed",
+        "need to sustain",
+        "how do we keep this going"
+      ],
+      "not_for_patterns": [
+        "no prior vulnerability experience"
+      ],
+      "prerequisites": [
+        "V1"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "norms",
+        "agreements",
+        "sustainability",
+        "team_charter",
+        "accountability"
+      ]
+    },
+    {
+      "code": "V7",
+      "title": "Reducing Fear of Failure",
+      "pillar": "Vulnerability",
+      "duration_minutes": 50,
+      "summary": "Fear of failure is a cortisol-driven survival mechanism. The brain treats social risk (being judged, losing status, facing consequences for a failed idea) with the same threat circuitry it uses for physical danger. The amygdala fires, cortisol floods the prefrontal cortex, and the brain's default becomes avoidance.",
+      "best_for_patterns": [
+        "low risk taking",
+        "innovation stagnation",
+        "fear of failure",
+        "blame culture",
+        "afraid to try",
+        "play it safe",
+        "don't rock the boat",
+        "what if it fails",
+        "no room for mistakes",
+        "innovation blocked"
+      ],
+      "not_for_patterns": [
+        "recent failure punished visibly",
+        "experimentation budgets cut",
+        "manager cannot protect risk takers"
+      ],
+      "prerequisites": [
+        "V1"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "fear_of_failure",
+        "risk_taking",
+        "innovation",
+        "safe_to_fail",
+        "experimentation"
+      ]
+    },
+    {
+      "code": "V8",
+      "title": "Balancing Personal and Professional Vulnerability",
+      "pillar": "Vulnerability",
+      "duration_minutes": 35,
+      "summary": "The brain does not distinguish between 'appropriate workplace vulnerability' and 'oversharing' on its own. The amygdala simply monitors whether sharing felt safe or dangerous. Without explicit guidance on what to share and what to keep private, people either overshare (triggering discomfort in others, raising cortisol across the group) or undershare (keeping",
+      "best_for_patterns": [
+        "team new to vulnerability",
+        "manager uncomfortable with v1",
+        "oversharing concerns",
+        "boundary issues",
+        "too much sharing",
+        "not comfortable being open",
+        "new team",
+        "don't know each other well enough",
+        "where's the line"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "entry_point",
+        "boundaries",
+        "calibration",
+        "low_barrier",
+        "new_teams"
+      ]
+    },
+    {
+      "code": "V9",
+      "title": "Cultivating Empathy",
+      "pillar": "Vulnerability",
+      "duration_minutes": 40,
+      "summary": "Empathy engages the brain's mirror neuron system, a network that fires both when we perform an action and when we observe someone else performing it. When we actively try to understand another person's experience, we are not just thinking about them; our brain is simulating their state.",
+      "best_for_patterns": [
+        "low empathy indicators",
+        "interpersonal friction",
+        "feeling unheard",
+        "feeling misunderstood",
+        "nobody understands",
+        "they don't care",
+        "no empathy",
+        "disconnected",
+        "only care about their own work",
+        "don't listen"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "empathy",
+        "perspective_taking",
+        "empathy_mapping",
+        "connection",
+        "understanding"
+      ]
+    },
+    {
+      "code": "E1",
+      "title": "Shared Struggles",
+      "pillar": "Enablement",
+      "duration_minutes": 30,
+      "summary": "The brain processes isolation and lack of understanding through the same pain circuits as physical injury. When someone feels that their struggles are invisible to their colleagues, cortisol remains elevated and oxytocin (connection, trust) stays suppressed.",
+      "best_for_patterns": [
+        "frustration signals",
+        "feeling unsupported",
+        "lack of empathy between roles",
+        "silos within team",
+        "nobody sees",
+        "struggling alone",
+        "invisible work",
+        "no support",
+        "they don't understand what I deal with"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "struggles",
+        "barriers",
+        "empathy",
+        "invisible_work",
+        "entry_point"
+      ]
+    },
+    {
+      "code": "E12",
+      "title": "Embedding Development in Daily Work",
+      "pillar": "Enablement",
+      "duration_minutes": 30,
+      "summary": "The 70-20-10 model reflects how the brain actually develops competence: 70% through on-the-job experience, 20% through social learning, and 10% through formal training. Most organisations invest heavily in the 10% (courses, workshops) and hope the 70% happens naturally. It doesn't.",
+      "best_for_patterns": [
+        "lack of continuous learning",
+        "learning not in workflow",
+        "development only in training",
+        "skill growth stagnating",
+        "not growing",
+        "same thing every day",
+        "no development in my role",
+        "only grow if I take a course",
+        "stagnating"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "L1"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "development",
+        "daily_work",
+        "70_20_10",
+        "task_rotation",
+        "on_the_job"
+      ]
+    },
+    {
+      "code": "E2",
+      "title": "Knowledge Sharing Diagnostic",
+      "pillar": "Enablement",
+      "duration_minutes": 40,
+      "summary": "Knowledge hoarding (intentional or accidental) creates cognitive load for the entire team. When critical information lives in one person's head, every other team member must expend brain resources navigating around that bottleneck: waiting for responses, working with incomplete information, or duplicating effort because they don't know what already exists.",
+      "best_for_patterns": [
+        "inefficient knowledge sharing",
+        "information silos",
+        "knowledge trapped in individuals",
+        "onboarding difficulties",
+        "only one person knows",
+        "if they left we'd be stuck",
+        "not documented",
+        "tribal knowledge",
+        "can't find information"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "knowledge",
+        "documentation",
+        "bus_factor",
+        "institutional_knowledge",
+        "accessibility"
+      ]
+    },
+    {
+      "code": "E3",
+      "title": "Empowerment Through Delegation",
+      "pillar": "Enablement",
+      "duration_minutes": 40,
+      "summary": "Delegation is a dopamine transaction. When a manager delegates meaningfully (not just dumping tasks), the recipient's brain registers autonomy, which activates intrinsic motivation circuitry. Research by Deci and Ryan (Self-Determination Theory) shows that autonomy is one of three core psychological needs; when met, it produces sustained engagement.",
+      "best_for_patterns": [
+        "micromanagement signals",
+        "empowerment gaps",
+        "manager bottleneck",
+        "team not taking initiative",
+        "decision making delays",
+        "manager does everything",
+        "need approval for everything",
+        "bottleneck",
+        "can't decide without asking",
+        "micromanaged"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 2,
+      "tags": [
+        "delegation",
+        "empowerment",
+        "manager_tool",
+        "bottleneck",
+        "autonomy"
+      ]
+    },
+    {
+      "code": "E4",
+      "title": "Support Style Discovery",
+      "pillar": "Enablement",
+      "duration_minutes": 30,
+      "summary": "The brain's response to receiving help depends entirely on whether the help matches what the person needs. Unsolicited advice when someone needs emotional support triggers cortisol (the person feels unheard). Empathetic listening when someone needs a practical solution triggers frustration (the person feels their problem isn't being taken seriously).",
+      "best_for_patterns": [
+        "lack of leadership support",
+        "feeling unsupported",
+        "disconnect between help offered and needed",
+        "doesn't help the way I need",
+        "just want to be heard",
+        "stop giving advice",
+        "leave me alone to figure it out",
+        "need practical help not sympathy"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "support",
+        "preferences",
+        "leadership",
+        "matching",
+        "team_reference"
+      ]
+    },
+    {
+      "code": "E5",
+      "title": "Tools and Resources Access",
+      "pillar": "Enablement",
+      "duration_minutes": 35,
+      "summary": "Fighting your tools produces a specific neurological pattern: frustration cortisol without the reward dopamine of completion. The brain registers effort but no progress, which is one of the most demotivating states a person can experience.",
+      "best_for_patterns": [
+        "lack of tools",
+        "outdated technology",
+        "resource frustration",
+        "inefficiency complaints",
+        "innovation blocked by legacy",
+        "tools don't work",
+        "outdated system",
+        "need better resources",
+        "fighting the technology",
+        "workaround",
+        "slow systems"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "tools",
+        "resources",
+        "technology",
+        "friction",
+        "advocacy"
+      ]
+    },
+    {
+      "code": "E6",
+      "title": "Decision-Making Autonomy",
+      "pillar": "Enablement",
+      "duration_minutes": 45,
+      "summary": "Autonomy is one of the three core psychological needs identified by Self-Determination Theory (Deci & Ryan). When met, it produces sustained intrinsic motivation through dopamine activation. When denied, it produces a specific pattern: compliance without commitment, effort without creativity, and eventual disengagement.",
+      "best_for_patterns": [
+        "lack of autonomy",
+        "micromanagement",
+        "decision making delays",
+        "not taking initiative",
+        "empowerment gaps",
+        "can't decide anything",
+        "need permission for everything",
+        "no autonomy",
+        "manager decides everything",
+        "not trusted to decide"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "V7"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "autonomy",
+        "decision_rights",
+        "guardrails",
+        "empowerment",
+        "trust"
+      ]
+    },
+    {
+      "code": "E9",
+      "title": "Removing Outdated Processes",
+      "pillar": "Enablement",
+      "duration_minutes": 35,
+      "summary": "Outdated processes create a specific neurological drain: the brain expends cognitive resources following steps it recognises as unnecessary. This produces a unique frustration pattern where the prefrontal cortex (rational brain) knows the process is wasteful but the compliance circuits (social conformity) prevent deviation.",
+      "best_for_patterns": [
+        "innovation blocked by legacy",
+        "outdated processes",
+        "frustration with bureaucracy",
+        "time wasted on unnecessary steps",
+        "why do we still do this",
+        "pointless process",
+        "bureaucracy",
+        "waste of time",
+        "nobody reads this report",
+        "unnecessary approval"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "process_removal",
+        "simplification",
+        "bureaucracy",
+        "efficiency",
+        "quick_wins"
+      ]
+    },
+    {
+      "code": "R1",
+      "title": "Micro-Reflection Practice",
+      "pillar": "Reflection",
+      "duration_minutes": 30,
+      "summary": "Reflection activates the brain's default mode network (DMN), a system that operates during mental downtime and is responsible for insight, self-awareness, pattern recognition, and integrating new learning with existing knowledge. Without deliberate reflection, the DMN never gets the focused activation it needs, and learning remains shallow.",
+      "best_for_patterns": [
+        "lack of time for reflection",
+        "reflection not in workflow",
+        "low reflection scores",
+        "reactive working patterns",
+        "no time to think",
+        "always reacting",
+        "never pause",
+        "too busy to reflect",
+        "don't know how to reflect"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "micro_reflection",
+        "daily_habit",
+        "anchor_point",
+        "foundation",
+        "format_choice"
+      ]
+    },
+    {
+      "code": "R13",
+      "title": "Engaging Leadership in Reflection",
+      "pillar": "Reflection",
+      "duration_minutes": 40,
+      "summary": "Leaders set the neurochemical tone for their organisations. When a leader reflects openly, team members' brains register it as a safety signal: 'If the leader can pause, examine their own decisions, and admit areas for growth, it must be safe for me to do the same.' When leaders skip reflection while mandating it for others, the brain reads the inconsistency",
+      "best_for_patterns": [
+        "leaders not participating in reflection",
+        "reflection feels like directive",
+        "reflection not seen as leadership practice",
+        "leader doesn't reflect",
+        "do as I say not as I do",
+        "reflection is for teams not leaders",
+        "hypocrisy"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 2,
+      "tags": [
+        "leadership",
+        "modelling",
+        "self_examination",
+        "visible_practice",
+        "leader_only"
+      ]
+    },
+    {
+      "code": "R14",
+      "title": "Linking Reflections to Real-World Outcomes",
+      "pillar": "Reflection",
+      "duration_minutes": 40,
+      "summary": "The dopamine system evaluates activities based on their perceived value. If reflection consistently produces no visible outcome, the brain categorises it as low-value and deprioritises it. Engagement with reflection drops not because people disagree with the concept but because their brain's reward system has stopped reinforcing the behaviour.",
+      "best_for_patterns": [
+        "no visible outcome from reflection",
+        "reflection seen as navel gazing",
+        "team questioning value of reflection",
+        "what's the point",
+        "reflection doesn't change anything",
+        "waste of time",
+        "no results from reflecting",
+        "talk but no action"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "R1",
+        "R2"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "outcomes",
+        "evidence",
+        "tracking",
+        "value_proof",
+        "showcase"
+      ]
+    },
+    {
+      "code": "R2",
+      "title": "From Ideas to Action",
+      "pillar": "Reflection",
+      "duration_minutes": 35,
+      "summary": "The gap between insight and action is neurologically real. The brain processes reflection through the default mode network (insight) and executes change through the prefrontal cortex (planning and action). These two systems do not automatically connect.",
+      "best_for_patterns": [
+        "reflection not producing action",
+        "insights discussed not implemented",
+        "same issues identified repeatedly",
+        "we keep talking about it",
+        "nothing changes",
+        "same issues every time",
+        "reflection but no action",
+        "insight without change"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "R1"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "action",
+        "implementation_intentions",
+        "behaviour_change",
+        "accountability",
+        "bridge"
+      ]
+    },
+    {
+      "code": "R3",
+      "title": "Reflection Buddy System",
+      "pillar": "Reflection",
+      "duration_minutes": 20,
+      "summary": "Processing reflection with another person activates social cognition circuits that solo reflection does not reach. The act of articulating an insight to someone else forces the brain to organise and clarify the thought (a process called the generation effect). The listener's response provides a mirror that can deepen or redirect the reflection.",
+      "best_for_patterns": [
+        "discomfort sharing reflections",
+        "reflection dying after initial enthusiasm",
+        "need for accountability",
+        "stopped reflecting",
+        "need someone to do it with",
+        "feels lonely",
+        "lost motivation to reflect"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "R1"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "buddy",
+        "pairs",
+        "accountability",
+        "social_processing",
+        "habit_sustaining"
+      ]
+    },
+    {
+      "code": "R4",
+      "title": "Structured Reflection Templates",
+      "pillar": "Reflection",
+      "duration_minutes": 20,
+      "summary": "Unstructured reflection often produces rumination rather than insight. Without a framework, the brain tends to replay events emotionally (amygdala-driven) rather than process them analytically (prefrontal cortex-driven).",
+      "best_for_patterns": [
+        "lack of structured reflection",
+        "reflections staying surface",
+        "teams not knowing how to reflect",
+        "don't know what to reflect on",
+        "reflection feels aimless",
+        "how do I reflect properly",
+        "debriefs are shallow"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "templates",
+        "after_action_review",
+        "energy_audit",
+        "decision_debrief",
+        "structured"
+      ]
+    },
+    {
+      "code": "R5",
+      "title": "Feedback Integration Through Reflection",
+      "pillar": "Reflection",
+      "duration_minutes": 30,
+      "summary": "The brain processes feedback through threat detection before learning. When feedback arrives, the amygdala evaluates it for social danger before the prefrontal cortex can extract useful information. This means much of the feedback people receive is emotionally processed but never cognitively integrated.",
+      "best_for_patterns": [
+        "feedback received not integrated",
+        "same feedback repeated",
+        "disconnect between feedback and change",
+        "keep hearing the same thing",
+        "feedback doesn't change anything",
+        "know what I should do but don't",
+        "defensive when I get feedback"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [],
+      "difficulty": 1,
+      "tags": [
+        "feedback",
+        "integration",
+        "second_pass",
+        "behaviour_change",
+        "blind_spots"
+      ]
+    },
+    {
+      "code": "R6",
+      "title": "Balanced Reflections",
+      "pillar": "Reflection",
+      "duration_minutes": 30,
+      "summary": "The brain has a natural negativity bias: negative experiences are processed more deeply and remembered more vividly than positive ones. This served our ancestors well (remembering threats is survival-critical) but distorts workplace reflection.",
+      "best_for_patterns": [
+        "forced positivity in reflections",
+        "overemphasis on wins",
+        "reflection becomes complaint session",
+        "always positive never real",
+        "only focus on problems",
+        "reflection feels fake",
+        "never celebrate wins",
+        "only hear negatives"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "R1"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "balance",
+        "positivity",
+        "constructive",
+        "ratio",
+        "quality_control"
+      ]
+    },
+    {
+      "code": "R8",
+      "title": "Consistent Reflection Across Teams",
+      "pillar": "Reflection",
+      "duration_minutes": 45,
+      "summary": "Consistency signals importance. When the brain observes that some teams reflect and others don't, it categorises reflection as optional. When reflection is consistent across the organisation, the brain categorises it as 'how things work here,' which removes the cognitive cost of deciding whether to do it each time.",
+      "best_for_patterns": [
+        "inconsistent reflection across teams",
+        "some teams reflecting others not",
+        "no shared learning across departments",
+        "some teams do it some don't",
+        "no consistency",
+        "lessons not shared",
+        "reinventing the wheel"
+      ],
+      "not_for_patterns": [],
+      "prerequisites": [
+        "R1"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "consistency",
+        "cross_team",
+        "alignment",
+        "organisational",
+        "leader_exercise"
+      ]
+    }
+  ]
+}

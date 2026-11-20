@@ -1,0 +1,307 @@
+{
+ "note": "D31. One outward move per condition, for a cause the team has named that sits outside it. Reached through this registry rather than through a chip route, because there is one move per condition and not one per chip, which is the same shape as locus_discovery_action. An outward action opens no cycle: it is surfaced to the manager and never delivered, because closure requires the team's own answers to move and an external cause will not move them.",
+ "authored": "2026-10-16",
+ "rows": [
+  {
+   "issue_file": "MA-C-067",
+   "issue": "Failing to Explain the “Why” Behind Decisions",
+   "outward_action": "MA-C-067-29",
+   "who_it_goes_to": "Whoever made the decision or set the target",
+   "external_chips": 5
+  },
+  {
+   "issue_file": "MA-C-068",
+   "issue": "Inconsistent or Mixed Messages",
+   "outward_action": "MA-C-068-29",
+   "who_it_goes_to": "Whoever sets this team's direction",
+   "external_chips": 8
+  },
+  {
+   "issue_file": "MA-C-069",
+   "issue": "Lack of Feedback and Recognition for Employees",
+   "outward_action": "MA-C-069-30",
+   "who_it_goes_to": "Whoever receives or judges this team's output",
+   "external_chips": 1
+  },
+  {
+   "issue_file": "MA-C-070",
+   "issue": "Lack of Transparency and Information Hoarding",
+   "outward_action": "MA-C-070-28",
+   "who_it_goes_to": "Whoever holds the information the team is missing",
+   "external_chips": 4
+  },
+  {
+   "issue_file": "MA-C-071",
+   "issue": "Low Trust or Credibility in Communications",
+   "outward_action": "MA-C-071-30",
+   "who_it_goes_to": "Whoever owns the decision the team is waiting on",
+   "external_chips": 7
+  },
+  {
+   "issue_file": "MA-C-073",
+   "issue": "Misalignment with Leadership Messaging",
+   "outward_action": "MA-C-073-27",
+   "who_it_goes_to": "Whoever changed the decision",
+   "external_chips": 1
+  },
+  {
+   "issue_file": "MA-C-075",
+   "issue": "One-Way Communication (No Upward or Two-Way Dialogue)",
+   "outward_action": "MA-C-075-30",
+   "who_it_goes_to": "Whoever makes the decisions this team has to absorb",
+   "external_chips": 2
+  },
+  {
+   "issue_file": "MA-C-076",
+   "issue": "Poor Communication During Organizational Change",
+   "outward_action": "MA-C-076-33",
+   "who_it_goes_to": "Whoever is running the change",
+   "external_chips": 11
+  },
+  {
+   "issue_file": "MA-C-077",
+   "issue": "Poor Listening and Ignoring Team Feedback",
+   "outward_action": "MA-C-077-30",
+   "who_it_goes_to": "Whoever owns the queue the request is sitting in",
+   "external_chips": 3
+  },
+  {
+   "issue_file": "MA-C-078",
+   "issue": "Unclear Communication and Lack of Direction",
+   "outward_action": "MA-C-078-29",
+   "who_it_goes_to": "Whoever set this team's goal",
+   "external_chips": 3
+  },
+  {
+   "issue_file": "MA-E-001",
+   "issue": "Ambiguous Priorities and Trade-offs",
+   "outward_action": "MA-E-001-28",
+   "who_it_goes_to": "Whoever can rank the competing demands on this team",
+   "external_chips": 21
+  },
+  {
+   "issue_file": "MA-E-002",
+   "issue": "Broken Processes and Bureaucracy (Slow Approvals)",
+   "outward_action": "MA-E-002-27",
+   "who_it_goes_to": "Whoever owns the process or the approval",
+   "external_chips": 13
+  },
+  {
+   "issue_file": "MA-E-004",
+   "issue": "Dependency Bottlenecks and Handoffs",
+   "outward_action": "MA-E-004-28",
+   "who_it_goes_to": "Whoever sets priorities for the team you are waiting on",
+   "external_chips": 16
+  },
+  {
+   "issue_file": "MA-E-005",
+   "issue": "Environment Instability and Tool Performance",
+   "outward_action": "MA-E-005-26",
+   "who_it_goes_to": "Whoever owns the platform or the systems budget",
+   "external_chips": 6
+  },
+  {
+   "issue_file": "MA-E-007",
+   "issue": "Ineffective Metrics and Dashboards",
+   "outward_action": "MA-E-007-25",
+   "who_it_goes_to": "Whoever owns this team's metrics or reporting",
+   "external_chips": 2
+  },
+  {
+   "issue_file": "MA-E-009",
+   "issue": "Insufficient Resources and Staffing (Capacity)",
+   "outward_action": "MA-E-009-26",
+   "who_it_goes_to": "Whoever owns the headcount or the budget for this team",
+   "external_chips": 29
+  },
+  {
+   "issue_file": "MA-E-010",
+   "issue": "Lack of Autonomy and Empowerment",
+   "outward_action": "MA-E-010-28",
+   "who_it_goes_to": "Whoever currently holds the decision",
+   "external_chips": 9
+  },
+  {
+   "issue_file": "MA-E-011",
+   "issue": "Limited Access to Customers and User Feedback",
+   "outward_action": "MA-E-011-26",
+   "who_it_goes_to": "Whoever owns the customer or user relationship",
+   "external_chips": 9
+  },
+  {
+   "issue_file": "MA-E-012",
+   "issue": "Meeting Overload and Interruptions",
+   "outward_action": "MA-E-012-27",
+   "who_it_goes_to": "Whoever leads the teams sending the requests",
+   "external_chips": 3
+  },
+  {
+   "issue_file": "MA-E-013",
+   "issue": "Missing Tools and Access (Permissions, Licenses)",
+   "outward_action": "MA-E-013-27",
+   "who_it_goes_to": "Whoever approves access and licences",
+   "external_chips": 13
+  },
+  {
+   "issue_file": "MA-E-016",
+   "issue": "Remote and Hybrid Enablement Gaps",
+   "outward_action": "MA-E-016-27",
+   "who_it_goes_to": "Whoever sets working patterns or locations for the teams involved",
+   "external_chips": 5
+  },
+  {
+   "issue_file": "MA-E-018",
+   "issue": "Siloed Information and Knowledge Management",
+   "outward_action": "MA-E-018-27",
+   "who_it_goes_to": "Whoever owns the information or system the team depends on",
+   "external_chips": 7
+  },
+  {
+   "issue_file": "MA-E-020",
+   "issue": "Unclear Roles and Decision Rights (RACI)",
+   "outward_action": "MA-E-020-27",
+   "who_it_goes_to": "Whoever sits above all the parties to the decision",
+   "external_chips": 8
+  },
+  {
+   "issue_file": "MA-L-082",
+   "issue": "Employee Burnout and Stress",
+   "outward_action": "MA-L-082-28",
+   "who_it_goes_to": "Whoever commits new work to this team",
+   "external_chips": 3
+  },
+  {
+   "issue_file": "MA-L-087",
+   "issue": "Lack of Manager Support and Encouragement",
+   "outward_action": "MA-L-087-28",
+   "who_it_goes_to": "Your own manager",
+   "external_chips": 3
+  },
+  {
+   "issue_file": "MA-L-088",
+   "issue": "Lack of Reinforcement and Follow-Up (Forgetting Curve)",
+   "outward_action": "MA-L-088-28",
+   "who_it_goes_to": "Whoever sets this team's deadlines",
+   "external_chips": 1
+  },
+  {
+   "issue_file": "MA-L-089",
+   "issue": "Limited Training Resources and Budget",
+   "outward_action": "MA-L-089-26",
+   "who_it_goes_to": "Whoever holds the development budget",
+   "external_chips": 12
+  },
+  {
+   "issue_file": "MA-L-092",
+   "issue": "One-Size-Fits-All Training Programs",
+   "outward_action": "MA-L-092-29",
+   "who_it_goes_to": "Whoever runs or buys the training programme",
+   "external_chips": 3
+  },
+  {
+   "issue_file": "MA-L-097",
+   "issue": "Time Constraints and Heavy Workload",
+   "outward_action": "MA-L-097-28",
+   "who_it_goes_to": "Whoever sets this team's delivery commitments",
+   "external_chips": 4
+  },
+  {
+   "issue_file": "MA-L-099",
+   "issue": "Unclear Learning Needs and Skill Gaps",
+   "outward_action": "MA-L-099-28",
+   "who_it_goes_to": "Whoever decides this team's makeup or hiring",
+   "external_chips": 6
+  },
+  {
+   "issue_file": "MA-OP-104",
+   "issue": "Heavy Workloads and Burnout Hindering Development",
+   "outward_action": "MA-OP-104-26",
+   "who_it_goes_to": "Whoever sets this team's workload",
+   "external_chips": 1
+  },
+  {
+   "issue_file": "MA-OP-107",
+   "issue": "Insufficient Training and Development Programs",
+   "outward_action": "MA-OP-107-28",
+   "who_it_goes_to": "Whoever holds the development budget",
+   "external_chips": 1
+  },
+  {
+   "issue_file": "MA-OP-109",
+   "issue": "Lack of Support for Upskilling and Further Education",
+   "outward_action": "MA-OP-109-26",
+   "who_it_goes_to": "Whoever sets the policy on learning time",
+   "external_chips": 3
+  },
+  {
+   "issue_file": "MA-OP-110",
+   "issue": "Limited Promotion Opportunities",
+   "outward_action": "MA-OP-110-25",
+   "who_it_goes_to": "Whoever decides promotions for this team",
+   "external_chips": 3
+  },
+  {
+   "issue_file": "MA-OP-112",
+   "issue": "Poor Communication of Internal Opportunities",
+   "outward_action": "MA-OP-112-28",
+   "who_it_goes_to": "Whoever handles internal vacancies",
+   "external_chips": 1
+  },
+  {
+   "issue_file": "MA-OP-115",
+   "issue": "Restricted Internal Mobility (Limited Lateral Moves)",
+   "outward_action": "MA-OP-115-26",
+   "who_it_goes_to": "Whoever sets the rules on internal moves",
+   "external_chips": 2
+  },
+  {
+   "issue_file": "MA-OP-117",
+   "issue": "Unclear Career Paths and Progression",
+   "outward_action": "MA-OP-117-27",
+   "who_it_goes_to": "Whoever owns career frameworks for this role",
+   "external_chips": 7
+  },
+  {
+   "issue_file": "MA-R-023",
+   "issue": "Cross-Functional Reflection and Collaboration",
+   "outward_action": "MA-R-023-27",
+   "who_it_goes_to": "Whoever leads the other function",
+   "external_chips": 4
+  },
+  {
+   "issue_file": "MA-R-027",
+   "issue": "Innovation Reflection and Experimentation",
+   "outward_action": "MA-R-027-28",
+   "who_it_goes_to": "Whoever approves new work",
+   "external_chips": 1
+  },
+  {
+   "issue_file": "MA-R-035",
+   "issue": "Strategy Reflection and OKR Alignment",
+   "outward_action": "MA-R-035-28",
+   "who_it_goes_to": "Whoever sets this team's objectives",
+   "external_chips": 11
+  },
+  {
+   "issue_file": "MA-R-038",
+   "issue": "Values and Culture Reflection",
+   "outward_action": "MA-R-038-25",
+   "who_it_goes_to": "Whoever sets this team's measures or incentives",
+   "external_chips": 1
+  },
+  {
+   "issue_file": "MA-V-041",
+   "issue": "Blame Culture (vs. Just Culture)",
+   "outward_action": "MA-V-041-27",
+   "who_it_goes_to": "Whoever is reviewing or reporting the failure",
+   "external_chips": 1
+  },
+  {
+   "issue_file": "MA-V-118",
+   "issue": "Weak Team Connection and Belonging",
+   "outward_action": "MA-V-118-28",
+   "who_it_goes_to": "Whoever assigns work to this team",
+   "external_chips": 2
+  }
+ ]
+}

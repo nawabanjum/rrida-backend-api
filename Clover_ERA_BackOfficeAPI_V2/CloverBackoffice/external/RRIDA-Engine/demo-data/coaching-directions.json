@@ -1,0 +1,588 @@
+{
+ "source": "the-19-coaching-directions-full-build.docx",
+ "count": 19,
+ "role": "Manager-facing label only. Deterministic spec 5.3: derived from the finished map, used in the interface and in Eran's phrasing, never read at runtime and never part of a calculation.",
+ "provisionalDimensions": [
+  "Communication",
+  "Reflection"
+ ],
+ "directions": [
+  {
+   "id": "CD-E1",
+   "name": "Ownership and Follow-Through",
+   "dimension": "Enablement",
+   "issueFiles": [
+    "MA-E-002",
+    "MA-E-004",
+    "MA-E-008",
+    "MA-E-020"
+   ],
+   "worksheets": [
+    "E6",
+    "E9",
+    "E3"
+   ],
+   "workedIf": "Every open blocker has a named owner and a due date on the board, visible to the team.",
+   "experiencing": "The team raised a problem and the system did not pick it up. A blocker sits. An escalation is ignored. An approval stalls. A fix reverts because there is no maintenance loop. The team flagged something and nothing changed. The chip set that feeds it: no clear owner, nobody owns it, escalation ignored, waiting on approval, sat for days, stuck in queue, fixed then returns, raised then nothing.",
+   "coachingDirection": "Navigate toward ownership assignment, follow-through mechanisms, and bottleneck removal. The chip signal tells you which of three failure modes you are solving for: no owner assigned (decision-rights gap), approval stalling (process bottleneck), or the fix reverting (no maintenance loop). Choose the intervention from the specific chip, not the general direction. The manager's job is to name the owner and set a date, in writing, where the team can see it. That naming is the signal to the team that an obstacle is being worked.",
+   "boundary": "Not CD-E4. E1 is a specific raised problem with no owner. E4 is the ambient overload where everything is urgent and nothing is ranked. If the manager says \"we have a lot of things,\" that is E4. If the manager says \"this one thing got dropped,\" that is E1.",
+   "provisional": false
+  },
+  {
+   "id": "CD-E2",
+   "name": "Calendar and Attention",
+   "dimension": "Enablement",
+   "issueFiles": [
+    "MA-E-001",
+    "MA-E-012"
+   ],
+   "worksheets": [
+    "E1",
+    "E9"
+   ],
+   "workedIf": "The team has a protected deep-work block each day (minimum 90 minutes) with notifications off, and the block is not cancelled or colonized by meetings.",
+   "experiencing": "The team cannot find an uninterrupted block of time. Meetings all day. Constant pings. Calendar fragmented. The real work happens after hours or on weekends. Chips: meetings all day, constant pings, fragmented calendar, focus after hours, pulled off task, meetings eat time.",
+   "coachingDirection": "Navigate toward meeting hygiene, notification discipline, and protected deep-work structures. The chip signal separates meeting volume (meetings all day, fragmented calendar) from ad-hoc interruptions (constant pings, pulled off task) from structural calendar design (focus after hours means there is no daytime focus). Intervene at the calendar layer, not the willpower layer. This is a system design problem, not a time-management problem.",
+   "boundary": "Not CD-E4. E2 is time fragmentation. E4 is task overload. A person can have a full day of focus and still be overloaded (E4), or have a broken day but a manageable list (E2). Ask which is failing.",
+   "provisional": false
+  },
+  {
+   "id": "CD-E3",
+   "name": "Tooling and Environment",
+   "dimension": "Enablement",
+   "issueFiles": [
+    "MA-E-003",
+    "MA-E-005",
+    "MA-E-006",
+    "MA-E-013"
+   ],
+   "worksheets": [
+    "E5",
+    "E2"
+   ],
+   "workedIf": "The named workflow runs without a manual workaround, and the person moves from \"the tool makes me slower\" to \"the tool helps me move faster.\"",
+   "experiencing": "The systems the team works in create friction they cannot fix themselves. Too many tools, manual workarounds, slow or down infrastructure, access denied, conflicting data, rekeying everything. The person works around the tools rather than with them. Chips: too many tools, manual workarounds, slow or down, access denied, conflicting data, rekeying everything, tools fight me.",
+   "coachingDirection": "Navigate toward tool rationalisation, access provisioning, and workflow simplification. The chip signal separates volume (too many tools, rekeying), reliability (slow or down, access denied), and design (conflicting data, manual workarounds). Intervene on the environment, not the person's workflow. The person is not slow because they do not know how to work; they are slow because the tooling is fighting them.",
+   "boundary": "Not CD-E4. E3 is friction in the working environment. E4 is the quantity of the work. A team can have perfect tools and still be overloaded (E4), or few tools and manageable scope (E3).",
+   "provisional": false
+  },
+  {
+   "id": "CD-E4",
+   "name": "Priority, Capacity, and Process",
+   "dimension": "Enablement",
+   "issueFiles": [
+    "MA-E-001",
+    "MA-E-002",
+    "MA-E-009"
+   ],
+   "worksheets": [
+    "E9",
+    "E6"
+   ],
+   "workedIf": "The team works from a single prioritised list and says no to anything off it, and a person can name the top three things without hesitation.",
+   "experiencing": "The team is overloaded because nothing is ranked and the process creates rework. Everything is urgent so nothing is. Priorities change daily. Too many requests, no way to decline, something always slips. Too much process, constant switching, rework every time. Chips: everything urgent, priorities change daily, too many requests, could not decline, something always slips, too much process, constant switching, rework every time.",
+   "coachingDirection": "Navigate toward priority clarity, capacity boundaries, and process reduction. The chip signal separates ambiguity (everything urgent, priorities change daily) from capacity (too many requests, no way to decline) from process design (switching, rework, bureaucracy). Intervene on the system that creates the load, not the team's resilience. The person is not weak because they cannot do everything; the system is broken because it is asking for everything.",
+   "boundary": "Not CD-E1, CD-E2, or CD-E3. E4 is the ambient condition of the load, not a single dropped problem (E1), not the fragmentation of the day (E2), and not the friction of the tools (E3). If the manager can name a specific dropped item, start with E1. If they can name a specific broken tool, start with E3. If they can only say \"we're drowning,\" that is E4.",
+   "provisional": false
+  },
+  {
+   "id": "CD-L1",
+   "name": "Learning Time and Resourcing",
+   "dimension": "Learning",
+   "issueFiles": [
+    "MA-L-089",
+    "MA-L-092",
+    "MA-L-096",
+    "MA-L-097"
+   ],
+   "worksheets": [
+    "L4",
+    "L6",
+    "L10"
+   ],
+   "workedIf": "Learning has a protected calendar slot each week (minimum two hours) and a named budget, and the person can name one thing they learned this month and one thing they are learning next month.",
+   "experiencing": "Learning is not resourced. No protected time, no budget, and the system signals that delivery comes first. The course is half-done because there was no time. The request is ignored. Learning happens after hours or not at all. Chips: straight to next, calendar full, learn after hours, no pause, interrupted constantly, deadline pressure, no budget, request ignored, actively discouraged, learning cut first.",
+   "coachingDirection": "Navigate toward scheduling, funding, and explicit priority signals. The chip signal separates time (no pause, calendar full, deadline pressure) from money (no budget, request ignored) from culture (actively discouraged, delivery comes first). Intervene at the structural layer, not the individual motivation layer. This is not a person who does not want to learn; this is a system that does not make space for learning.",
+   "boundary": "Not CD-L2. L1 is the resourcing of learning as a category. L2 is whether the role itself is growing. A person can have a full learning budget and a role that has stopped stretching (L2), or no budget and a role that is demanding new skill (L1).",
+   "provisional": false
+  },
+  {
+   "id": "CD-L2",
+   "name": "Growth and Challenge in the Role",
+   "dimension": "Learning",
+   "issueFiles": [
+    "MA-L-096",
+    "MA-L-099",
+    "MA-OP-110",
+    "MA-OP-115"
+   ],
+   "worksheets": [
+    "L1",
+    "L7",
+    "OP14"
+   ],
+   "workedIf": "A stretch assignment is live for the role and the person can name it, and the assignment requires the person to learn something new, not just do what they already know.",
+   "experiencing": "The role has stopped growing. The person is doing the same work and the skills are degrading. No stretch, no new challenge, no evolution. The role feels capped. The person is coasting, not because they do not want to grow, but because the work is not asking them to. Chips: same work daily, skills going stale, no challenge.",
+   "coachingDirection": "Navigate toward stretch assignments, task rotation, and role evolution. This is a work-design problem, not a learning-resources problem. The chip set is narrow here, so confirm with the manager what the next step in the role would look like before selecting an intervention. Is this someone who needs a stretch assignment, a project that requires learning, or a skill they have been wanting to build?",
+   "boundary": "Not CD-O1. L2 is growth inside the current role. O1 is the path to the next role. A person can have a stretch assignment and no path to the next role (L2 without O1), or a clear path and a role that has stopped stretching (O1 without L2).",
+   "provisional": false
+  },
+  {
+   "id": "CD-L3",
+   "name": "Learning from Failure",
+   "dimension": "Learning",
+   "issueFiles": [
+    "MA-L-088",
+    "MA-R-021",
+    "MA-V-041",
+    "MA-V-051",
+    "MA-V-052"
+   ],
+   "worksheets": [
+    "R4",
+    "V7",
+    "V2"
+   ],
+   "workedIf": "A miss gets a blameless debrief with a named cause before the next cycle, and the cause is not a person. The team can name one thing they learned from the last miss.",
+   "experiencing": "The team hits a miss and the learning is lost. No debrief, no analysis, no loop. The person moves straight on. Same mistake again. Nobody debriefed. The failure is blamed, not analysed. The emotional sting is all that remains. Chips: moved straight on, no review, same mistake again, nobody debriefed, blamed not analysed, just felt bad.",
+   "coachingDirection": "Navigate toward after-action review structures, blameless postmortems, and reinforcement of what was learned. The chip signal separates the absence of a process (no review, nobody debriefed) from the presence of a punitive one (blamed not analysed). If it is punitive, the intervention is cultural before it is procedural. The manager's language matters. \"What happened?\" and \"Why did this happen?\" are not the same question. The first blames. The second learns.",
+   "boundary": "Not CD-L2. L3 is what happens after a miss. L2 is whether the role is growing. A team can have a role that is stretching and no debrief culture (L2 without L3), or a debrief culture and a role that is not stretching (L3 without L2).",
+   "provisional": false
+  },
+  {
+   "id": "CD-L4",
+   "name": "Mentorship and Development Support",
+   "dimension": "Learning",
+   "issueFiles": [
+    "MA-C-069",
+    "MA-L-083",
+    "MA-L-086",
+    "MA-OP-108"
+   ],
+   "worksheets": [
+    "OP4",
+    "L3",
+    "V3"
+   ],
+   "workedIf": "The person has a named mentor or reviewer with a set cadence, and the feedback they receive is specific enough to act on, not generic.",
+   "experiencing": "The person is developing in isolation. No mentor, no feedback loop, no external perspective. The guidance they get is vague or off-base. The feedback does not land. The person does not know what to work on or how to improve. Chips: no mentor, no feedback.",
+   "coachingDirection": "Navigate toward mentorship structures, peer review, and feedback cadences. The chip signal is narrow here, so confirm with the manager whether this is a single-person gap or a team-wide absence before selecting an intervention. Is this person ready for a mentor, or do they need feedback first? Is the feedback they are getting wrong, or is there no feedback at all?",
+   "boundary": "Not CD-L2. L4 is the support structure around growth. L2 is the growth itself. A person can have a great mentor and a role that is not stretching (L4 without L2), or a role that is stretching and no one to talk to about it (L2 without L4).",
+   "provisional": false
+  },
+  {
+   "id": "CD-O1",
+   "name": "Growth Path and Sponsorship",
+   "dimension": "Opportunity",
+   "issueFiles": [
+    "MA-OP-106",
+    "MA-OP-110",
+    "MA-OP-111",
+    "MA-OP-117"
+   ],
+   "worksheets": [
+    "OP1",
+    "OP6",
+    "OP2"
+   ],
+   "workedIf": "The person can name the next step in their path, the criteria for reaching it, and the date it is expected to be reviewed, and the manager has named themselves as the sponsor in writing.",
+   "experiencing": "The person cannot see a future here. The role is capped, the next step is not defined, and no one is advocating for them when the decision is made. The ask was made, deferred, and not followed up. Then the person stopped asking. Chips: no path forward, asked and deferred, nobody advocating, capped role, next step unclear.",
+   "coachingDirection": "Navigate toward path definition, sponsorship, and honest constraint-naming. The chip signal separates the absence of a path (no path forward, capped role) from the absence of a sponsor (nobody advocating, asked and deferred) from the absence of honesty (the path exists but the manager has not said it). If the path exists and the manager has not said it, the intervention is the conversation. If the path does not exist, the intervention is either building it or being honest that it is not there and helping the person move.",
+   "boundary": "Not CD-L2. O1 is the path to the next role. L2 is the growth inside the current role. A person can have a clear path and a role that is not stretching (O1 without L2), or a role that is stretching and no path (L2 without O1).",
+   "provisional": false
+  },
+  {
+   "id": "CD-O2",
+   "name": "Impact and Idea Voice",
+   "dimension": "Opportunity",
+   "issueFiles": [
+    "MA-C-069",
+    "MA-OP-105",
+    "MA-R-032"
+   ],
+   "worksheets": [
+    "OP9",
+    "R14",
+    "C15"
+   ],
+   "workedIf": "The person's contribution is named in at least one visible surface (team update, project debrief, or 1:1 note) within the current cycle, and the credit is specific to the task, not generic to the person.",
+   "experiencing": "The person's ideas are not reaching the decisions that matter. They contribute, the contribution is not visible, and the person starts to stop contributing. The credit goes elsewhere, or to the role, or to the team, not to the person. Chips: ideas not heard, contribution invisible, credit went elsewhere, stopped contributing, my work doesn't count.",
+   "coachingDirection": "Navigate toward visibility structures, credit attribution, and idea capture. The chip signal separates the absence of a channel (ideas not heard) from the absence of credit (credit went elsewhere) from the absence of impact (my work doesn't count). If the channel exists and the credit is not landing, the intervention is the credit conversation. If the channel does not exist, the intervention is the structure. If the impact is not visible, the intervention is the outcome tracking.",
+   "boundary": "Not CD-L4. O2 is the visibility of the person's contribution to the team's outcomes. L4 is the support structure around the person's growth. A person can have a great mentor and invisible contribution (L4 without O2), or visible contribution and no mentor (O2 without L4).",
+   "provisional": false
+  },
+  {
+   "id": "CD-O3",
+   "name": "Trust and Autonomy",
+   "dimension": "Opportunity",
+   "issueFiles": [
+    "MA-E-010",
+    "MA-OP-116",
+    "MA-V-058"
+   ],
+   "worksheets": [
+    "E3",
+    "E6",
+    "V5"
+   ],
+   "workedIf": "The person has made at least one decision in the current cycle without seeking approval, and the manager did not take it back, and the team can name the guardrails that apply.",
+   "experiencing": "The person has stopped taking initiative because the last time they did, it was taken back, questioned, or undone. They wait for permission on things they should be deciding. They do the minimum and stop, because the minimum is safe. Chips: waiting for approval, taking back decisions, stopped taking initiative, doing the minimum, can't decide without asking.",
+   "coachingDirection": "Navigate toward autonomy transfer, guardrail definition, and decision-rights clarity. The chip signal separates the absence of permission (waiting for approval) from the presence of a take-back (taking back decisions) from the absence of a guardrail (can't decide without asking). If the manager is taking decisions back, the intervention is the manager's behaviour, not the team's. If the guardrails are not defined, the intervention is the guardrail conversation. If the permission is not given, the intervention is the delegation.",
+   "boundary": "Not CD-E1. O3 is the standing trust between manager and team on who decides what. E1 is a specific dropped problem. A team can have full autonomy and a dropped problem (O3 without E1), or a clean ownership chain and no autonomy (E1 without O3).",
+   "provisional": false
+  },
+  {
+   "id": "CD-R1",
+   "name": "Psychological Safety and Speaking Up",
+   "dimension": "Vulnerability",
+   "issueFiles": [
+    "MA-V-045",
+    "MA-V-047",
+    "MA-V-048",
+    "MA-V-050"
+   ],
+   "worksheets": [
+    "V1",
+    "V5",
+    "V8"
+   ],
+   "workedIf": "At least one team member has raised a real problem (not a safe one) in the current cycle, and the manager's first response was curiosity, not defence, and the team can name what happened next.",
+   "experiencing": "The team is not saying what they are actually thinking. The answers in the 1:1 are the safe answers. The real answer is in the after-meeting conversation, in the message that is not sent, in the silence. The person is managing the manager's perception, not raising the problem. Chips: not saying what I think, managing your perception, safe answer, silence, after-meeting talk.",
+   "coachingDirection": "Navigate toward psychological safety, speaking-up structures, and the manager's own response pattern. The chip signal separates the absence of safety (not saying what I think) from the presence of a punitive response (safe answer, managing perception) from the absence of a structure (silence, after-meeting talk). If the manager's response to the last raised issue was the problem, the intervention is the manager's response, not the team's. If the structure does not exist, the intervention is the structure. If the safety is not there, the intervention is the safety work, which is slower and more fundamental.",
+   "boundary": "Not CD-L3. R1 is whether the team can surface the problem at all. L3 is what happens after the problem is surfaced and a miss has occurred. A team can have full safety and no debrief culture (R1 without L3), or a debrief culture and no safety (L3 without R1).",
+   "provisional": false
+  },
+  {
+   "id": "CD-R2",
+   "name": "Blame Culture and Punitive Systems",
+   "dimension": "Vulnerability",
+   "issueFiles": [
+    "MA-V-041",
+    "MA-V-053",
+    "MA-V-054",
+    "MA-V-058"
+   ],
+   "worksheets": [
+    "V7",
+    "V2",
+    "V5"
+   ],
+   "workedIf": "The team has run at least one debrief in the current cycle where no person was named as the cause, and the manager's first sentence was \"what happened,\" not \"whose fault,\" and the team can name what was different.",
+   "experiencing": "The team's response to a miss is blame. The first question is \"whose fault?\" not \"what happened?\" The person who raised the problem is the one who gets penalised. The team has learned that the cost of honesty is higher than the cost of silence. Chips: whose fault, penalised for raising, cost of honesty higher, team learned silence is safe, blame not analysis.",
+   "coachingDirection": "Navigate toward the removal of the punitive response, the separation of learning from performance consequence, and the manager's own first-sentence pattern. The chip signal is narrow here: the problem is the response, not the absence of a structure. The intervention is cultural and it starts with the manager. The manager's job is to say, in the room, that the debrief is not a performance review, and then to mean it, and then to repeat it until the team believes it.",
+   "boundary": "Not CD-R1. R2 is the presence of a punitive response. R1 is the absence of safety. A team can have no explicit punishment and still no safety (R1 without R2), or explicit punishment and a team that has adapted to it (R2 without R1). If the manager says \"we don't have a blame culture\" but the team is not speaking up, that is R1, not R2.",
+   "provisional": false
+  },
+  {
+   "id": "CD-R3",
+   "name": "Trust Erosion and Confidence Repair",
+   "dimension": "Vulnerability",
+   "issueFiles": [
+    "MA-C-071",
+    "MA-V-042",
+    "MA-V-047"
+   ],
+   "worksheets": [
+    "V4",
+    "V1",
+    "C3"
+   ],
+   "workedIf": "The manager has named their own specific failure in the current cycle, said what they should have done, and said what they will do differently, and the team can name what was different in the conversation.",
+   "experiencing": "The team's trust in the manager has declined, and it is not because of one event. It is because of the accumulated pattern: the promise that was not kept, the decision that was made without them, the credit that went elsewhere, the problem that was raised and not addressed. The team is still present, but the investment is gone. Chips: trust declining, promise not kept, decision made without us, investment gone, still present but disengaged.",
+   "coachingDirection": "Navigate toward the specific broken promise, the decision that was made without the team, or the credit that was not given, and the repair conversation. The chip signal will tell you which of the three. The repair is not a general \"let's rebuild trust\" conversation. It is a specific \"here is what I did, here is what I should have done, here is what I will do differently\" conversation, and it is the manager who says it, not the team. The manager names their own failure first. That is the repair.",
+   "boundary": "Not CD-R1 or CD-R2. R3 is the repair of a specific broken trust. R1 is the absence of safety. R2 is the presence of a punitive response. A team can have no safety and no specific broken trust (R1 without R3), or a specific broken trust and no safety issue (R3 without R1). If the manager can name the specific event, start with R3. If they cannot, start with R1.",
+   "provisional": false
+  },
+  {
+   "id": "CD-C1",
+   "name": "Being Heard and Two-Way Flow",
+   "dimension": "Communication",
+   "issueFiles": [
+    "MA-C-063",
+    "MA-C-075",
+    "MA-C-077"
+   ],
+   "worksheets": [
+    "C2",
+    "C6",
+    "C1"
+   ],
+   "workedIf": "At least one team member's input has been acted on, or the reason it will not be acted on has been said in the room, in the current cycle, and the team can name what happened.",
+   "experiencing": "The team does not feel heard. The information flows down, not up. The person raises something in the 1:1 and it does not change. The person raises it in the meeting and the manager moves on. The person starts to stop raising it. Chips: not heard, information only comes down, raised and moved on, stopped raising, my input doesn't change anything.",
+   "coachingDirection": "Navigate toward two-way structures, the manager's listening pattern, and the specific instance where the team's input was not acted on. The chip signal separates the absence of a channel (not heard) from the presence of a channel that is not used (raised and moved on) from the absence of a follow-through (stopped raising). If the channel exists and the input is not acted on, the intervention is the follow-through. If the channel does not exist, the intervention is the structure. If the team has stopped raising, the intervention is the repair of the last instance, not the building of a new channel.",
+   "boundary": "Not CD-C2. C1 is the two-way flow of information. C2 is the information reaching the right people at the right time. A team can have full two-way flow and information still not reaching the right people (C1 without C2), or information reaching the right people and no two-way flow (C2 without C1).",
+   "provisional": true,
+   "provenanceNote": "Provenance flag: the locked register in my notes does not carry the exact IDs or issue-file pools for the Communication directions. The three below are reconstructed from the CLOVER Communication definition, the 12 Communication worksheets, and the 20 Communication micro-actions. Confirm which of these are the locked ones and hand me the exact IDs so I can wire the issue-file pools to the register."
+  },
+  {
+   "id": "CD-C2",
+   "name": "Information Flow and Transparency",
+   "dimension": "Communication",
+   "issueFiles": [
+    "MA-C-065",
+    "MA-C-070",
+    "MA-C-076",
+    "MA-C-078"
+   ],
+   "worksheets": [
+    "C3",
+    "C4",
+    "C1"
+   ],
+   "workedIf": "The team has received the context for at least one decision in the current cycle before making the decision, and the team can name what the context was and how it changed their approach.",
+   "experiencing": "The information is not reaching the right people at the right time. The team is finding out about decisions after they are made. The context is missing, so the team is filling the gap with assumptions. The information is reaching some people and not others, and the ones who do not have it are working on a different version of the problem. Chips: finding out after, context missing, different version, information silo, not in the loop.",
+   "coachingDirection": "Navigate toward the information flow structure, the point where the information is being lost, and the specific instance where the team was working on a different version of the problem. The chip signal separates the absence of a flow (not in the loop) from the presence of a flow that is distorted (different version) from the presence of a flow that is incomplete (context missing). If the flow does not exist, the intervention is the structure. If it is distorted, the intervention is the message accuracy. If it is incomplete, the intervention is the context.",
+   "boundary": "Not CD-C1. C2 is the information reaching the right people. C1 is the team's input reaching the manager. A team can have full information flow and no two-way input (C2 without C1), or full two-way input and no information flow (C1 without C2).",
+   "provisional": true,
+   "provenanceNote": "Provenance flag: the locked register in my notes does not carry the exact IDs or issue-file pools for the Communication directions. The three below are reconstructed from the CLOVER Communication definition, the 12 Communication worksheets, and the 20 Communication micro-actions. Confirm which of these are the locked ones and hand me the exact IDs so I can wire the issue-file pools to the register."
+  },
+  {
+   "id": "CD-C3",
+   "name": "Feedback Culture",
+   "dimension": "Communication",
+   "issueFiles": [
+    "MA-C-069",
+    "MA-C-077",
+    "MA-V-057"
+   ],
+   "worksheets": [
+    "C15",
+    "V3",
+    "OP9"
+   ],
+   "workedIf": "The team has received at least one specific piece of feedback (named behaviour, named impact, named change) in the current cycle, and the person can name what the feedback was and what they are doing differently.",
+   "experiencing": "The feedback is not happening, or it is happening only in the review, or it is happening but it is not specific enough to act on. The person does not know where they stand until the review, and by then it is too late. The positive feedback is absent. The constructive feedback is avoided. The team is guessing. Chips: no feedback, only in review, not specific enough, positive feedback absent, guessing where I stand.",
+   "coachingDirection": "Navigate toward the feedback cadence, the specificity of the feedback, and the manager's own feedback pattern. The chip signal separates the absence of feedback (no feedback) from the absence of specificity (not specific enough) from the absence of positive feedback (positive feedback absent). If the feedback is not happening, the intervention is the cadence. If it is happening but not specific, the intervention is the SBI structure. If the positive feedback is absent, the intervention is the recognition, which is the team-level read of what specific positive feedback does.",
+   "boundary": "Not CD-O2. C3 is the feedback the person receives about their work. O2 is the visibility of the person's contribution to the team's outcomes. A person can have full feedback and invisible contribution (C3 without O2), or visible contribution and no feedback (O2 without C3).",
+   "provisional": true,
+   "provenanceNote": "Provenance flag: the locked register in my notes does not carry the exact IDs or issue-file pools for the Communication directions. The three below are reconstructed from the CLOVER Communication definition, the 12 Communication worksheets, and the 20 Communication micro-actions. Confirm which of these are the locked ones and hand me the exact IDs so I can wire the issue-file pools to the register."
+  },
+  {
+   "id": "CD-R4",
+   "name": "Lessons Acted On and Closed Loops",
+   "dimension": "Reflection",
+   "issueFiles": [
+    "MA-R-021",
+    "MA-R-022",
+    "MA-R-036",
+    "MA-V-051"
+   ],
+   "worksheets": [
+    "R2",
+    "R4",
+    "R6"
+   ],
+   "workedIf": "At least one action from the last retro has been done, and the team can name what the action was, who did it, and what was different in the work as a result.",
+   "experiencing": "The team is identifying the same issues repeatedly. The retro happened, the actions were written, and the actions were not done. The learning is not producing change. The team is reflecting, but the reflection is not closing the loop. The same problem is back three weeks later, and the team is starting to believe that the retro is a formality, not a mechanism. Chips: same issue again, retro happened but nothing changed, learning not producing action, actions not done, formality not mechanism.",
+   "coachingDirection": "Navigate toward the specific action that was not done, the reason it was not done, and the structure that will make the next action happen. The chip signal separates the absence of an action (no action written) from the presence of an action that was not done (action written but not done) from the presence of a structure that is not working (same issue again). If the action was not written, the intervention is the action-writing structure. If it was written and not done, the intervention is the follow-through. If the structure is not working, the intervention is the structure itself.",
+   "boundary": "Not CD-L3. R4 is the loop from reflection to action. L3 is the debrief of a specific miss. A team can have a full debrief culture and no loop to action (L3 without R4), or a full loop to action and no debrief culture (R4 without L3).",
+   "provisional": true,
+   "provenanceNote": "Provenance flag: the locked register in my notes does not carry the exact IDs or issue-file pools for the Reflection directions. The two below are reconstructed from the CLOVER Reflection definition, the 9 Reflection worksheets, and the 20 Reflection micro-actions. Confirm which of these are the locked ones and hand me the exact IDs so I can wire the issue-file pools to the register."
+  },
+  {
+   "id": "CD-R5",
+   "name": "Pattern Awareness and Recurring Issues",
+   "dimension": "Reflection",
+   "issueFiles": [
+    "MA-R-022",
+    "MA-R-026",
+    "MA-R-031",
+    "MA-R-039"
+   ],
+   "worksheets": [
+    "R4",
+    "R8",
+    "R14"
+   ],
+   "workedIf": "The team has named the recurring issue, the layer at which it is occurring, and the specific change that will address it at the right layer, in the current cycle, and the team can name what was different in the way they approached it.",
+   "experiencing": "The team is not seeing the pattern. The same issue is coming up in different forms, and the team is treating each one as a new problem rather than a recurring one. The team is reflecting, but the reflection is not producing pattern awareness. The team is solving symptoms, not causes. The same issue is back, and the team is starting to believe that the issue is not solvable, rather than that the team is not looking at the right layer. Chips: same issue different form, treating as new, solving symptoms not causes, not seeing pattern, issue not solvable.",
+   "coachingDirection": "Navigate toward the specific recurring issue, the layer at which it is occurring, and the structure that will make the team see the pattern. The chip signal separates the absence of pattern awareness (treating as new) from the presence of a pattern that is not being addressed (solving symptoms) from the absence of a structure that would surface the pattern (issue not solvable). If the team is not seeing the pattern, the intervention is the pattern-surfacing structure. If the pattern is visible and not addressed, the intervention is the cause analysis. If the team believes the issue is not solvable, the intervention is the layer shift.",
+   "boundary": "Not CD-R4. R5 is the pattern across multiple cycles. R4 is the loop from a single reflection to a single action. A team can have a full loop to action and no pattern awareness (R4 without R5), or pattern awareness and no loop to action (R5 without R4).",
+   "provisional": true,
+   "provenanceNote": "Provenance flag: the locked register in my notes does not carry the exact IDs or issue-file pools for the Reflection directions. The two below are reconstructed from the CLOVER Reflection definition, the 9 Reflection worksheets, and the 20 Reflection micro-actions. Confirm which of these are the locked ones and hand me the exact IDs so I can wire the issue-file pools to the register."
+  }
+ ],
+ "byIssueFile": {
+  "MA-C-063": [
+   "CD-C1"
+  ],
+  "MA-C-065": [
+   "CD-C2"
+  ],
+  "MA-C-069": [
+   "CD-L4",
+   "CD-O2",
+   "CD-C3"
+  ],
+  "MA-C-070": [
+   "CD-C2"
+  ],
+  "MA-C-071": [
+   "CD-R3"
+  ],
+  "MA-C-075": [
+   "CD-C1"
+  ],
+  "MA-C-076": [
+   "CD-C2"
+  ],
+  "MA-C-077": [
+   "CD-C1",
+   "CD-C3"
+  ],
+  "MA-C-078": [
+   "CD-C2"
+  ],
+  "MA-E-001": [
+   "CD-E2",
+   "CD-E4"
+  ],
+  "MA-E-002": [
+   "CD-E1",
+   "CD-E4"
+  ],
+  "MA-E-003": [
+   "CD-E3"
+  ],
+  "MA-E-004": [
+   "CD-E1"
+  ],
+  "MA-E-005": [
+   "CD-E3"
+  ],
+  "MA-E-006": [
+   "CD-E3"
+  ],
+  "MA-E-008": [
+   "CD-E1"
+  ],
+  "MA-E-009": [
+   "CD-E4"
+  ],
+  "MA-E-010": [
+   "CD-O3"
+  ],
+  "MA-E-012": [
+   "CD-E2"
+  ],
+  "MA-E-013": [
+   "CD-E3"
+  ],
+  "MA-E-020": [
+   "CD-E1"
+  ],
+  "MA-L-083": [
+   "CD-L4"
+  ],
+  "MA-L-086": [
+   "CD-L4"
+  ],
+  "MA-L-088": [
+   "CD-L3"
+  ],
+  "MA-L-089": [
+   "CD-L1"
+  ],
+  "MA-L-092": [
+   "CD-L1"
+  ],
+  "MA-L-096": [
+   "CD-L1",
+   "CD-L2"
+  ],
+  "MA-L-097": [
+   "CD-L1"
+  ],
+  "MA-L-099": [
+   "CD-L2"
+  ],
+  "MA-OP-105": [
+   "CD-O2"
+  ],
+  "MA-OP-106": [
+   "CD-O1"
+  ],
+  "MA-OP-108": [
+   "CD-L4"
+  ],
+  "MA-OP-110": [
+   "CD-L2",
+   "CD-O1"
+  ],
+  "MA-OP-111": [
+   "CD-O1"
+  ],
+  "MA-OP-115": [
+   "CD-L2"
+  ],
+  "MA-OP-116": [
+   "CD-O3"
+  ],
+  "MA-OP-117": [
+   "CD-O1"
+  ],
+  "MA-R-021": [
+   "CD-L3",
+   "CD-R4"
+  ],
+  "MA-R-022": [
+   "CD-R4",
+   "CD-R5"
+  ],
+  "MA-R-026": [
+   "CD-R5"
+  ],
+  "MA-R-031": [
+   "CD-R5"
+  ],
+  "MA-R-032": [
+   "CD-O2"
+  ],
+  "MA-R-036": [
+   "CD-R4"
+  ],
+  "MA-R-039": [
+   "CD-R5"
+  ],
+  "MA-V-041": [
+   "CD-L3",
+   "CD-R2"
+  ],
+  "MA-V-042": [
+   "CD-R3"
+  ],
+  "MA-V-045": [
+   "CD-R1"
+  ],
+  "MA-V-047": [
+   "CD-R1",
+   "CD-R3"
+  ],
+  "MA-V-048": [
+   "CD-R1"
+  ],
+  "MA-V-050": [
+   "CD-R1"
+  ],
+  "MA-V-051": [
+   "CD-L3",
+   "CD-R4"
+  ],
+  "MA-V-052": [
+   "CD-L3"
+  ],
+  "MA-V-053": [
+   "CD-R2"
+  ],
+  "MA-V-054": [
+   "CD-R2"
+  ],
+  "MA-V-057": [
+   "CD-C3"
+  ],
+  "MA-V-058": [
+   "CD-O3",
+   "CD-R2"
+  ]
+ }
+}

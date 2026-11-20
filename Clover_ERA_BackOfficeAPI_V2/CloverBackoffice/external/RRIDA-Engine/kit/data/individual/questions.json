@@ -1,0 +1,542 @@
+[
+ {
+  "id": 191,
+  "text": "Are blockers cleared quickly when they come up?",
+  "element": "Enablement",
+  "track": "Individual"
+ },
+ {
+  "id": 187,
+  "text": "Are changes shared early enough for you to prepare?",
+  "element": "Communication",
+  "track": "Individual"
+ },
+ {
+  "id": 182,
+  "text": "When you struggle does it turn into real learning?",
+  "element": "Learning",
+  "track": "Individual"
+ },
+ {
+  "id": 177,
+  "text": "Do you have room to grow what you're responsible for?",
+  "element": "Opportunities",
+  "track": "Individual"
+ },
+ {
+  "id": 175,
+  "text": "Do meetings with your manager leave you clear on what's next?",
+  "element": "Communication",
+  "track": "Individual"
+ },
+ {
+  "id": 166,
+  "text": "Do you feel accepted for who you really are at work?",
+  "element": "Vulnerability",
+  "track": "Individual"
+ },
+ {
+  "id": 165,
+  "text": "Can you picture a future for yourself here?",
+  "element": "Opportunities",
+  "track": "Individual"
+ },
+ {
+  "id": 163,
+  "text": "Do you get the information you need in time to act on it?",
+  "element": "Communication",
+  "track": "Individual"
+ },
+ {
+  "id": 159,
+  "text": "Are you getting real chances to take on new challenges?",
+  "element": "Opportunities",
+  "track": "Individual"
+ },
+ {
+  "id": 158,
+  "text": "Do you feel encouraged to build new skills?",
+  "element": "Learning",
+  "track": "Individual"
+ },
+ {
+  "id": 155,
+  "text": "Do you have what you need to do your job well?",
+  "element": "Enablement",
+  "track": "Individual"
+ },
+ {
+  "id": 149,
+  "text": "Do you have real freedom over how you manage your work?",
+  "element": "Enablement",
+  "track": "Individual"
+ },
+ {
+  "id": 148,
+  "text": "Do you connect with colleagues in a way that feels real?",
+  "element": "Vulnerability",
+  "track": "Individual"
+ },
+ {
+  "id": 147,
+  "text": "Have you been nudged outside your comfort zone recently?",
+  "element": "Learning",
+  "track": "Individual"
+ },
+ {
+  "id": 142,
+  "text": "Do you feel genuinely understood by the people you work with?",
+  "element": "Vulnerability",
+  "track": "Individual"
+ },
+ {
+  "id": 141,
+  "text": "Do you feel supported to go for internal opportunities?",
+  "element": "Opportunities",
+  "track": "Individual"
+ },
+ {
+  "id": 139,
+  "text": "Has your work been noticed and acknowledged in the last few days?",
+  "element": "Communication",
+  "track": "Individual"
+ },
+ {
+  "id": 129,
+  "text": "Does your daily work line up with where you want your career to go?",
+  "element": "Opportunities",
+  "track": "Individual"
+ },
+ {
+  "id": 124,
+  "text": "When things get hard does your team actually have your back?",
+  "element": "Vulnerability",
+  "track": "Individual"
+ },
+ {
+  "id": 122,
+  "text": "Is your work stretching you or have you started coasting?",
+  "element": "Learning",
+  "track": "Individual"
+ },
+ {
+  "id": 121,
+  "text": "When plans change do you hear about it early enough to adjust?",
+  "element": "Communication",
+  "track": "Individual"
+ },
+ {
+  "id": 210,
+  "text": "Do you actually act on what your reflections tell you?",
+  "element": "Reflection",
+  "track": "Individual"
+ },
+ {
+  "id": 197,
+  "text": "Do you get enough focus time for work that matters?",
+  "element": "Enablement",
+  "track": "Individual"
+ },
+ {
+  "id": 194,
+  "text": "Is learning part of your normal day rather than an afterthought?",
+  "element": "Learning",
+  "track": "Individual"
+ },
+ {
+  "id": 179,
+  "text": "Can you prioritise your work without it falling apart?",
+  "element": "Enablement",
+  "track": "Individual"
+ },
+ {
+  "id": 174,
+  "text": "Do you pause to recognise the progress you've made?",
+  "element": "Reflection",
+  "track": "Individual"
+ },
+ {
+  "id": 173,
+  "text": "Is your workload actually manageable right now?",
+  "element": "Enablement",
+  "track": "Individual"
+ },
+ {
+  "id": 168,
+  "text": "Do you plan small changes to improve how you work?",
+  "element": "Reflection",
+  "track": "Individual"
+ },
+ {
+  "id": 164,
+  "text": "Do your tasks stretch you in a good way?",
+  "element": "Learning",
+  "track": "Individual"
+ },
+ {
+  "id": 162,
+  "text": "Do you regularly take stock of what's working?",
+  "element": "Reflection",
+  "track": "Individual"
+ },
+ {
+  "id": 156,
+  "text": "Have you raised a recurring challenge with your manager lately?",
+  "element": "Communication",
+  "track": "Individual"
+ },
+ {
+  "id": 152,
+  "text": "Have you learned something genuinely new through work this week?",
+  "element": "Learning",
+  "track": "Individual"
+ },
+ {
+  "id": 144,
+  "text": "Have you celebrated a win in the past week?",
+  "element": "Reflection",
+  "track": "Individual"
+ },
+ {
+  "id": 138,
+  "text": "Does your workload leave you any room to think?",
+  "element": "Enablement",
+  "track": "Individual"
+ },
+ {
+  "id": 137,
+  "text": "Do the ways you get work done actually feel good?",
+  "element": "Enablement",
+  "track": "Individual"
+ },
+ {
+  "id": 132,
+  "text": "Has your manager given you feedback worth reflecting on lately?",
+  "element": "Communication",
+  "track": "Individual"
+ },
+ {
+  "id": 128,
+  "text": "Have you put real time into your own growth lately?",
+  "element": "Learning",
+  "track": "Individual"
+ },
+ {
+  "id": 126,
+  "text": "Have you paused to reflect on your work this past week?",
+  "element": "Reflection",
+  "track": "Individual"
+ },
+ {
+  "id": 206,
+  "text": "Honestly are your skills moving forward in this role?",
+  "element": "Learning",
+  "track": "Individual"
+ },
+ {
+  "id": 204,
+  "text": "Do you talk through reflections with your colleagues?",
+  "element": "Reflection",
+  "track": "Individual"
+ },
+ {
+  "id": 198,
+  "text": "Have you discussed improving how you work with your team lately?",
+  "element": "Reflection",
+  "track": "Individual"
+ },
+ {
+  "id": 183,
+  "text": "Do your ideas get space to actually be explored?",
+  "element": "Opportunities",
+  "track": "Individual"
+ },
+ {
+  "id": 150,
+  "text": "Have you thought about your strengths and gaps recently?",
+  "element": "Reflection",
+  "track": "Individual"
+ },
+ {
+  "id": 135,
+  "text": "Have you talked about your next career step with your manager lately?",
+  "element": "Opportunities",
+  "track": "Individual"
+ },
+ {
+  "id": 205,
+  "text": "In conversations do you feel truly listened to?",
+  "element": "Communication",
+  "track": "Individual"
+ },
+ {
+  "id": 169,
+  "text": "Is the feedback you get clear enough to actually use?",
+  "element": "Communication",
+  "track": "Individual"
+ },
+ {
+  "id": 160,
+  "text": "Can you be honest about the challenges you're facing?",
+  "element": "Vulnerability",
+  "track": "Individual"
+ },
+ {
+  "id": 154,
+  "text": "Is it safe to admit when you need help?",
+  "element": "Vulnerability",
+  "track": "Individual"
+ },
+ {
+  "id": 136,
+  "text": "Can you talk openly about your mistakes without fear?",
+  "element": "Vulnerability",
+  "track": "Individual"
+ },
+ {
+  "id": 134,
+  "text": "Has recent feedback actually fuelled your growth?",
+  "element": "Learning",
+  "track": "Individual"
+ },
+ {
+  "id": 131,
+  "text": "How easily can you work with people outside your team?",
+  "element": "Enablement",
+  "track": "Individual"
+ },
+ {
+  "id": 202,
+  "text": "Can you admit you're unsure without being judged?",
+  "element": "Vulnerability",
+  "track": "Individual"
+ },
+ {
+  "id": 184,
+  "text": "Can you raise concerns with your team without holding back?",
+  "element": "Vulnerability",
+  "track": "Individual"
+ },
+ {
+  "id": 178,
+  "text": "Do leaders respond well when people are open and honest?",
+  "element": "Communication",
+  "track": "Individual"
+ },
+ {
+  "id": 176,
+  "text": "Are the resources you need to learn easy to reach?",
+  "element": "Learning",
+  "track": "Individual"
+ },
+ {
+  "id": 145,
+  "text": "Be honest: does speaking up here actually change anything?",
+  "element": "Communication",
+  "track": "Individual"
+ },
+ {
+  "id": 140,
+  "text": "Did your last training give you something you still use?",
+  "element": "Learning",
+  "track": "Individual"
+ },
+ {
+  "id": 133,
+  "text": "When you speak up do people really take your input on board?",
+  "element": "Communication",
+  "track": "Individual"
+ },
+ {
+  "id": 130,
+  "text": "Can you share what you really think at work?",
+  "element": "Vulnerability",
+  "track": "Individual"
+ },
+ {
+  "id": 203,
+  "text": "Are obstacles dealt with fast when they appear?",
+  "element": "Enablement",
+  "track": "Individual"
+ },
+ {
+  "id": 189,
+  "text": "Do you feel trusted with work that matters?",
+  "element": "Opportunities",
+  "track": "Individual"
+ },
+ {
+  "id": 171,
+  "text": "Are your real strengths being put to good use?",
+  "element": "Opportunities",
+  "track": "Individual"
+ },
+ {
+  "id": 207,
+  "text": "Do you feel encouraged to explore new paths inside the company?",
+  "element": "Opportunities",
+  "track": "Individual"
+ },
+ {
+  "id": 167,
+  "text": "Do your tools genuinely make you more productive?",
+  "element": "Enablement",
+  "track": "Individual"
+ },
+ {
+  "id": 161,
+  "text": "Are your processes helping you or slowing you down?",
+  "element": "Enablement",
+  "track": "Individual"
+ },
+ {
+  "id": 153,
+  "text": "Does your work feel like it adds up to something meaningful?",
+  "element": "Opportunities",
+  "track": "Individual"
+ },
+ {
+  "id": 143,
+  "text": "Are your tools helping you work or getting in the way?",
+  "element": "Enablement",
+  "track": "Individual"
+ },
+ {
+  "id": 123,
+  "text": "Does your work feel like it has real purpose right now?",
+  "element": "Opportunities",
+  "track": "Individual"
+ },
+ {
+  "id": 157,
+  "text": "Is it clear exactly what's expected of you this week?",
+  "element": "Communication",
+  "track": "Individual"
+ },
+ {
+  "id": 127,
+  "text": "Could you clearly explain what your team is working toward right now?",
+  "element": "Communication",
+  "track": "Individual"
+ },
+ {
+  "id": 209,
+  "text": "Do your ways of working help you do great work?",
+  "element": "Enablement",
+  "track": "Individual"
+ },
+ {
+  "id": 193,
+  "text": "Do leaders share the thinking behind decisions and not just the outcome?",
+  "element": "Communication",
+  "track": "Individual"
+ },
+ {
+  "id": 170,
+  "text": "Does the guidance you get actually help you improve?",
+  "element": "Learning",
+  "track": "Individual"
+ },
+ {
+  "id": 151,
+  "text": "Do you understand the real reasons behind decisions that affect you?",
+  "element": "Communication",
+  "track": "Individual"
+ },
+ {
+  "id": 146,
+  "text": "Can you easily find new things to learn here?",
+  "element": "Learning",
+  "track": "Individual"
+ },
+ {
+  "id": 190,
+  "text": "When things go wrong is empathy shown?",
+  "element": "Vulnerability",
+  "track": "Individual"
+ },
+ {
+  "id": 172,
+  "text": "Is it safe to flag when something isn't working?",
+  "element": "Vulnerability",
+  "track": "Individual"
+ },
+ {
+  "id": 208,
+  "text": "Do you feel emotionally safe at work?",
+  "element": "Vulnerability",
+  "track": "Individual"
+ },
+ {
+  "id": 196,
+  "text": "Do you feel supported when you hit a setback?",
+  "element": "Vulnerability",
+  "track": "Individual"
+ },
+ {
+  "id": 199,
+  "text": "Do you feel genuinely recognised for the work you do?",
+  "element": "Communication",
+  "track": "Individual"
+ },
+ {
+  "id": 180,
+  "text": "Are you turning recent wins and misses into lessons?",
+  "element": "Reflection",
+  "track": "Individual"
+ },
+ {
+  "id": 125,
+  "text": "How productive have your last few days really been?",
+  "element": "Enablement",
+  "track": "Individual"
+ },
+ {
+  "id": 201,
+  "text": "Does the work you do feel like it makes an impact?",
+  "element": "Opportunities",
+  "track": "Individual"
+ },
+ {
+  "id": 195,
+  "text": "Do you see opportunities beyond your current role?",
+  "element": "Opportunities",
+  "track": "Individual"
+ },
+ {
+  "id": 188,
+  "text": "Do you feel backed when building new expertise?",
+  "element": "Learning",
+  "track": "Individual"
+ },
+ {
+  "id": 200,
+  "text": "Do you get time to absorb what you've learned?",
+  "element": "Learning",
+  "track": "Individual"
+ },
+ {
+  "id": 181,
+  "text": "In team meetings does everyone genuinely get a chance to speak?",
+  "element": "Communication",
+  "track": "Individual"
+ },
+ {
+  "id": 185,
+  "text": "Do your systems let you move work forward smoothly?",
+  "element": "Enablement",
+  "track": "Individual"
+ },
+ {
+  "id": 186,
+  "text": "Does your manager or team make space for reflection?",
+  "element": "Reflection",
+  "track": "Individual"
+ },
+ {
+  "id": 192,
+  "text": "Is reflecting on your work a regular habit for your team?",
+  "element": "Reflection",
+  "track": "Individual"
+ }
+]

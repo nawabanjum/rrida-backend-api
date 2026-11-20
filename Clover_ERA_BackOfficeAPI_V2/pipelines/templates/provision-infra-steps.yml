@@ -1,0 +1,145 @@
+# Provisions one environment from infra/main.bicep and, when seedKeyVault is
+# true, fills its Key Vault. Idempotent: safe on every run.
+#
+# Needs from the calling pipeline: the environment variables file
+# (pipelines/variables/<env>.yml) and a variable group carrying the secret
+# RRIDA_PG_ADMIN_PASSWORD (optional: RRIDA_FRONTEND_BASE_URL).
+parameters:
+  - name: whatIfOnly
+    type: boolean
+    default: false
+
+steps:
+  - checkout: self
+
+  - task: AzureCLI@2
+    displayName: ${{ iif(parameters.whatIfOnly, 'What-if', 'Deploy') }} infra/main.bicep (${{ variables.environmentDisplayName }})
+    inputs:
+      azureSubscription: $(azureServiceConnection)
+      scriptType: bash
+      scriptLocation: inlineScript
+      inlineScript: |
+        set -euo pipefail
+        az bicep install
+
+        # Object id of this pipeline's service principal, read from its own
+        # access token (no Microsoft Graph permission needed). Pre-Prod passes it
+        # to Bicep so the pipeline gets its Key Vault role; Dev ignores it.
+        # An undefined pipeline variable arrives as the literal text "$(NAME)".
+        case "${RRIDA_FRONTEND_BASE_URL:-}" in '$('*) unset RRIDA_FRONTEND_BASE_URL ;; esac
+
+        TOKEN=$(az account get-access-token --query accessToken -o tsv)
+        export RRIDA_PIPELINE_PRINCIPAL_ID=$(python3 -c "import base64,json,sys; p=sys.argv[1].split('.')[1]; p+='='*(-len(p)%4); print(json.loads(base64.urlsafe_b64decode(p))['oid'])" "$TOKEN")
+        echo "Pipeline principal: $RRIDA_PIPELINE_PRINCIPAL_ID"
+
+        # 'sub' creates the resource group (Dev, Prod). 'group' deploys into an
+        # existing one (Pre-Prod), whose service connection is scoped to it.
+        if [ "$(deploymentScope)" = "group" ]; then
+          SCOPE=group
+          WHERE=(--resource-group "$(resourceGroupName)")
+        else
+          SCOPE=sub
+          WHERE=(--location "$(deployLocation)")
+        fi
+
+        if [ "${{ parameters.whatIfOnly }}" = "True" ]; then
+          az deployment "$SCOPE" what-if "${WHERE[@]}" \
+            --name rrida-$(envKey)-$(Build.BuildId) \
+            --template-file $(templateFile) \
+            --parameters $(parameterFile)
+        else
+          az deployment "$SCOPE" create "${WHERE[@]}" \
+            --name rrida-$(envKey)-$(Build.BuildId) \
+            --template-file $(templateFile) \
+            --parameters $(parameterFile) \
+            --query "properties.outputs" \
+            -o json | tee "$(Agent.TempDirectory)/infra-outputs.json"
+        fi
+    env:
+      RRIDA_PG_ADMIN_PASSWORD: $(RRIDA_PG_ADMIN_PASSWORD)
+      RRIDA_FRONTEND_BASE_URL: $(RRIDA_FRONTEND_BASE_URL)
+
+  - ${{ if not(parameters.whatIfOnly) }}:
+    - task: AzureCLI@2
+      displayName: Seed Key Vault ($(keyVaultName))
+      condition: and(succeeded(), eq(variables['seedKeyVault'], 'true'))
+      inputs:
+        azureSubscription: $(azureServiceConnection)
+        scriptType: bash
+        scriptLocation: inlineScript
+        inlineScript: |
+          set -euo pipefail
+          VAULT="$(keyVaultName)"
+          SOURCE="$(sourceKeyVaultName)"
+          TMP="$(Agent.TempDirectory)/kv"
+          mkdir -p "$TMP" && chmod 700 "$TMP"
+          trap 'rm -rf "$TMP"' EXIT
+
+          # A role granted a moment ago by Bicep can take a few minutes to apply.
+          for i in $(seq 1 30); do
+            if az keyvault secret list --vault-name "$VAULT" --query "[].name" -o tsv > "$TMP/names" 2>/dev/null; then
+              break
+            fi
+            echo "Waiting for Key Vault access ($i/30)..."
+            sleep 20
+          done
+          az keyvault secret list --vault-name "$VAULT" --query "[].name" -o tsv > "$TMP/names"
+
+          has() { grep -qx "$1" "$TMP/names"; }
+
+          # 1. Connection string, built from the deployed server and the admin
+          #    password. Rewritten only when it differs (e.g. password rotated).
+          FQDN=$(python3 -c "import json;print(json.load(open('$(Agent.TempDirectory)/infra-outputs.json'))['postgresFqdn']['value'])")
+          DB=$(python3 -c "import json;print(json.load(open('$(Agent.TempDirectory)/infra-outputs.json'))['postgresDatabase']['value'])")
+          LOGIN=$(python3 -c "import json;print(json.load(open('$(Agent.TempDirectory)/infra-outputs.json'))['postgresAdminLogin']['value'])")
+          printf 'Host=%s;Database=%s;Username=%s;Password=%s;SSL Mode=Require;Trust Server Certificate=true' \
+            "$FQDN" "$DB" "$LOGIN" "$RRIDA_PG_ADMIN_PASSWORD" > "$TMP/conn"
+          CURRENT=""
+          if has "$(connectionSecretName)"; then
+            rm -f "$TMP/current"
+            az keyvault secret download --vault-name "$VAULT" --name "$(connectionSecretName)" --file "$TMP/current" --encoding utf-8 >/dev/null
+            CURRENT=$(cat "$TMP/current")
+          fi
+          if [ "$CURRENT" != "$(cat "$TMP/conn")" ]; then
+            az keyvault secret set --vault-name "$VAULT" --name "$(connectionSecretName)" --file "$TMP/conn" --encoding utf-8 --output none
+            echo "Set $(connectionSecretName)"
+          else
+            echo "$(connectionSecretName) is up to date"
+          fi
+
+          # 2. Shared application secrets: copied from the source vault only when
+          #    missing here. Names come from AzureKeyVault:SecretNames.
+          MISSING=""
+          copy_if_missing() {
+            local from="$1" to="$2"
+            if has "$to"; then echo "  $to already set"; return; fi
+            rm -f "$TMP/value"
+            if [ -z "$SOURCE" ] || ! az keyvault secret download --vault-name "$SOURCE" --name "$from" --file "$TMP/value" --encoding utf-8 >/dev/null 2>&1; then
+              echo "  could not read $from from '${SOURCE:-<none>}'"
+              MISSING="$MISSING $to"
+              return
+            fi
+            az keyvault secret set --vault-name "$VAULT" --name "$to" --file "$TMP/value" --encoding utf-8 --output none
+            rm -f "$TMP/value"
+            echo "  copied $from -> $to"
+          }
+          for name in JwtSettingsKry EncryptionIV EncryptionKey SendGrid ResendApiKey AzureRagSearch ApiSecretKey AzureMarketplaceClientSecret OpenAI; do
+            copy_if_missing "$name" "$name"
+          done
+          copy_if_missing Dev-StripeSecretKey      PreProd-StripeSecretKey
+          copy_if_missing Dev-StripePublishableKey PreProd-StripePublishableKey
+          copy_if_missing Dev-StripeWebhookSecret  PreProd-StripeWebhookSecret
+
+          if [ -n "$MISSING" ]; then
+            echo "##vso[task.logissue type=warning]Not copied:$MISSING. Add them in $VAULT (Portal > Key vault > Secrets > Generate/Import), then re-run."
+          fi
+
+          # The API cannot start without the JWT key (Program.cs reads it with no
+          # null guard), so stop here rather than deploy an app that crash-loops.
+          az keyvault secret list --vault-name "$VAULT" --query "[].name" -o tsv > "$TMP/names"
+          if ! has JwtSettingsKry; then
+            echo "##vso[task.logissue type=error]JwtSettingsKry is missing in $VAULT. Copy its value from kv-rrida-dev-001 (Portal > Key vaults > kv-rrida-dev-001 > Secrets > JwtSettingsKry > Show Secret Value) into $VAULT under the same name, then re-run this pipeline."
+            exit 1
+          fi
+      env:
+        RRIDA_PG_ADMIN_PASSWORD: $(RRIDA_PG_ADMIN_PASSWORD)

@@ -1,0 +1,1585 @@
+[
+ {
+  "issue_file": "MA-C-062",
+  "capability_gap": true,
+  "worksheets": [
+   "C1"
+  ],
+  "rationale": "Checking for understanding is a technique. People do not do it because nobody showed them how.",
+  "content_phases": [
+   "C1-P2",
+   "C1-P3",
+   "C1-P4"
+  ],
+  "locus_discovery_phases": [
+   "C1-P1",
+   "C1-P2",
+   "C1-P3",
+   "C1-P4"
+  ],
+  "locus_discovery_action": "MA-C-062-28"
+ },
+ {
+  "issue_file": "MA-C-063",
+  "capability_gap": true,
+  "worksheets": [
+   "V3",
+   "C9"
+  ],
+  "rationale": "Having a hard conversation is a skill. Announcing that we should have them changes nothing.",
+  "content_phases": [
+   "C9-P1",
+   "C9-P2",
+   "C9-P3",
+   "C9-P4",
+   "C9-P5",
+   "C9-P6"
+  ],
+  "locus_discovery_phases": [
+   "C9-P1",
+   "C9-P2",
+   "C9-P3",
+   "C9-P4",
+   "C9-P5",
+   "C9-P6"
+  ],
+  "locus_discovery_action": "MA-C-063-27"
+ },
+ {
+  "issue_file": "MA-C-067",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "The manager decides whether to explain reasoning. Nothing to teach.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "C1-P1",
+   "C1-P2",
+   "C1-P3",
+   "C1-P4"
+  ],
+  "locus_discovery_action": "MA-C-067-26"
+ },
+ {
+  "issue_file": "MA-C-068",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Consistency is the manager's own discipline.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "C1-P1",
+   "C1-P2",
+   "C1-P3",
+   "C1-P4"
+  ],
+  "locus_discovery_action": "MA-C-068-26"
+ },
+ {
+  "issue_file": "MA-C-069",
+  "capability_gap": true,
+  "worksheets": [
+   "V3"
+  ],
+  "rationale": "Most people genuinely cannot give specific recognition. It is a practised thing.",
+  "content_phases": [
+   "V3-P4",
+   "V3-P5",
+   "V3-P6"
+  ],
+  "locus_discovery_phases": [
+   "C15-P1",
+   "C15-P2",
+   "C15-P3",
+   "C15-P5"
+  ],
+  "locus_discovery_action": "MA-C-069-27"
+ },
+ {
+  "issue_file": "MA-C-070",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Withholding is a choice the manager makes.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "C3-P1",
+   "C3-P2",
+   "C3-P3",
+   "C3-P4"
+  ],
+  "locus_discovery_action": "MA-C-070-26"
+ },
+ {
+  "issue_file": "MA-C-071",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Credibility is repaired by behaviour, not by material.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "C3-P1",
+   "C3-P2",
+   "C3-P3",
+   "C3-P4"
+  ],
+  "locus_discovery_action": "MA-C-071-28"
+ },
+ {
+  "issue_file": "MA-C-072",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "The manager's own behaviour.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "E3-P1",
+   "E3-P2",
+   "E3-P3"
+  ],
+  "locus_discovery_action": "MA-C-072-26"
+ },
+ {
+  "issue_file": "MA-C-073",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Translation is the manager's job, not a team capability.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "C4-P1",
+   "C4-P2",
+   "C4-P3"
+  ],
+  "locus_discovery_action": "MA-C-073-26"
+ },
+ {
+  "issue_file": "MA-C-075",
+  "capability_gap": true,
+  "worksheets": [
+   "C2",
+   "C6"
+  ],
+  "rationale": "Running a session where people actually speak is a facilitation skill.",
+  "content_phases": [
+   "C2-P1",
+   "C2-P2",
+   "C2-P3",
+   "C2-P4"
+  ],
+  "locus_discovery_phases": [
+   "C2-P1",
+   "C2-P2",
+   "C2-P3",
+   "C2-P4"
+  ],
+  "locus_discovery_action": "MA-C-075-27"
+ },
+ {
+  "issue_file": "MA-C-076",
+  "capability_gap": true,
+  "worksheets": [
+   "C13",
+   "C4"
+  ],
+  "rationale": "Communicating through change has a method that most managers were never taught.",
+  "content_phases": [
+   "C13-P1",
+   "C13-P3"
+  ],
+  "locus_discovery_phases": [
+   "C4-P1",
+   "C4-P2",
+   "C4-P3"
+  ],
+  "locus_discovery_action": "MA-C-076-30"
+ },
+ {
+  "issue_file": "MA-C-077",
+  "capability_gap": true,
+  "worksheets": [
+   "C2"
+  ],
+  "rationale": "Listening properly is a practised discipline, not an intention.",
+  "content_phases": [
+   "C2-P1",
+   "C2-P2",
+   "C2-P3",
+   "C2-P4"
+  ],
+  "locus_discovery_phases": [
+   "C2-P1",
+   "C2-P2",
+   "C2-P3",
+   "C2-P4"
+  ],
+  "locus_discovery_action": "MA-C-077-27"
+ },
+ {
+  "issue_file": "MA-C-078",
+  "capability_gap": true,
+  "worksheets": [
+   "C1",
+   "C3"
+  ],
+  "rationale": "Writing a clear aim is a skill. Saying be clearer does not produce one.",
+  "content_phases": [
+   "C3-P1",
+   "C3-P2",
+   "C3-P3",
+   "C3-P4"
+  ],
+  "locus_discovery_phases": [
+   "C1-P1",
+   "C1-P2",
+   "C1-P3",
+   "C1-P4"
+  ],
+  "locus_discovery_action": "MA-C-078-27"
+ },
+ {
+  "issue_file": "MA-E-001",
+  "capability_gap": true,
+  "worksheets": [
+   "E3"
+  ],
+  "rationale": "Prioritising and making trade-offs explicit is a method.",
+  "content_phases": [
+   "E3-P1",
+   "E3-P2",
+   "E3-P3"
+  ],
+  "locus_discovery_phases": [
+   "E5-P1",
+   "E5-P2",
+   "E5-P3"
+  ],
+  "locus_discovery_action": "MA-E-001-25"
+ },
+ {
+  "issue_file": "MA-E-002",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Approvals are structural and often sit above the manager.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "E9-P1",
+   "E9-P2",
+   "E9-P3"
+  ],
+  "locus_discovery_action": "MA-E-002-24"
+ },
+ {
+  "issue_file": "MA-E-004",
+  "capability_gap": true,
+  "worksheets": [
+   "E2"
+  ],
+  "rationale": "Defining what a complete handoff contains is a technique the team can learn together.",
+  "content_phases": [
+   "E2-P1",
+   "E2-P2",
+   "E2-P3"
+  ],
+  "locus_discovery_phases": [
+   "E5-P1",
+   "E5-P2",
+   "E5-P3"
+  ],
+  "locus_discovery_action": "MA-E-004-25"
+ },
+ {
+  "issue_file": "MA-E-005",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Environment reliability is not a team capability.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "E5-P1",
+   "E5-P2",
+   "E5-P3"
+  ],
+  "locus_discovery_action": "MA-E-005-24"
+ },
+ {
+  "issue_file": "MA-E-006",
+  "capability_gap": true,
+  "worksheets": [
+   "E2"
+  ],
+  "rationale": "Writing usable documentation is a skill, and the gap persists precisely because nobody was taught it.",
+  "content_phases": [
+   "E2-P1",
+   "E2-P2",
+   "E2-P3"
+  ],
+  "locus_discovery_phases": [
+   "E2-P1",
+   "E2-P2",
+   "E2-P3"
+  ],
+  "locus_discovery_action": "MA-E-006-25"
+ },
+ {
+  "issue_file": "MA-E-009",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Capacity is a resourcing fact.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "V11-P1",
+   "V11-P2",
+   "V11-P3",
+   "V11-P4",
+   "V11-P5"
+  ],
+  "locus_discovery_action": "MA-E-009-24"
+ },
+ {
+  "issue_file": "MA-E-010",
+  "capability_gap": true,
+  "worksheets": [
+   "E3",
+   "E4"
+  ],
+  "rationale": "Delegating well is a manager skill, and taking ownership is a team one.",
+  "content_phases": [
+   "E3-P1",
+   "E3-P2",
+   "E3-P3"
+  ],
+  "locus_discovery_phases": [
+   "E6-P1",
+   "E6-P2",
+   "E6-P3"
+  ],
+  "locus_discovery_action": "MA-E-010-25"
+ },
+ {
+  "issue_file": "MA-E-011",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Access to customers is granted, not learned.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "E5-P1",
+   "E5-P2",
+   "E5-P3"
+  ],
+  "locus_discovery_action": "MA-E-011-24"
+ },
+ {
+  "issue_file": "MA-E-012",
+  "capability_gap": true,
+  "worksheets": [
+   "E6"
+  ],
+  "rationale": "Protecting attention has techniques the team can adopt together.",
+  "content_phases": [
+   "E6-P1",
+   "E6-P2",
+   "E6-P3"
+  ],
+  "locus_discovery_phases": [
+   "V11-P1",
+   "V11-P2",
+   "V11-P3",
+   "V11-P4",
+   "V11-P5"
+  ],
+  "locus_discovery_action": "MA-E-012-25"
+ },
+ {
+  "issue_file": "MA-E-013",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Tools and permissions are provisioned.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "E5-P1",
+   "E5-P2",
+   "E5-P3"
+  ],
+  "locus_discovery_action": "MA-E-013-24"
+ },
+ {
+  "issue_file": "MA-E-016",
+  "capability_gap": true,
+  "worksheets": [
+   "C4"
+  ],
+  "rationale": "Working well across a hybrid split is a set of practices.",
+  "content_phases": [
+   "C4-P1",
+   "C4-P2",
+   "C4-P3"
+  ],
+  "locus_discovery_phases": [
+   "C4-P1",
+   "C4-P2",
+   "C4-P3"
+  ],
+  "locus_discovery_action": "MA-E-016-25"
+ },
+ {
+  "issue_file": "MA-E-018",
+  "capability_gap": true,
+  "worksheets": [
+   "E2"
+  ],
+  "rationale": "Knowledge sharing is a practice with a method behind it.",
+  "content_phases": [
+   "E2-P1",
+   "E2-P2",
+   "E2-P3"
+  ],
+  "locus_discovery_phases": [
+   "E2-P1",
+   "E2-P2",
+   "E2-P3"
+  ],
+  "locus_discovery_action": "MA-E-018-25"
+ },
+ {
+  "issue_file": "MA-E-019",
+  "capability_gap": true,
+  "worksheets": [
+   "E5",
+   "L1"
+  ],
+  "rationale": "This is a training gap by definition.",
+  "content_phases": [
+   "L1-P1",
+   "L1-P2",
+   "L1-P3",
+   "L1-P4"
+  ],
+  "locus_discovery_phases": [
+   "L1-P1",
+   "L1-P2",
+   "L1-P3",
+   "L1-P4"
+  ],
+  "locus_discovery_action": "MA-E-019-25"
+ },
+ {
+  "issue_file": "MA-E-020",
+  "capability_gap": true,
+  "worksheets": [
+   "E3"
+  ],
+  "rationale": "Mapping decision rights is an exercise the team does together.",
+  "content_phases": [
+   "E3-P1",
+   "E3-P2",
+   "E3-P3"
+  ],
+  "locus_discovery_phases": [
+   "E6-P1",
+   "E6-P2",
+   "E6-P3"
+  ],
+  "locus_discovery_action": "MA-E-020-25"
+ },
+ {
+  "issue_file": "MA-L-082",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Load is removed, not taught. Never route a burnout signal to a worksheet.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "V11-P1",
+   "V11-P2",
+   "V11-P3",
+   "V11-P4",
+   "V11-P5"
+  ],
+  "locus_discovery_action": "MA-L-082-26"
+ },
+ {
+  "issue_file": "MA-L-083",
+  "capability_gap": true,
+  "worksheets": [
+   "OP4"
+  ],
+  "rationale": "Setting up a coaching relationship has a shape most people do not know.",
+  "content_phases": [
+   "OP4-P1",
+   "OP4-P2",
+   "OP4-P3"
+  ],
+  "locus_discovery_phases": [
+   "OP4-P1",
+   "OP4-P2",
+   "OP4-P3"
+  ],
+  "locus_discovery_action": "MA-L-083-25"
+ },
+ {
+  "issue_file": "MA-L-084",
+  "capability_gap": true,
+  "worksheets": [
+   "L2",
+   "E2"
+  ],
+  "rationale": "Peer learning has a method.",
+  "content_phases": [
+   "L2-P1",
+   "L2-P2",
+   "L2-P3"
+  ],
+  "locus_discovery_phases": [
+   "E2-P1",
+   "E2-P2",
+   "E2-P3"
+  ],
+  "locus_discovery_action": "MA-L-084-25"
+ },
+ {
+  "issue_file": "MA-L-085",
+  "capability_gap": true,
+  "worksheets": [
+   "L3",
+   "L2"
+  ],
+  "rationale": "Engagement in learning responds to how learning is structured.",
+  "content_phases": [
+   "L4-P1",
+   "L4-P2",
+   "L4-P3",
+   "L4-P4"
+  ],
+  "locus_discovery_phases": [
+   "L4-P1",
+   "L4-P2",
+   "L4-P3",
+   "L4-P4"
+  ],
+  "locus_discovery_action": "MA-L-085-27"
+ },
+ {
+  "issue_file": "MA-L-086",
+  "capability_gap": true,
+  "worksheets": [
+   "V3",
+   "C15"
+  ],
+  "rationale": "Giving and receiving usable feedback is the archetypal taught skill.",
+  "content_phases": [
+   "V3-P4",
+   "V3-P5",
+   "V3-P6"
+  ],
+  "locus_discovery_phases": [
+   "C15-P1",
+   "C15-P2",
+   "C15-P3",
+   "C15-P5"
+  ],
+  "locus_discovery_action": "MA-L-086-27"
+ },
+ {
+  "issue_file": "MA-L-087",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Manager support is behaviour.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "E4-P1",
+   "E4-P2",
+   "E4-P3"
+  ],
+  "locus_discovery_action": "MA-L-087-26"
+ },
+ {
+  "issue_file": "MA-L-088",
+  "capability_gap": true,
+  "worksheets": [
+   "L1",
+   "L9"
+  ],
+  "rationale": "Reinforcement is a technique. The forgetting curve is not fixed by intent.",
+  "content_phases": [
+   "L9-P1",
+   "L9-P2",
+   "L9-P3"
+  ],
+  "locus_discovery_phases": [
+   "L1-P1",
+   "L1-P2",
+   "L1-P3",
+   "L1-P4"
+  ],
+  "locus_discovery_action": "MA-L-088-26"
+ },
+ {
+  "issue_file": "MA-L-089",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Budget is a resourcing fact.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "L4-P1",
+   "L4-P2",
+   "L4-P3",
+   "L4-P4"
+  ],
+  "locus_discovery_action": "MA-L-089-24"
+ },
+ {
+  "issue_file": "MA-L-090",
+  "capability_gap": true,
+  "worksheets": [
+   "V1"
+  ],
+  "rationale": "Making it safe to be new at something is a practice with a structure.",
+  "content_phases": [
+   "V1-P1",
+   "V1-P2",
+   "V1-P3",
+   "V1-P4",
+   "V1-P5",
+   "V1-P6"
+  ],
+  "locus_discovery_phases": [
+   "V1-P1",
+   "V1-P2",
+   "V1-P3",
+   "V1-P4",
+   "V1-P5",
+   "V1-P6"
+  ],
+  "locus_discovery_action": "MA-L-090-27"
+ },
+ {
+  "issue_file": "MA-L-092",
+  "capability_gap": true,
+  "worksheets": [
+   "L1",
+   "L4"
+  ],
+  "rationale": "Matching learning to need requires a skills inventory, which is a worksheet.",
+  "content_phases": [
+   "L1-P1",
+   "L1-P2",
+   "L1-P3",
+   "L1-P4"
+  ],
+  "locus_discovery_phases": [
+   "L1-P1",
+   "L1-P2",
+   "L1-P3",
+   "L1-P4"
+  ],
+  "locus_discovery_action": "MA-L-092-27"
+ },
+ {
+  "issue_file": "MA-L-096",
+  "capability_gap": true,
+  "worksheets": [
+   "L1",
+   "OP1"
+  ],
+  "rationale": "Planning development beyond the quarter needs a structure.",
+  "content_phases": [
+   "L1-P1",
+   "L1-P2",
+   "L1-P3",
+   "L1-P4"
+  ],
+  "locus_discovery_phases": [
+   "L1-P1",
+   "L1-P2",
+   "L1-P3",
+   "L1-P4"
+  ],
+  "locus_discovery_action": "MA-L-096-25"
+ },
+ {
+  "issue_file": "MA-L-097",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Time is protected, not taught.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "V11-P1",
+   "V11-P2",
+   "V11-P3",
+   "V11-P4",
+   "V11-P5"
+  ],
+  "locus_discovery_action": "MA-L-097-26"
+ },
+ {
+  "issue_file": "MA-L-099",
+  "capability_gap": true,
+  "worksheets": [
+   "L1"
+  ],
+  "rationale": "Naming your own gaps is exactly what a skill inventory is for.",
+  "content_phases": [
+   "L1-P1",
+   "L1-P2",
+   "L1-P3",
+   "L1-P4"
+  ],
+  "locus_discovery_phases": [
+   "L1-P1",
+   "L1-P2",
+   "L1-P3",
+   "L1-P4"
+  ],
+  "locus_discovery_action": "MA-L-099-25"
+ },
+ {
+  "issue_file": "MA-L-100",
+  "capability_gap": true,
+  "worksheets": [
+   "L3"
+  ],
+  "rationale": "A learning culture is built from practices.",
+  "content_phases": [
+   "L3-P1",
+   "L3-P2",
+   "L3-P3"
+  ],
+  "locus_discovery_phases": [
+   "R2-P1",
+   "R2-P2",
+   "R2-P3",
+   "R2-P4"
+  ],
+  "locus_discovery_action": "MA-L-100-25"
+ },
+ {
+  "issue_file": "MA-OP-101",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Barriers are removed by decisions, not by material.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "OP2-P1",
+   "OP2-P2",
+   "OP2-P3",
+   "OP2-P4"
+  ],
+  "locus_discovery_action": "MA-OP-101-24"
+ },
+ {
+  "issue_file": "MA-OP-102",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Fairness in allocation is the manager's own conduct.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "OP2-P1",
+   "OP2-P2",
+   "OP2-P3",
+   "OP2-P4"
+  ],
+  "locus_discovery_action": "MA-OP-102-24"
+ },
+ {
+  "issue_file": "MA-OP-103",
+  "capability_gap": true,
+  "worksheets": [
+   "OP1"
+  ],
+  "rationale": "Articulating what you want from your career is a structured exercise.",
+  "content_phases": [
+   "OP1-P1",
+   "OP1-P2",
+   "OP1-P3",
+   "OP1-P4"
+  ],
+  "locus_discovery_phases": [
+   "OP1-P1",
+   "OP1-P2",
+   "OP1-P3",
+   "OP1-P4"
+  ],
+  "locus_discovery_action": "MA-OP-103-25"
+ },
+ {
+  "issue_file": "MA-OP-104",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Workload is removed, not taught.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "V11-P1",
+   "V11-P2",
+   "V11-P3",
+   "V11-P4",
+   "V11-P5"
+  ],
+  "locus_discovery_action": "MA-OP-104-24"
+ },
+ {
+  "issue_file": "MA-OP-105",
+  "capability_gap": true,
+  "worksheets": [
+   "V3",
+   "L9"
+  ],
+  "rationale": "Running a review that says something useful is a skill.",
+  "content_phases": [
+   "V3-P4",
+   "V3-P5",
+   "V3-P6"
+  ],
+  "locus_discovery_phases": [
+   "C15-P1",
+   "C15-P2",
+   "C15-P3",
+   "C15-P5"
+  ],
+  "locus_discovery_action": "MA-OP-105-25"
+ },
+ {
+  "issue_file": "MA-OP-106",
+  "capability_gap": true,
+  "worksheets": [
+   "OP1",
+   "OP2"
+  ],
+  "rationale": "Most managers have never been shown how to run a career conversation.",
+  "content_phases": [
+   "OP1-P1",
+   "OP1-P2",
+   "OP1-P3",
+   "OP1-P4"
+  ],
+  "locus_discovery_phases": [
+   "OP1-P1",
+   "OP1-P2",
+   "OP1-P3",
+   "OP1-P4"
+  ],
+  "locus_discovery_action": "MA-OP-106-25"
+ },
+ {
+  "issue_file": "MA-OP-107",
+  "capability_gap": true,
+  "worksheets": [
+   "OP6",
+   "L1"
+  ],
+  "rationale": "This is a development-programme gap by definition.",
+  "content_phases": [
+   "L1-P1",
+   "L1-P2",
+   "L1-P3",
+   "L1-P4"
+  ],
+  "locus_discovery_phases": [
+   "L1-P1",
+   "L1-P2",
+   "L1-P3",
+   "L1-P4"
+  ],
+  "locus_discovery_action": "MA-OP-107-25"
+ },
+ {
+  "issue_file": "MA-OP-108",
+  "capability_gap": true,
+  "worksheets": [
+   "OP4"
+  ],
+  "rationale": "Mentoring has a structure.",
+  "content_phases": [
+   "OP4-P1",
+   "OP4-P2",
+   "OP4-P3"
+  ],
+  "locus_discovery_phases": [
+   "OP4-P1",
+   "OP4-P2",
+   "OP4-P3"
+  ],
+  "locus_discovery_action": "MA-OP-108-25"
+ },
+ {
+  "issue_file": "MA-OP-109",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Support for upskilling is granted.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "L4-P1",
+   "L4-P2",
+   "L4-P3",
+   "L4-P4"
+  ],
+  "locus_discovery_action": "MA-OP-109-24"
+ },
+ {
+  "issue_file": "MA-OP-110",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Promotion availability is a structural fact.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "OP6-P1",
+   "OP6-P2",
+   "OP6-P3"
+  ],
+  "locus_discovery_action": "MA-OP-110-24"
+ },
+ {
+  "issue_file": "MA-OP-112",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Communicating openings is the manager's job.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "OP2-P1",
+   "OP2-P2",
+   "OP2-P3",
+   "OP2-P4"
+  ],
+  "locus_discovery_action": "MA-OP-112-26"
+ },
+ {
+  "issue_file": "MA-OP-115",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Mobility is permitted or it is not.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "OP2-P1",
+   "OP2-P2",
+   "OP2-P3",
+   "OP2-P4"
+  ],
+  "locus_discovery_action": "MA-OP-115-24"
+ },
+ {
+  "issue_file": "MA-OP-116",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Hoarding is the manager's own behaviour. A worksheet would let them off.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "OP2-P1",
+   "OP2-P2",
+   "OP2-P3",
+   "OP2-P4"
+  ],
+  "locus_discovery_action": "MA-OP-116-24"
+ },
+ {
+  "issue_file": "MA-OP-117",
+  "capability_gap": true,
+  "worksheets": [
+   "OP2",
+   "OP1"
+  ],
+  "rationale": "Mapping a path is an exercise.",
+  "content_phases": [
+   "OP2-P1",
+   "OP2-P2",
+   "OP2-P3",
+   "OP2-P4"
+  ],
+  "locus_discovery_phases": [
+   "OP6-P1",
+   "OP6-P2",
+   "OP6-P3"
+  ],
+  "locus_discovery_action": "MA-OP-117-25"
+ },
+ {
+  "issue_file": "MA-R-021",
+  "capability_gap": true,
+  "worksheets": [
+   "R4",
+   "R2"
+  ],
+  "rationale": "Running a review that finds a cause is a method.",
+  "content_phases": [
+   "R5-P1",
+   "R5-P2",
+   "R5-P3"
+  ],
+  "locus_discovery_phases": [
+   "R5-P1",
+   "R5-P2",
+   "R5-P3"
+  ],
+  "locus_discovery_action": "MA-R-021-25"
+ },
+ {
+  "issue_file": "MA-R-023",
+  "capability_gap": true,
+  "worksheets": [
+   "R8"
+  ],
+  "rationale": "Cross-team reflection needs a structure or it does not happen.",
+  "content_phases": [
+   "R8-P1",
+   "R8-P2",
+   "R8-P3",
+   "R8-P4"
+  ],
+  "locus_discovery_phases": [
+   "R8-P1",
+   "R8-P2",
+   "R8-P3",
+   "R8-P4"
+  ],
+  "locus_discovery_action": "MA-R-023-25"
+ },
+ {
+  "issue_file": "MA-R-025",
+  "capability_gap": true,
+  "worksheets": [
+   "R1"
+  ],
+  "rationale": "Daily reflection is a practice, and R1 is exactly this.",
+  "content_phases": [
+   "R1-P1",
+   "R1-P2",
+   "R1-P3",
+   "R1-P4"
+  ],
+  "locus_discovery_phases": [
+   "R1-P1",
+   "R1-P2",
+   "R1-P3",
+   "R1-P4"
+  ],
+  "locus_discovery_action": "MA-R-025-27"
+ },
+ {
+  "issue_file": "MA-R-027",
+  "capability_gap": true,
+  "worksheets": [
+   "V7",
+   "R2"
+  ],
+  "rationale": "Running a small experiment well is a technique.",
+  "content_phases": [
+   "R2-P1",
+   "R2-P2",
+   "R2-P3",
+   "R2-P4"
+  ],
+  "locus_discovery_phases": [
+   "R2-P1",
+   "R2-P2",
+   "R2-P3",
+   "R2-P4"
+  ],
+  "locus_discovery_action": "MA-R-027-25"
+ },
+ {
+  "issue_file": "MA-R-030",
+  "capability_gap": true,
+  "worksheets": [
+   "R4"
+  ],
+  "rationale": "Meeting hygiene is a set of practices.",
+  "content_phases": [
+   "R5-P1",
+   "R5-P2",
+   "R5-P3"
+  ],
+  "locus_discovery_phases": [
+   "C1-P1",
+   "C1-P2",
+   "C1-P3",
+   "C1-P4"
+  ],
+  "locus_discovery_action": "MA-R-030-25"
+ },
+ {
+  "issue_file": "MA-R-031",
+  "capability_gap": true,
+  "worksheets": [
+   "R5"
+  ],
+  "rationale": "Turning a metric into a learning loop has a method.",
+  "content_phases": [
+   "R5-P1",
+   "R5-P2",
+   "R5-P3"
+  ],
+  "locus_discovery_phases": [
+   "R5-P1",
+   "R5-P2",
+   "R5-P3"
+  ],
+  "locus_discovery_action": "MA-R-031-25"
+ },
+ {
+  "issue_file": "MA-R-032",
+  "capability_gap": true,
+  "worksheets": [
+   "OP1",
+   "L1"
+  ],
+  "rationale": "Personal development planning is a worksheet exercise.",
+  "content_phases": [
+   "OP1-P1",
+   "OP1-P2",
+   "OP1-P3",
+   "OP1-P4"
+  ],
+  "locus_discovery_phases": [
+   "L1-P1",
+   "L1-P2",
+   "L1-P3",
+   "L1-P4"
+  ],
+  "locus_discovery_action": "MA-R-032-27"
+ },
+ {
+  "issue_file": "MA-R-033",
+  "capability_gap": true,
+  "worksheets": [
+   "R4"
+  ],
+  "rationale": "The tooling question is really a structure question.",
+  "content_phases": [
+   "R1-P1",
+   "R1-P2",
+   "R1-P3",
+   "R1-P4"
+  ],
+  "locus_discovery_phases": [
+   "R1-P1",
+   "R1-P2",
+   "R1-P3",
+   "R1-P4"
+  ],
+  "locus_discovery_action": "MA-R-033-25"
+ },
+ {
+  "issue_file": "MA-R-035",
+  "capability_gap": true,
+  "worksheets": [
+   "R5"
+  ],
+  "rationale": "Connecting work to strategy is an exercise.",
+  "content_phases": [
+   "R5-P1",
+   "R5-P2",
+   "R5-P3"
+  ],
+  "locus_discovery_phases": [
+   "R5-P1",
+   "R5-P2",
+   "R5-P3"
+  ],
+  "locus_discovery_action": "MA-R-035-25"
+ },
+ {
+  "issue_file": "MA-R-036",
+  "capability_gap": true,
+  "worksheets": [
+   "R4",
+   "R2"
+  ],
+  "rationale": "Running a retro that produces change is a facilitation skill.",
+  "content_phases": [
+   "R2-P1",
+   "R2-P2",
+   "R2-P3",
+   "R2-P4"
+  ],
+  "locus_discovery_phases": [
+   "R2-P1",
+   "R2-P2",
+   "R2-P3",
+   "R2-P4"
+  ],
+  "locus_discovery_action": "MA-R-036-27"
+ },
+ {
+  "issue_file": "MA-R-037",
+  "capability_gap": true,
+  "worksheets": [
+   "R1"
+  ],
+  "rationale": "Managing your own energy has techniques.",
+  "content_phases": [
+   "R1-P1",
+   "R1-P2",
+   "R1-P3",
+   "R1-P4"
+  ],
+  "locus_discovery_phases": [
+   "V11-P1",
+   "V11-P2",
+   "V11-P3",
+   "V11-P4",
+   "V11-P5"
+  ],
+  "locus_discovery_action": "MA-R-037-25"
+ },
+ {
+  "issue_file": "MA-R-039",
+  "capability_gap": true,
+  "worksheets": [
+   "R1",
+   "R4"
+  ],
+  "rationale": "A reflection rhythm needs a shape or it becomes a status update.",
+  "content_phases": [
+   "R1-P1",
+   "R1-P2",
+   "R1-P3",
+   "R1-P4"
+  ],
+  "locus_discovery_phases": [
+   "R1-P1",
+   "R1-P2",
+   "R1-P3",
+   "R1-P4"
+  ],
+  "locus_discovery_action": "MA-R-039-27"
+ },
+ {
+  "issue_file": "MA-V-041",
+  "capability_gap": true,
+  "worksheets": [
+   "V2"
+  ],
+  "rationale": "Running a blameless review is a discipline with a method.",
+  "content_phases": [
+   "V2-P1",
+   "V2-P2",
+   "V2-P3",
+   "V2-P4",
+   "V2-P5",
+   "V2-P6"
+  ],
+  "locus_discovery_phases": [
+   "V2-P1",
+   "V2-P2",
+   "V2-P3",
+   "V2-P4",
+   "V2-P5",
+   "V2-P6"
+  ],
+  "locus_discovery_action": "MA-V-041-25"
+ },
+ {
+  "issue_file": "MA-V-042",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Confidentiality is kept, not taught.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "V8-P1",
+   "V8-P2",
+   "V8-P3",
+   "V8-P4"
+  ],
+  "locus_discovery_action": "MA-V-042-26"
+ },
+ {
+  "issue_file": "MA-V-043",
+  "capability_gap": true,
+  "worksheets": [
+   "V8"
+  ],
+  "rationale": "Where the line sits between useful and too much is genuinely teachable.",
+  "content_phases": [
+   "V8-P1",
+   "V8-P2",
+   "V8-P3",
+   "V8-P4"
+  ],
+  "locus_discovery_phases": [
+   "V8-P1",
+   "V8-P2",
+   "V8-P3",
+   "V8-P4"
+  ],
+  "locus_discovery_action": "MA-V-043-25"
+ },
+ {
+  "issue_file": "MA-V-044",
+  "capability_gap": true,
+  "worksheets": [
+   "C6",
+   "V10"
+  ],
+  "rationale": "Facilitating across power distance is a skill.",
+  "content_phases": [
+   "C6-P1",
+   "C6-P2",
+   "C6-P3",
+   "C6-P4"
+  ],
+  "locus_discovery_phases": [
+   "C6-P1",
+   "C6-P2",
+   "C6-P3",
+   "C6-P4"
+  ],
+  "locus_discovery_action": "MA-V-044-25"
+ },
+ {
+  "issue_file": "MA-V-045",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Whether it is safe to speak is proved by what happens next, not by material.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "C3-P1",
+   "C3-P2",
+   "C3-P3",
+   "C3-P4"
+  ],
+  "locus_discovery_action": "MA-V-045-24"
+ },
+ {
+  "issue_file": "MA-V-046",
+  "capability_gap": true,
+  "worksheets": [
+   "V3",
+   "C9"
+  ],
+  "rationale": "This is a stated skills gap. The file name says so.",
+  "content_phases": [
+   "C9-P1",
+   "C9-P2",
+   "C9-P3",
+   "C9-P4",
+   "C9-P5",
+   "C9-P6"
+  ],
+  "locus_discovery_phases": [
+   "C9-P1",
+   "C9-P2",
+   "C9-P3",
+   "C9-P4",
+   "C9-P5",
+   "C9-P6"
+  ],
+  "locus_discovery_action": "MA-V-046-27"
+ },
+ {
+  "issue_file": "MA-V-047",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Leader behaviour.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "V4-P1",
+   "V4-P2",
+   "V4-P3",
+   "V4-P4",
+   "V4-P5"
+  ],
+  "locus_discovery_action": "MA-V-047-24"
+ },
+ {
+  "issue_file": "MA-V-048",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Safety is demonstrated, not taught. A worksheet here would be insulting.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "V1-P1",
+   "V1-P2",
+   "V1-P3",
+   "V1-P4",
+   "V1-P5",
+   "V1-P6"
+  ],
+  "locus_discovery_action": "MA-V-048-24"
+ },
+ {
+  "issue_file": "MA-V-049",
+  "capability_gap": true,
+  "worksheets": [
+   "V4",
+   "V3"
+  ],
+  "rationale": "This is a stated training gap.",
+  "content_phases": [
+   "V4-P1",
+   "V4-P2",
+   "V4-P3",
+   "V4-P4",
+   "V4-P5"
+  ],
+  "locus_discovery_phases": [
+   "V4-P1",
+   "V4-P2",
+   "V4-P3",
+   "V4-P4",
+   "V4-P5"
+  ],
+  "locus_discovery_action": "MA-V-049-25"
+ },
+ {
+  "issue_file": "MA-V-050",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Never route a mental health signal to a worksheet.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "V11-P1",
+   "V11-P2",
+   "V11-P3",
+   "V11-P4",
+   "V11-P5"
+  ],
+  "locus_discovery_action": "MA-V-050-24"
+ },
+ {
+  "issue_file": "MA-V-051",
+  "capability_gap": true,
+  "worksheets": [
+   "V2",
+   "R2"
+  ],
+  "rationale": "The blameless postmortem is a technique.",
+  "content_phases": [
+   "V2-P1",
+   "V2-P2",
+   "V2-P3",
+   "V2-P4",
+   "V2-P5",
+   "V2-P6"
+  ],
+  "locus_discovery_phases": [
+   "V2-P1",
+   "V2-P2",
+   "V2-P3",
+   "V2-P4",
+   "V2-P5",
+   "V2-P6"
+  ],
+  "locus_discovery_action": "MA-V-051-25"
+ },
+ {
+  "issue_file": "MA-V-052",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Output culture is set from above.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "R5-P1",
+   "R5-P2",
+   "R5-P3"
+  ],
+  "locus_discovery_action": "MA-V-052-24"
+ },
+ {
+  "issue_file": "MA-V-053",
+  "capability_gap": true,
+  "worksheets": [
+   "V2",
+   "V7"
+  ],
+  "rationale": "Working out what good enough means is an exercise.",
+  "content_phases": [
+   "V7-P1",
+   "V7-P2",
+   "V7-P3",
+   "V7-P4",
+   "V7-P5"
+  ],
+  "locus_discovery_phases": [
+   "V7-P1",
+   "V7-P2",
+   "V7-P3",
+   "V7-P4",
+   "V7-P5"
+  ],
+  "locus_discovery_action": "MA-V-053-27"
+ },
+ {
+  "issue_file": "MA-V-054",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Punitive systems are structural.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "V7-P1",
+   "V7-P2",
+   "V7-P3",
+   "V7-P4",
+   "V7-P5"
+  ],
+  "locus_discovery_action": "MA-V-054-24"
+ },
+ {
+  "issue_file": "MA-V-056",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "How people feel about showing emotion is not a capability gap.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "V1-P1",
+   "V1-P2",
+   "V1-P3",
+   "V1-P4",
+   "V1-P5",
+   "V1-P6"
+  ],
+  "locus_discovery_action": "MA-V-056-24"
+ },
+ {
+  "issue_file": "MA-V-057",
+  "capability_gap": true,
+  "worksheets": [
+   "V1"
+  ],
+  "rationale": "Making questions safe has a structure.",
+  "content_phases": [
+   "V1-P1",
+   "V1-P2",
+   "V1-P3",
+   "V1-P4",
+   "V1-P5",
+   "V1-P6"
+  ],
+  "locus_discovery_phases": [
+   "V1-P1",
+   "V1-P2",
+   "V1-P3",
+   "V1-P4",
+   "V1-P5",
+   "V1-P6"
+  ],
+  "locus_discovery_action": "MA-V-057-27"
+ },
+ {
+  "issue_file": "MA-V-058",
+  "capability_gap": false,
+  "worksheets": [],
+  "rationale": "Double standards are the manager's own conduct.",
+  "content_phases": null,
+  "locus_discovery_phases": [
+   "C6-P1",
+   "C6-P2",
+   "C6-P3",
+   "C6-P4"
+  ],
+  "locus_discovery_action": "MA-V-058-24"
+ },
+ {
+  "issue_file": "MA-V-118",
+  "capability_gap": true,
+  "worksheets": [
+   "V1",
+   "L2"
+  ],
+  "rationale": "Connection is built through structured occasions.",
+  "content_phases": [
+   "V1-P1",
+   "V1-P2",
+   "V1-P3",
+   "V1-P4",
+   "V1-P5",
+   "V1-P6"
+  ],
+  "locus_discovery_phases": [
+   "E4-P1",
+   "E4-P2",
+   "E4-P3"
+  ],
+  "locus_discovery_action": "MA-V-118-25"
+ }
+]

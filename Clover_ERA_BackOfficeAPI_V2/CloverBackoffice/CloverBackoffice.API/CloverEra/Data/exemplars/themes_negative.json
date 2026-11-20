@@ -1,0 +1,62 @@
+[
+  {
+    "id": "neg-career-hollow",
+    "pillar": "Opportunities",
+    "headline": "Career conversations are hollow",
+    "body": "Three respondents independently selected the same phrase: career conversations happen once or twice a year and feel empty. Zero positive responses across all Opportunities questions. This is not occasional disappointment. It is a consistent, shared experience of being invisible in their own development."
+  },
+  {
+    "id": "neg-safety-broken",
+    "pillar": "Vulnerability",
+    "headline": "Psychological safety has been broken",
+    "body": "People have named betrayal directly. One wrote it plainly: 'I have trusted people and been betrayed.' Another noted their leader becomes defensive with honest feedback. Fear of blame and stigmatised failure are actively suppressing voices. This is not discomfort. It is learned silence."
+  },
+  {
+    "id": "neg-withdrawing",
+    "pillar": "Vulnerability",
+    "headline": "A team member is withdrawing",
+    "body": "One respondent answered the voice question with: 'I just stay in my lane and do my work.' That is not neutrality. That is someone who has already given up trying. Combined with others feeling distracted or ignored, disengagement is becoming the path of least resistance."
+  },
+  {
+    "id": "neg-speaking-uneven",
+    "pillar": "Vulnerability",
+    "headline": "Speaking up is unevenly safe across the team",
+    "body": "Vulnerability sits at 49.7 corrected with the widest gap from target. Half of 'speak up' responses were Sad, with two respondents holding back and one stating honesty feels risky. One Angry response describes cultural and religious exclusion linked to attrition. The team does not share a single experience of safety. It has split into those who speak and those who stay quiet."
+  },
+  {
+    "id": "neg-friction-erodes",
+    "pillar": "Enablement",
+    "headline": "Environmental friction is eroding Enablement",
+    "body": "Enablement scored 59.7 corrected across seven responses. Three distinct signals cluster together: interruptions ('Interruptions and churn reduce my productivity'), system friction ('Systems are clunky or don't integrate well'), and an explicit WFH request. The team has named the barrier and proposed a solution. That deserves a response, not because the solution is right, but because ignoring a proposal erodes trust faster than the original problem did."
+  },
+  {
+    "id": "neg-blame-specific",
+    "pillar": "Vulnerability",
+    "headline": "Blame and defensiveness are the specific pattern",
+    "body": "Vulnerability sits at 53.6 corrected, the widest gap from target. Two of five responses (40%) selected 'There's blame or defensiveness when issues come up.' Last period the pattern was about holding back. This period people are raising issues and the reception is landing badly. That is a specific, named behaviour the team is watching."
+  },
+  {
+    "id": "neg-reflection-unprotected",
+    "pillar": "Reflection",
+    "headline": "Reflection is acknowledged but unprotected",
+    "body": "Reflection scored 49.8 corrected with 60% Sad and zero Indifferent responses. Nobody is on the fence. Team members explicitly named the barrier: 'it just typically isn't something we make time for.' This is structural, not motivational. Workload and meeting density are squeezing reflection out, exactly as flagged in prior periods."
+  },
+  {
+    "id": "neg-dev-support-absent",
+    "pillar": "Learning",
+    "headline": "Development support has gone quiet",
+    "body": "Learning scored 52 corrected across 5 responses, with 2 Sad selecting 'Opportunities to learn feel limited' and one Indifferent comment saying development conversations 'used to happen more.' The absence itself is the signal. Learning was Healthy two periods ago and is now Needs Work without any explicit incident, which usually indicates a slow withdrawal of manager attention rather than a specific breakdown."
+  },
+  {
+    "id": "neg-connection-missing",
+    "pillar": "Vulnerability",
+    "headline": "Collaboration is present, connection is missing",
+    "body": "Vulnerability generated the most concentrated negative signal this period: two respondents independently selected 'Interactions feel superficial or task-focused only,' one selected 'Opportunities for deeper one-on-one engagement have been limited,' and one chose Angry. This is not about conflict. It is about absence of genuine connection. The team knows how to collaborate on tasks. What is missing is the relational layer that makes collaboration feel meaningful."
+  },
+  {
+    "id": "neg-communication-inconsistent",
+    "pillar": "Communication",
+    "headline": "Information flow is uneven and left to chance",
+    "body": "Communication scored 56.3 corrected with half the respondents Indifferent and one flagging 'Poor communication causes avoidable friction.' A free-text response points to inconsistency rather than a single breakdown: sometimes things land, sometimes they do not. When the structures that keep people informed are unreliable, teams burn energy compensating for the gap, and shared direction erodes quietly before it surfaces as a visible problem."
+  }
+]

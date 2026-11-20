@@ -1,0 +1,85 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "rrida.kit.actions.v1",
+ "title": "The micro-action library, merged across both banks",
+ "description": "Every rung one and rung two action, with the worked-if each is confirmed against. The team bank ships no actions of its own today: it maps into these same issue files, so this file is the whole library for both tracks.",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "required": [
+   "id",
+   "text",
+   "issue_file",
+   "issue",
+   "pillar",
+   "kind",
+   "worked_if"
+  ],
+  "additionalProperties": true,
+  "properties": {
+   "id": {
+    "type": "string"
+   },
+   "text": {
+    "type": "string",
+    "minLength": 1
+   },
+   "issue_file": {
+    "type": "string"
+   },
+   "issue": {
+    "type": "string"
+   },
+   "pillar": {
+    "type": "string",
+    "description": "The export spells the CLOVER dimension \"Opportunities\"; the loader canonicalises it to \"Opportunity\" and passes everything else through, because element is an open value."
+   },
+   "kind": {
+    "enum": [
+     "Conversational",
+     "Structural",
+     "Gesture"
+    ]
+   },
+   "mode": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "note_type": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "worked_if": {
+    "type": [
+     "string",
+     "null"
+    ],
+    "description": "What the manager confirms. A rung one route with no worked-if halts the loader. Read through the delivered-worked-if accessor, because a prerequisite substitution replaces it (spec 5.1.4)."
+   },
+   "route": {
+    "type": [
+     "string",
+     "null"
+    ],
+    "enum": [
+     "ask",
+     "team",
+     "content",
+     "locus",
+     null
+    ],
+    "description": "Which rung one route this action is authored for, or null for a structural or gesture action that is not a rung one at all."
+   },
+   "review_status": {
+    "type": [
+     "string",
+     "null"
+    ]
+   }
+  }
+ }
+}

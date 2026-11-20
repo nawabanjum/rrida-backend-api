@@ -1,0 +1,296 @@
+# RRIDA API pipeline, one definition for every environment:
+#
+#   push to main      -> Dev       build -> migrate -> deploy  (app-rrida-api-dev)
+#   push to pre-prod  -> Pre-Prod  build -> provision -> migrate -> deploy
+#                                  (app-rrida-api-preprod)
+#   PR into either    -> build only
+#
+# Per-environment names live in pipelines/variables/<env>.yml, chosen from the
+# branch at compile time.
+#
+# Migrations run as a gated stage using an EF bundle, never on app startup: the
+# API can run on more than one instance, and every instance boots its hosted
+# background jobs against the same database, so a startup migration would race.
+# Before the bundle, infra/db/bootstrap/bootstrap-database.sh loads the schema
+# baseline into an EMPTY database (a brand-new environment) and does nothing on
+# an initialised one.
+name: rrida-api-$(Date:yyyyMMdd)$(Rev:.r)
+
+trigger:
+  branches:
+    include:
+      - main
+      - pre-prod
+  paths:
+    include:
+      - CloverBackoffice/**
+      - infra/**
+      - pipelines/**
+      - azure-pipelines-api.yml
+
+pr:
+  branches:
+    include:
+      - main
+      - pre-prod
+  paths:
+    include:
+      - CloverBackoffice/**
+      - infra/**
+      - pipelines/**
+      - azure-pipelines-api.yml
+
+variables:
+  - ${{ if eq(variables['Build.SourceBranch'], 'refs/heads/pre-prod') }}:
+    - template: pipelines/variables/preprod.yml
+    # Secret RRIDA_PG_ADMIN_PASSWORD (+ optional RRIDA_FRONTEND_BASE_URL) for the
+    # Provision stage.
+    - group: rrida-preprod
+  - ${{ else }}:
+    - template: pipelines/variables/dev.yml
+  - name: buildConfiguration
+    value: Release
+  - name: dotnetVersion
+    value: 9.x
+  - name: apiProject
+    value: CloverBackoffice/CloverBackoffice.API/CloverBackoffice.API.csproj
+  - name: repositoryProject
+    value: CloverBackoffice/CloverBackoffice.Repository/CloverBackoffice.Repository.csproj
+  - name: isDeployBranch
+    value: ${{ or(eq(variables['Build.SourceBranch'], 'refs/heads/main'), eq(variables['Build.SourceBranch'], 'refs/heads/pre-prod')) }}
+
+pool:
+  vmImage: ubuntu-latest
+
+stages:
+  - stage: Build
+    displayName: Build
+    jobs:
+      - job: build
+        displayName: Build API and EF bundle
+        steps:
+          - task: UseDotNet@2
+            displayName: Install .NET SDK
+            inputs:
+              packageType: sdk
+              version: $(dotnetVersion)
+
+          - script: dotnet restore CloverBackoffice/CloverBackoffice.sln
+            displayName: Restore
+
+          - script: dotnet build CloverBackoffice/CloverBackoffice.sln -c $(buildConfiguration) --no-restore
+            displayName: Build
+
+          # No test projects in the solution yet. Add the step here when there are:
+          # - script: dotnet test CloverBackoffice/CloverBackoffice.sln -c $(buildConfiguration) --no-build
+
+          - script: |
+              set -euo pipefail
+              dotnet publish $(apiProject) \
+                -c $(buildConfiguration) \
+                --no-build \
+                -o $(Build.ArtifactStagingDirectory)/app
+            displayName: Publish API
+
+          - task: ArchiveFiles@2
+            displayName: Zip API
+            inputs:
+              rootFolderOrFile: $(Build.ArtifactStagingDirectory)/app
+              includeRootFolder: false
+              archiveType: zip
+              archiveFile: $(Build.ArtifactStagingDirectory)/api.zip
+              replaceExistingArchive: true
+
+          # Self-contained bundle so the migrate stage needs no SDK and no
+          # source checkout, only the connection string.
+          - script: |
+              set -euo pipefail
+              dotnet tool install --global dotnet-ef --version 9.*
+              export PATH="$PATH:$HOME/.dotnet/tools"
+              dotnet ef migrations bundle \
+                --project $(repositoryProject) \
+                --startup-project $(apiProject) \
+                --configuration $(buildConfiguration) \
+                --self-contained -r linux-x64 \
+                --output $(Build.ArtifactStagingDirectory)/efbundle \
+                --force
+            displayName: Build EF migrations bundle
+
+          - publish: $(Build.ArtifactStagingDirectory)/api.zip
+            artifact: api
+
+          - publish: $(Build.ArtifactStagingDirectory)/efbundle
+            artifact: efbundle
+
+          - publish: infra/db/bootstrap
+            artifact: dbbootstrap
+
+  # Pre-Prod only: create/update the whole environment from infra/main.bicep and
+  # seed its Key Vault. Idempotent, so it runs on every pre-prod push; Dev keeps
+  # its own azure-pipelines-infra.yml.
+  - ${{ if eq(variables.provisionInfra, 'true') }}:
+    - stage: Provision
+      displayName: Provision ${{ variables.environmentDisplayName }} infrastructure
+      dependsOn: Build
+      condition: and(succeeded(), eq(variables['isDeployBranch'], 'True'))
+      jobs:
+        - deployment: provision
+          displayName: Deploy infra/main.bicep
+          environment: ${{ variables.deploymentEnvironment }}
+          strategy:
+            runOnce:
+              deploy:
+                steps:
+                  - template: pipelines/templates/provision-infra-steps.yml
+
+  - stage: Migrate
+    displayName: Migrate ${{ variables.environmentDisplayName }} database
+    dependsOn:
+      - Build
+      - ${{ if eq(variables.provisionInfra, 'true') }}:
+        - Provision
+    condition: and(succeeded(), eq(variables['isDeployBranch'], 'True'))
+    jobs:
+      - deployment: migrate
+        displayName: Bootstrap and apply EF migrations
+        environment: ${{ variables.deploymentEnvironment }}
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - download: current
+                  artifact: efbundle
+
+                - download: current
+                  artifact: dbbootstrap
+
+                # Microsoft-hosted agents get a fresh public IP per run, so the
+                # firewall rule is opened for this run only and removed below,
+                # even if the migration fails.
+                - task: AzureCLI@2
+                  displayName: Open firewall, bootstrap, run bundle
+                  inputs:
+                    azureSubscription: $(azureServiceConnection)
+                    scriptType: bash
+                    scriptLocation: inlineScript
+                    inlineScript: |
+                      set -euo pipefail
+
+                      # Any one lookup service can be down (ipify once answered
+                      # "error code: 502", which then went to Azure as the IP), so
+                      # try several and accept only a real IPv4 address.
+                      AGENT_IP=""
+                      for url in https://api.ipify.org https://ifconfig.me/ip https://icanhazip.com https://checkip.amazonaws.com; do
+                        for attempt in 1 2 3; do
+                          CANDIDATE=$(curl -fsS --max-time 10 "$url" 2>/dev/null | tr -d '[:space:]' || true)
+                          if [[ "$CANDIDATE" =~ ^([0-9]{1,3}\.){3}[0-9]{1,3}$ ]]; then
+                            AGENT_IP="$CANDIDATE"
+                            break 2
+                          fi
+                          echo "IP lookup via $url failed (attempt $attempt): '${CANDIDATE}'"
+                          sleep 2
+                        done
+                      done
+                      if [ -z "$AGENT_IP" ]; then
+                        echo "##[error]Could not determine the agent's public IPv4 address."
+                        exit 1
+                      fi
+                      echo "Agent IP: $AGENT_IP"
+
+                      az postgres flexible-server firewall-rule create \
+                        --resource-group $(resourceGroupName) \
+                        --server-name $(postgresServerName) \
+                        --name "pipeline-$(Build.BuildId)" \
+                        --start-ip-address "$AGENT_IP" \
+                        --end-ip-address "$AGENT_IP" \
+                        --output none
+
+                      if ! CONNECTION_STRING=$(az keyvault secret show \
+                        --vault-name $(keyVaultName) \
+                        --name $(connectionSecretName) \
+                        --query value -o tsv 2>/dev/null); then
+                        echo "##vso[task.logissue type=error]$(connectionSecretName) is missing in $(keyVaultName). The Provision stage writes it; check its 'Seed Key Vault' step, then re-run."
+                        exit 1
+                      fi
+                      echo "##vso[task.setsecret]$CONNECTION_STRING"
+
+                      bash "$(Pipeline.Workspace)/dbbootstrap/bootstrap-database.sh" \
+                        "$CONNECTION_STRING" "$(Pipeline.Workspace)/dbbootstrap"
+
+                      chmod +x "$(Pipeline.Workspace)/efbundle/efbundle"
+                      "$(Pipeline.Workspace)/efbundle/efbundle" --connection "$CONNECTION_STRING"
+
+                - task: AzureCLI@2
+                  displayName: Close firewall
+                  condition: always()
+                  inputs:
+                    azureSubscription: $(azureServiceConnection)
+                    scriptType: bash
+                    scriptLocation: inlineScript
+                    inlineScript: |
+                      az postgres flexible-server firewall-rule delete \
+                        --resource-group $(resourceGroupName) \
+                        --server-name $(postgresServerName) \
+                        --name "pipeline-$(Build.BuildId)" \
+                        --yes --output none || true
+
+  - stage: Deploy
+    displayName: Deploy API to ${{ variables.environmentDisplayName }}
+    dependsOn: Migrate
+    condition: succeeded()
+    jobs:
+      - deployment: deploy
+        displayName: Deploy to $(webAppName)
+        environment: ${{ variables.deploymentEnvironment }}
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - download: current
+                  artifact: api
+
+                - task: AzureWebApp@1
+                  displayName: Zip deploy
+                  inputs:
+                    azureSubscription: $(azureServiceConnection)
+                    appType: webAppLinux
+                    appName: $(webAppName)
+                    package: $(Pipeline.Workspace)/api/api.zip
+                    deploymentMethod: zipDeploy
+
+                # zipDeploy leaves the OLD worker serving until the new one
+                # warms up, so the smoke test can spend its whole window talking
+                # to the previous build. An explicit restart ends that window: it
+                # is only ever called after a successful deploy, so the app comes
+                # back on the code that was just pushed.
+                - task: AzureCLI@2
+                  displayName: Restart app
+                  inputs:
+                    azureSubscription: $(azureServiceConnection)
+                    scriptType: bash
+                    scriptLocation: inlineScript
+                    inlineScript: |
+                      set -euo pipefail
+                      az webapp restart                         --name $(webAppName)                         --resource-group $(resourceGroupName)                         --output none
+
+                - task: AzureCLI@2
+                  displayName: Smoke test
+                  inputs:
+                    azureSubscription: $(azureServiceConnection)
+                    scriptType: bash
+                    scriptLocation: inlineScript
+                    inlineScript: |
+                      set -euo pipefail
+                      # /health is anonymous and answers once the host has started
+                      # (Key Vault loaded, services built), in every environment.
+                      # A cold start after the restart above can take a few minutes,
+                      # hence the ~7 minute window.
+                      URL="https://$(webAppName).azurewebsites.net/health"
+                      for i in $(seq 1 40); do
+                        CODE=$(curl -s -o /dev/null -w "%{http_code}" "$URL" || true)
+                        echo "attempt $i: $CODE"
+                        if [ "$CODE" = "200" ]; then exit 0; fi
+                        sleep 10
+                      done
+                      echo "App did not answer 200 on /health after warm-up."
+                      exit 1

@@ -1,0 +1,78 @@
+# RRIDA infrastructure pipeline.
+#   PR into main    -> what-if only, nothing is changed
+#   merge to main   -> deploys infra/params/dev.bicepparam
+#   manual run on pre-prod -> what-if + deploy of infra/params/preprod.bicepparam
+#
+# Pre-Prod does not need this pipeline for normal work: azure-pipelines-api.yml
+# provisions Pre-Prod itself on every push to pre-prod, so the two pipelines
+# never deploy the same environment at the same time.
+#
+# Setup once:
+#   1. Project settings > Service connections > Azure Resource Manager
+#      (workload identity federation) named rrida-dev-arm, scoped to
+#      subscription eng-development-001
+#      (8b1e7bc0-22e9-4600-bb24-5742a2ad4189). Needs Contributor + User Access
+#      Administrator — the template creates role assignments, which Contributor
+#      alone cannot do. Dev and Pre-Prod share it.
+#   2. Pipelines > Library > variable groups 'rrida-dev' and 'rrida-preprod',
+#      each with a SECRET variable RRIDA_PG_ADMIN_PASSWORD
+#      ('rrida-preprod' optionally also RRIDA_FRONTEND_BASE_URL).
+name: rrida-infra-$(Date:yyyyMMdd)$(Rev:.r)
+
+trigger:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - infra/**
+      - pipelines/**
+      - azure-pipelines-infra.yml
+
+pr:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - infra/**
+      - pipelines/**
+      - azure-pipelines-infra.yml
+
+variables:
+  - ${{ if eq(variables['Build.SourceBranch'], 'refs/heads/pre-prod') }}:
+    - template: pipelines/variables/preprod.yml
+    - group: rrida-preprod
+  - ${{ else }}:
+    - template: pipelines/variables/dev.yml
+    - group: rrida-dev
+  - name: isDeployBranch
+    value: ${{ or(eq(variables['Build.SourceBranch'], 'refs/heads/main'), eq(variables['Build.SourceBranch'], 'refs/heads/pre-prod')) }}
+
+pool:
+  vmImage: ubuntu-latest
+
+stages:
+  - stage: Validate
+    displayName: What-if (${{ variables.environmentDisplayName }})
+    jobs:
+      - job: whatif
+        displayName: Preview infrastructure changes
+        steps:
+          - template: pipelines/templates/provision-infra-steps.yml
+            parameters:
+              whatIfOnly: true
+
+  - stage: Deploy
+    displayName: Deploy ${{ variables.environmentDisplayName }}
+    dependsOn: Validate
+    condition: and(succeeded(), eq(variables['isDeployBranch'], 'True'))
+    jobs:
+      - deployment: deploy
+        displayName: az deployment sub create
+        environment: ${{ variables.deploymentEnvironment }}
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - template: pipelines/templates/provision-infra-steps.yml

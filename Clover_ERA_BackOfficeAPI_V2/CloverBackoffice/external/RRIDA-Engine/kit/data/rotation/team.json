@@ -1,0 +1,159 @@
+{
+ "track": "team",
+ "cycleLength": 15,
+ "note": "Taken from Q ID order. Six conditions appear twice per cycle and three once, which is how 90 questions divide into 15 days. Six cycles cover the bank. How this shares a day with the six-day individual rotation is an open integration decision and is not settled here.",
+ "cycle": [
+  {
+   "day": 1,
+   "element": "Structure"
+  },
+  {
+   "day": 2,
+   "element": "Goal Affinity"
+  },
+  {
+   "day": 3,
+   "element": "Accountability"
+  },
+  {
+   "day": 4,
+   "element": "Coordination Quality"
+  },
+  {
+   "day": 5,
+   "element": "Leadership"
+  },
+  {
+   "day": 6,
+   "element": "Potency"
+  },
+  {
+   "day": 7,
+   "element": "Learning"
+  },
+  {
+   "day": 8,
+   "element": "Results"
+  },
+  {
+   "day": 9,
+   "element": "Belonging"
+  },
+  {
+   "day": 10,
+   "element": "Structure"
+  },
+  {
+   "day": 11,
+   "element": "Goal Affinity"
+  },
+  {
+   "day": 12,
+   "element": "Potency"
+  },
+  {
+   "day": 13,
+   "element": "Coordination Quality"
+  },
+  {
+   "day": 14,
+   "element": "Results"
+  },
+  {
+   "day": 15,
+   "element": "Belonging"
+  }
+ ],
+ "questionOrder": [
+  301,
+  302,
+  303,
+  304,
+  305,
+  306,
+  307,
+  308,
+  309,
+  310,
+  311,
+  312,
+  313,
+  314,
+  315,
+  316,
+  317,
+  318,
+  319,
+  320,
+  321,
+  322,
+  323,
+  324,
+  325,
+  326,
+  327,
+  328,
+  329,
+  330,
+  331,
+  332,
+  333,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  344,
+  345,
+  346,
+  347,
+  348,
+  349,
+  350,
+  351,
+  352,
+  353,
+  354,
+  355,
+  356,
+  357,
+  358,
+  359,
+  360,
+  361,
+  362,
+  363,
+  364,
+  365,
+  366,
+  367,
+  368,
+  369,
+  370,
+  371,
+  372,
+  373,
+  374,
+  375,
+  376,
+  377,
+  378,
+  379,
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390
+ ]
+}

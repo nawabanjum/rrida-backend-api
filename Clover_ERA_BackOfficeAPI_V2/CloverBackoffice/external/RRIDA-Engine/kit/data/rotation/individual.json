@@ -1,0 +1,12 @@
+{
+  "note": "DO NOT DEPLOY THIS. It is the demo rotation and it is not the product. Six of the ninety individual questions, looping every six days, and six questions reach 26 of the 85 issue buckets: the other 59 are unreachable, because the questions that would raise them are never asked. No amount of running time surfaces them. Production runs data/rotation-90/rotation.json, which asks all ninety one a day, looping. A condition is carried by a median of four of the ninety, so it comes round about every twenty asked days whatever the order, which is why the signal read keys on the issue file rather than on the question that surfaced it. This file exists for one reason: on the real rotation a cycle cannot be delivered, confirmed, read and closed inside one sitting, and a demo has to show that. The eight authored scenarios are pinned to these six questions and cannot run on the ninety, so the conformance fixtures are built against this file too. Its old note said the six-day return period was load bearing for the signal read and must not be lengthened. That was true until D27 keyed the read on the issue file instead of on the question, and the guard it describes was retired then. It is kept here as a record of what this file used to claim, because that claim is the reason it looked deployable.",
+  "cycleLength": 6,
+  "questions": [
+    { "day": 1, "element": "Communication",  "questionId": 199, "why": "Recognition. Days 1, 7, 13, 19. Feeds MA-C-069 for the scenario 2 re-read, and MA-V-052 shares this question with day 6." },
+    { "day": 2, "element": "Learning",       "questionId": 206, "why": "Skill progression. Days 2, 8, 14. Feeds MA-L-096 and MA-L-099." },
+    { "day": 3, "element": "Enablement",     "questionId": 191, "why": "Blockers. Days 3, 9, 15. Two occurrences inside the first window is what lets the scenario 1 blockers signal cross the floor on day 9 rather than on day 7." },
+    { "day": 4, "element": "Vulnerability",  "questionId": 208, "why": "Climate rather than condition. Days 4, 10, 16. Carries the Null note types for the scenario 4 honest null." },
+    { "day": 5, "element": "Opportunity",    "questionId": 195, "why": "Horizon. Days 5, 11, 17. Shares MA-OP-107 with day 2." },
+    { "day": 6, "element": "Reflection",     "questionId": 186, "why": "Reflection space. Days 6, 12, 18. Shares MA-V-052 with day 1, which is what lets succession hold a file across cycles in scenario 6." }
+  ]
+}

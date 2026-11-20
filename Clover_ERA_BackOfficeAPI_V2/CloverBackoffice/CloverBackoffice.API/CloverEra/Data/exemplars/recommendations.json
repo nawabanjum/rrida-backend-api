@@ -1,0 +1,57 @@
+[
+  {
+    "id": "rec-reengage-withdrawn",
+    "pillars": ["Vulnerability", "Opportunities"],
+    "text": "Re-engage the people who have already started pulling away. Withdrawal is quiet and easy to miss, but it is the most expensive outcome on this team. The priority is creating conditions where showing up and contributing feels worth the risk again, before disengagement becomes permanent."
+  },
+  {
+    "id": "rec-rebuild-safety-first",
+    "pillars": ["Vulnerability"],
+    "text": "Rebuild the conditions for psychological safety before expecting honest input. Trust has been broken in specific, named ways. No feedback mechanism, survey, or workshop will generate authentic responses until people genuinely believe it is safe to speak. That belief is built through consistent leadership behaviour, not process."
+  },
+  {
+    "id": "rec-career-ongoing",
+    "pillars": ["Opportunities"],
+    "text": "Make career development a real, ongoing conversation, not an annual event. The data is unambiguous: this team does not believe their growth matters to leadership. Until that changes structurally, engagement across every other CLOVER element will continue to erode underneath the surface."
+  },
+  {
+    "id": "rec-narrow-voice-gap",
+    "pillars": ["Vulnerability"],
+    "text": "Narrow the gap between team members who speak openly and those who hold back. Half of the speak-up responses were Sad, with two respondents explicitly stating they hold back and one free-text noting that honesty is met with defensive responses rather than listening. The manager's role is to model first by sharing something real, then create protected airtime for each team member without interruption or problem-solving."
+  },
+  {
+    "id": "rec-concrete-signal-response",
+    "pillars": ["Enablement"],
+    "text": "Respond concretely to the environmental signals, especially the focus-time request. Running even a two-week trial sends a message the team needs to hear: naming a problem leads to action. That in itself is a Vulnerability-building act, because it rewards disclosure with visible change."
+  },
+  {
+    "id": "rec-blame-narrow-behaviour",
+    "pillars": ["Vulnerability"],
+    "text": "Treat blame and defensiveness as a narrow, visible behaviour to name and change in real time, not as a deep culture problem requiring a long intervention. The team is already seeing the pattern clearly, which means small targeted interventions that reward disclosure before debating content should land quickly."
+  },
+  {
+    "id": "rec-trend-not-selfcorrecting",
+    "pillars": ["Vulnerability"],
+    "text": "Vulnerability declined from 43 to 38 period-over-period, despite the prior report flagging it as a secondary concern and recommending direct action. The conditions are not self-correcting. If the same intervention has now been recommended twice and the score is still dropping, the operating model around feedback needs a structural change, not another round of the same approach."
+  },
+  {
+    "id": "rec-protect-gain",
+    "pillars": ["Reflection"],
+    "text": "Protect the Reflection gain and connect it deliberately to the weakest pillar. Reflection has moved from Critical to Healthy in a single period, proving this team can shift a stuck pattern when the conditions are right. That same capacity for rapid movement is the foundation needed to build other habits, and the two should be treated as reinforcing rather than separate."
+  },
+  {
+    "id": "rec-name-the-barrier",
+    "pillars": ["Enablement", "Reflection"],
+    "text": "Name the structural barrier publicly and own it. The team has already identified the pattern in their own words: workload and meeting density are squeezing the behaviour out. The risk is that treating this as a personal discipline issue teaches the team that the system will not change, so neither will their willingness to raise it next time."
+  },
+  {
+    "id": "rec-peers-can-model",
+    "pillars": ["Vulnerability"],
+    "text": "Use the members already modelling the desired behaviour as peer anchors, not just leadership. Three respondents have internalised psychological safety and are describing it in their own words. Peer modelling is more durable than top-down modelling because it travels laterally, survives management changes, and signals that the behaviour is owned by the team rather than enforced from above."
+  },
+  {
+    "id": "rec-route-escalation",
+    "pillars": ["Vulnerability"],
+    "text": "Route the cultural inclusivity concern to HR or leadership within 14 days, framed as a survey-sourced insight. The free-text response references attrition already happening, which puts this beyond what a team-level intervention can resolve alone."
+  }
+]

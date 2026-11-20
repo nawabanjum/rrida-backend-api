@@ -1,0 +1,9 @@
+prompts: ["Hello world"]
+providers:
+  - id: openai:chat:gpt-4o
+    config:
+      apiBaseUrl: https://cloverera.litellm-sandbox.ai/v1
+      apiKey: ""
+tests:
+  - vars:
+      foo: bar

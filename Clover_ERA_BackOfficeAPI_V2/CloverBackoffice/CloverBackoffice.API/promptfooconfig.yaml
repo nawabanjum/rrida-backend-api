@@ -1,0 +1,19 @@
+description: "LiteLLM Feedback Analysis Evaluation"
+
+prompts: [file://prompts.txt]
+
+providers:
+  - id: openai:chat:gpt-4o
+    config:
+      apiBaseUrl: https://cloverera.litellm-sandbox.ai/v1
+
+defaultTest:
+  options:
+    provider: 
+      id: openai:chat:gpt-4o
+      config:
+        apiBaseUrl: https://cloverera.litellm-sandbox.ai/v1
+
+tests: [file://tests.yaml]
+
+sharing: true

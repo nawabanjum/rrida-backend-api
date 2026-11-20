@@ -1,0 +1,546 @@
+{
+ "note": "The real question set, in sheet order. Day d asks individual question 120+d and team question 300+d, and the cycle repeats after 90. Written for the uncurated single-team run; it does not replace data/rotation.json, which is the demo's six.",
+ "cycleLength": 90,
+ "questions": [
+  {
+   "day": 1,
+   "element": "Communication",
+   "questionId": 121,
+   "why": "sheet order"
+  },
+  {
+   "day": 2,
+   "element": "Learning",
+   "questionId": 122,
+   "why": "sheet order"
+  },
+  {
+   "day": 3,
+   "element": "Opportunity",
+   "questionId": 123,
+   "why": "sheet order"
+  },
+  {
+   "day": 4,
+   "element": "Vulnerability",
+   "questionId": 124,
+   "why": "sheet order"
+  },
+  {
+   "day": 5,
+   "element": "Enablement",
+   "questionId": 125,
+   "why": "sheet order"
+  },
+  {
+   "day": 6,
+   "element": "Reflection",
+   "questionId": 126,
+   "why": "sheet order"
+  },
+  {
+   "day": 7,
+   "element": "Communication",
+   "questionId": 127,
+   "why": "sheet order"
+  },
+  {
+   "day": 8,
+   "element": "Learning",
+   "questionId": 128,
+   "why": "sheet order"
+  },
+  {
+   "day": 9,
+   "element": "Opportunity",
+   "questionId": 129,
+   "why": "sheet order"
+  },
+  {
+   "day": 10,
+   "element": "Vulnerability",
+   "questionId": 130,
+   "why": "sheet order"
+  },
+  {
+   "day": 11,
+   "element": "Enablement",
+   "questionId": 131,
+   "why": "sheet order"
+  },
+  {
+   "day": 12,
+   "element": "Communication",
+   "questionId": 132,
+   "why": "sheet order"
+  },
+  {
+   "day": 13,
+   "element": "Communication",
+   "questionId": 133,
+   "why": "sheet order"
+  },
+  {
+   "day": 14,
+   "element": "Learning",
+   "questionId": 134,
+   "why": "sheet order"
+  },
+  {
+   "day": 15,
+   "element": "Opportunity",
+   "questionId": 135,
+   "why": "sheet order"
+  },
+  {
+   "day": 16,
+   "element": "Vulnerability",
+   "questionId": 136,
+   "why": "sheet order"
+  },
+  {
+   "day": 17,
+   "element": "Enablement",
+   "questionId": 137,
+   "why": "sheet order"
+  },
+  {
+   "day": 18,
+   "element": "Enablement",
+   "questionId": 138,
+   "why": "sheet order"
+  },
+  {
+   "day": 19,
+   "element": "Communication",
+   "questionId": 139,
+   "why": "sheet order"
+  },
+  {
+   "day": 20,
+   "element": "Learning",
+   "questionId": 140,
+   "why": "sheet order"
+  },
+  {
+   "day": 21,
+   "element": "Opportunity",
+   "questionId": 141,
+   "why": "sheet order"
+  },
+  {
+   "day": 22,
+   "element": "Vulnerability",
+   "questionId": 142,
+   "why": "sheet order"
+  },
+  {
+   "day": 23,
+   "element": "Enablement",
+   "questionId": 143,
+   "why": "sheet order"
+  },
+  {
+   "day": 24,
+   "element": "Reflection",
+   "questionId": 144,
+   "why": "sheet order"
+  },
+  {
+   "day": 25,
+   "element": "Communication",
+   "questionId": 145,
+   "why": "sheet order"
+  },
+  {
+   "day": 26,
+   "element": "Learning",
+   "questionId": 146,
+   "why": "sheet order"
+  },
+  {
+   "day": 27,
+   "element": "Learning",
+   "questionId": 147,
+   "why": "sheet order"
+  },
+  {
+   "day": 28,
+   "element": "Vulnerability",
+   "questionId": 148,
+   "why": "sheet order"
+  },
+  {
+   "day": 29,
+   "element": "Enablement",
+   "questionId": 149,
+   "why": "sheet order"
+  },
+  {
+   "day": 30,
+   "element": "Reflection",
+   "questionId": 150,
+   "why": "sheet order"
+  },
+  {
+   "day": 31,
+   "element": "Communication",
+   "questionId": 151,
+   "why": "sheet order"
+  },
+  {
+   "day": 32,
+   "element": "Learning",
+   "questionId": 152,
+   "why": "sheet order"
+  },
+  {
+   "day": 33,
+   "element": "Opportunity",
+   "questionId": 153,
+   "why": "sheet order"
+  },
+  {
+   "day": 34,
+   "element": "Vulnerability",
+   "questionId": 154,
+   "why": "sheet order"
+  },
+  {
+   "day": 35,
+   "element": "Enablement",
+   "questionId": 155,
+   "why": "sheet order"
+  },
+  {
+   "day": 36,
+   "element": "Communication",
+   "questionId": 156,
+   "why": "sheet order"
+  },
+  {
+   "day": 37,
+   "element": "Communication",
+   "questionId": 157,
+   "why": "sheet order"
+  },
+  {
+   "day": 38,
+   "element": "Learning",
+   "questionId": 158,
+   "why": "sheet order"
+  },
+  {
+   "day": 39,
+   "element": "Opportunity",
+   "questionId": 159,
+   "why": "sheet order"
+  },
+  {
+   "day": 40,
+   "element": "Vulnerability",
+   "questionId": 160,
+   "why": "sheet order"
+  },
+  {
+   "day": 41,
+   "element": "Enablement",
+   "questionId": 161,
+   "why": "sheet order"
+  },
+  {
+   "day": 42,
+   "element": "Reflection",
+   "questionId": 162,
+   "why": "sheet order"
+  },
+  {
+   "day": 43,
+   "element": "Communication",
+   "questionId": 163,
+   "why": "sheet order"
+  },
+  {
+   "day": 44,
+   "element": "Learning",
+   "questionId": 164,
+   "why": "sheet order"
+  },
+  {
+   "day": 45,
+   "element": "Opportunity",
+   "questionId": 165,
+   "why": "sheet order"
+  },
+  {
+   "day": 46,
+   "element": "Vulnerability",
+   "questionId": 166,
+   "why": "sheet order"
+  },
+  {
+   "day": 47,
+   "element": "Enablement",
+   "questionId": 167,
+   "why": "sheet order"
+  },
+  {
+   "day": 48,
+   "element": "Reflection",
+   "questionId": 168,
+   "why": "sheet order"
+  },
+  {
+   "day": 49,
+   "element": "Communication",
+   "questionId": 169,
+   "why": "sheet order"
+  },
+  {
+   "day": 50,
+   "element": "Learning",
+   "questionId": 170,
+   "why": "sheet order"
+  },
+  {
+   "day": 51,
+   "element": "Opportunity",
+   "questionId": 171,
+   "why": "sheet order"
+  },
+  {
+   "day": 52,
+   "element": "Vulnerability",
+   "questionId": 172,
+   "why": "sheet order"
+  },
+  {
+   "day": 53,
+   "element": "Enablement",
+   "questionId": 173,
+   "why": "sheet order"
+  },
+  {
+   "day": 54,
+   "element": "Reflection",
+   "questionId": 174,
+   "why": "sheet order"
+  },
+  {
+   "day": 55,
+   "element": "Communication",
+   "questionId": 175,
+   "why": "sheet order"
+  },
+  {
+   "day": 56,
+   "element": "Learning",
+   "questionId": 176,
+   "why": "sheet order"
+  },
+  {
+   "day": 57,
+   "element": "Opportunity",
+   "questionId": 177,
+   "why": "sheet order"
+  },
+  {
+   "day": 58,
+   "element": "Communication",
+   "questionId": 178,
+   "why": "sheet order"
+  },
+  {
+   "day": 59,
+   "element": "Enablement",
+   "questionId": 179,
+   "why": "sheet order"
+  },
+  {
+   "day": 60,
+   "element": "Reflection",
+   "questionId": 180,
+   "why": "sheet order"
+  },
+  {
+   "day": 61,
+   "element": "Communication",
+   "questionId": 181,
+   "why": "sheet order"
+  },
+  {
+   "day": 62,
+   "element": "Learning",
+   "questionId": 182,
+   "why": "sheet order"
+  },
+  {
+   "day": 63,
+   "element": "Opportunity",
+   "questionId": 183,
+   "why": "sheet order"
+  },
+  {
+   "day": 64,
+   "element": "Vulnerability",
+   "questionId": 184,
+   "why": "sheet order"
+  },
+  {
+   "day": 65,
+   "element": "Enablement",
+   "questionId": 185,
+   "why": "sheet order"
+  },
+  {
+   "day": 66,
+   "element": "Reflection",
+   "questionId": 186,
+   "why": "sheet order"
+  },
+  {
+   "day": 67,
+   "element": "Communication",
+   "questionId": 187,
+   "why": "sheet order"
+  },
+  {
+   "day": 68,
+   "element": "Learning",
+   "questionId": 188,
+   "why": "sheet order"
+  },
+  {
+   "day": 69,
+   "element": "Opportunity",
+   "questionId": 189,
+   "why": "sheet order"
+  },
+  {
+   "day": 70,
+   "element": "Vulnerability",
+   "questionId": 190,
+   "why": "sheet order"
+  },
+  {
+   "day": 71,
+   "element": "Enablement",
+   "questionId": 191,
+   "why": "sheet order"
+  },
+  {
+   "day": 72,
+   "element": "Reflection",
+   "questionId": 192,
+   "why": "sheet order"
+  },
+  {
+   "day": 73,
+   "element": "Communication",
+   "questionId": 193,
+   "why": "sheet order"
+  },
+  {
+   "day": 74,
+   "element": "Learning",
+   "questionId": 194,
+   "why": "sheet order"
+  },
+  {
+   "day": 75,
+   "element": "Opportunity",
+   "questionId": 195,
+   "why": "sheet order"
+  },
+  {
+   "day": 76,
+   "element": "Vulnerability",
+   "questionId": 196,
+   "why": "sheet order"
+  },
+  {
+   "day": 77,
+   "element": "Enablement",
+   "questionId": 197,
+   "why": "sheet order"
+  },
+  {
+   "day": 78,
+   "element": "Reflection",
+   "questionId": 198,
+   "why": "sheet order"
+  },
+  {
+   "day": 79,
+   "element": "Communication",
+   "questionId": 199,
+   "why": "sheet order"
+  },
+  {
+   "day": 80,
+   "element": "Learning",
+   "questionId": 200,
+   "why": "sheet order"
+  },
+  {
+   "day": 81,
+   "element": "Opportunity",
+   "questionId": 201,
+   "why": "sheet order"
+  },
+  {
+   "day": 82,
+   "element": "Vulnerability",
+   "questionId": 202,
+   "why": "sheet order"
+  },
+  {
+   "day": 83,
+   "element": "Enablement",
+   "questionId": 203,
+   "why": "sheet order"
+  },
+  {
+   "day": 84,
+   "element": "Reflection",
+   "questionId": 204,
+   "why": "sheet order"
+  },
+  {
+   "day": 85,
+   "element": "Communication",
+   "questionId": 205,
+   "why": "sheet order"
+  },
+  {
+   "day": 86,
+   "element": "Learning",
+   "questionId": 206,
+   "why": "sheet order"
+  },
+  {
+   "day": 87,
+   "element": "Opportunity",
+   "questionId": 207,
+   "why": "sheet order"
+  },
+  {
+   "day": 88,
+   "element": "Vulnerability",
+   "questionId": 208,
+   "why": "sheet order"
+  },
+  {
+   "day": 89,
+   "element": "Enablement",
+   "questionId": 209,
+   "why": "sheet order"
+  },
+  {
+   "day": 90,
+   "element": "Reflection",
+   "questionId": 210,
+   "why": "sheet order"
+  }
+ ]
+}

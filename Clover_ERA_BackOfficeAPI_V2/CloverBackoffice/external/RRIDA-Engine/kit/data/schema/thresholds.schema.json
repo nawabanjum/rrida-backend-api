@@ -1,0 +1,176 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "rrida.kit.thresholds.v1",
+ "title": "Every threshold the layer computes against",
+ "description": "PROVISIONAL, every one of them, and Clive is the authority on them. Changing a number here changes what the product calls trouble and should be treated as that, not as a tuning knob. Nothing in the state layer carries a default: these are injected, and the resolver throws without them.",
+ "type": "object",
+ "required": [
+  "state",
+  "engine",
+  "vocabulary"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "state": {
+   "type": "object",
+   "required": [
+    "levelScale",
+    "relative",
+    "absolute",
+    "classifier",
+    "concentration",
+    "watch"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "levelScale": {
+     "type": "array",
+     "minItems": 4,
+     "maxItems": 4,
+     "items": {
+      "type": "number"
+     },
+     "description": "Red 0, Orange 1/3, Yellow 2/3, Green 1. Worst to best, matching the smiley order. D1 assigns Yellow to the positive side."
+    },
+    "relative": {
+     "type": "object",
+     "description": "D13. The team against its own recent history.",
+     "required": [
+      "lag",
+      "minDays",
+      "maxDays",
+      "k",
+      "h",
+      "s0Floor"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "lag": {
+       "type": "integer"
+      },
+      "minDays": {
+       "type": "integer"
+      },
+      "maxDays": {
+       "type": "integer"
+      },
+      "k": {
+       "type": "number"
+      },
+      "h": {
+       "type": "number"
+      },
+      "s0Floor": {
+       "type": "number"
+      }
+     }
+    },
+    "absolute": {
+     "type": "object",
+     "description": "D14. The team against a fixed reference, live from day one, no baseline. Replaces D2 as a gate-opening rule entirely.",
+     "required": [
+      "pRef",
+      "g"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "pRef": {
+       "type": "number"
+      },
+      "g": {
+       "type": "number"
+      }
+     }
+    },
+    "classifier": {
+     "type": "object",
+     "description": "The section H classifier, accumulated from the day the gate opened and reset when it closes (D22).",
+     "required": [
+      "zBound",
+      "rateWindow",
+      "track"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "zBound": {
+       "type": "number"
+      },
+      "rateWindow": {
+       "type": "integer"
+      },
+      "track": {
+       "type": "string"
+      }
+     }
+    },
+    "concentration": {
+     "type": "object",
+     "description": "D16. The cut is a lookup on responder count, interpolated between measured rows and clamped outside them, not a constant.",
+     "required": [
+      "windowDays",
+      "lookup"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "windowDays": {
+       "type": "integer"
+      },
+      "lookup": {
+       "type": "array",
+       "items": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+         "type": "number"
+        }
+       }
+      }
+     }
+    },
+    "watch": {
+     "type": "object",
+     "required": [
+      "levels",
+      "exposed"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "levels": {
+       "type": "array",
+       "items": {
+        "type": "number"
+       }
+      },
+      "exposed": {
+       "type": "object",
+       "required": [
+        "limb",
+        "level"
+       ],
+       "additionalProperties": false,
+       "properties": {
+        "limb": {
+         "type": "string"
+        },
+        "level": {
+         "type": "number"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "engine": {
+   "type": "object",
+   "additionalProperties": true,
+   "description": "Constants the engine carries in code. Listed here so a port reads them rather than retypes them."
+  },
+  "vocabulary": {
+   "type": "object",
+   "additionalProperties": true,
+   "description": "The closed value sets. Element is deliberately absent: it is an open value (spec 7.1a) and a port that enumerates it will reject the team bank."
+  }
+ }
+}

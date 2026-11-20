@@ -1,0 +1,36 @@
+# Dev — deployed from the main branch.
+variables:
+  - name: envKey
+    value: dev
+  - name: environmentDisplayName
+    value: Dev
+  - name: deploymentEnvironment
+    value: rrida-dev
+  - name: azureServiceConnection
+    value: rrida-dev-arm
+  - name: deployLocation
+    value: eastus2
+  - name: parameterFile
+    value: infra/params/dev.bicepparam
+  - name: templateFile
+    value: infra/main.bicep
+  # 'sub' creates the resource group; 'group' deploys into an existing one.
+  - name: deploymentScope
+    value: sub
+  - name: resourceGroupName
+    value: rg-rrida-dev-001
+  - name: webAppName
+    value: app-rrida-api-dev
+  - name: keyVaultName
+    value: kv-rrida-dev-001
+  - name: connectionSecretName
+    value: RRIDA-DEV
+  - name: postgresServerName
+    value: pg-rrida-dev-001
+
+  # Dev infrastructure is deployed by azure-pipelines-infra.yml, and its vault was
+  # seeded by hand (infra/seed-keyvault.ps1), so the API pipeline does neither.
+  - name: provisionInfra
+    value: 'false'
+  - name: seedKeyVault
+    value: 'false'

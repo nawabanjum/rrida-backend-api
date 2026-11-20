@@ -1,0 +1,80 @@
+{
+ "kitVersion": "1.0.0",
+ "generatedFrom": {
+  "repository": "RRIDA-Engine",
+  "reference": "the JavaScript in src/, which is the reference implementation",
+  "generator": "tools/kit/build-kit.mjs",
+  "baselineTag": "baseline-20260921"
+ },
+ "versions": {
+  "specVersion": "4.7",
+  "dataVersion": "2026-09-21-team-bank",
+  "definitions": "D1 to D26, provisional, see kit/definitions/",
+  "stateLogSchema": "rrida.state.daily.v1",
+  "thresholdsStatus": "PROVISIONAL, Clive is the authority"
+ },
+ "counts": {
+  "chips": 1620,
+  "actions": 3080,
+  "issue_files": 118,
+  "questions": 90,
+  "team_chips": 1620,
+  "team_questions": 90,
+  "chips_all_tracks": 3240,
+  "questions_all_tracks": 180,
+  "worksheets": 56,
+  "capability_flags": 85
+ },
+ "tallyKey": "rung_1_ask",
+ "runMinutesCap": 60,
+ "tracks": {
+  "this_export": "Individual",
+  "id_space": "question ids 121-210 reserved for the individual track; the team track must use a non-overlapping range",
+  "elements_are_open": true,
+  "present": [
+   "Individual",
+   "Team"
+  ],
+  "team_id_space": "question ids 301-390",
+  "element_identity": "the pair (track, element). The team bank has a condition called Learning which is the old Improvement Loop, not the CLOVER element of the same name.",
+  "team_elements": [
+   "Accountability",
+   "Belonging",
+   "Coordination Quality",
+   "Goal Affinity",
+   "Leadership",
+   "Learning",
+   "Potency",
+   "Results",
+   "Structure"
+  ],
+  "team_condition_groups": {
+   "Design and Mechanics": [
+    "Structure",
+    "Coordination Quality",
+    "Learning"
+   ],
+   "Direction and Progress": [
+    "Goal Affinity",
+    "Leadership",
+    "Results"
+   ],
+   "What the team believes": [
+    "Accountability",
+    "Potency",
+    "Belonging"
+   ]
+  }
+ },
+ "routing": {
+  "threshold": "simple majority of enrolled members",
+  "routes": [
+   "Ask",
+   "Team",
+   "Content",
+   "Locus"
+  ],
+  "build_tally_routes": false
+ },
+ "note": "The counts are asserted against what is loaded and a mismatch halts. chips_all_tracks and questions_all_tracks are derived totals carried for whoever reads them and are deliberately not asserted."
+}

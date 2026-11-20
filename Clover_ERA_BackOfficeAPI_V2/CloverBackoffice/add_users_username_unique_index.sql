@@ -1,0 +1,61 @@
+-- ============================================================================
+-- Users.Username: one live login per email address.
+--
+-- WHY
+-- Every path that creates a user checks the email first and then inserts, with
+-- no constraint underneath. Two simultaneous requests for the same address —
+-- a double-clicked Add Manager button, two testers, a retried client — can both
+-- pass the check and both insert, producing two logins and two invitations for
+-- one person. The application cannot close that window on its own; only the
+-- database can.
+--
+-- WHY PARTIAL
+-- Deleting a user does not remove the row: AccountRegistrationService renames it
+-- to `del_<email>` and sets IsDel. Those rows must stay legal, and several may
+-- share a name, so the index covers live rows only.
+--
+-- WHY lower()
+-- Every lookup in the codebase compares `Username.ToLower()`, so the constraint
+-- has to match on the same shape or it would still allow Neil@abc.com next to
+-- neil@abc.com.
+--
+-- RUN THIS FIRST, on EVERY environment you intend to apply the index to.
+-- It must return zero rows. If it returns anything, those users need resolving
+-- by hand before the index can be created — do not force it.
+--
+--     SELECT lower("Username") AS username, count(*), array_agg("UserId")
+--     FROM   "Users"
+--     WHERE  "IsDel" = false
+--     GROUP  BY 1
+--     HAVING count(*) > 1
+--     ORDER  BY 2 DESC;
+--
+-- Verified clean on Dev (pg-rrida-dev-001 / rrida) on 2026-09-03: 0 rows,
+-- 43 live users. UAT and Production have NOT been checked.
+--
+-- CONCURRENTLY keeps the table writable while the index builds, so this is safe
+-- to run against a live database. It cannot run inside a transaction block —
+-- execute it on its own, not wrapped in BEGIN/COMMIT.
+-- ============================================================================
+
+CREATE UNIQUE INDEX CONCURRENTLY IF NOT EXISTS "UX_Users_Username_Live"
+    ON "Users" (lower("Username"))
+    WHERE "IsDel" = false;
+
+-- If the build fails part-way it leaves an INVALID index behind. Check with:
+--
+--     SELECT indexrelid::regclass, indisvalid
+--     FROM   pg_index
+--     WHERE  indexrelid = '"UX_Users_Username_Live"'::regclass;
+--
+-- and drop it before retrying:
+--
+--     DROP INDEX CONCURRENTLY IF EXISTS "UX_Users_Username_Live";
+
+-- ----------------------------------------------------------------------------
+-- Once this is in place, a losing race surfaces as a unique-violation from the
+-- insert rather than as a duplicate user. The manager-onboarding transaction
+-- rolls back on it, so the caller sees the generic failure and nothing is
+-- saved — correct, if blunt. Mapping 23505 to the "email already exists"
+-- message would read better, and is worth doing separately.
+-- ----------------------------------------------------------------------------

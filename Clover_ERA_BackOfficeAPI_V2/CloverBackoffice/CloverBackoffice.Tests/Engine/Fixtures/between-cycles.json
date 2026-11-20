@@ -1,0 +1,1481 @@
+{
+ "schema": "rrida.kit.fixture.situation.v1",
+ "fixtureId": "situation:between-cycles",
+ "situation": "between_cycles",
+ "note": "The day a cycle resolved and nothing new was selected. Hand-built because the eight authored scenarios stopped reaching it when the team question began voting: with both tracks in the tally, selection succeeds on the same day a cycle resolves. A port replays this and asserts the situation, what_happened_last, and that no action reaches the message.",
+ "expectedOn": 13,
+ "scenario": {
+  "id": "situation-between-cycles",
+  "name": "Between cycles",
+  "roster": [
+   {
+    "id": "M1",
+    "name": "M1"
+   },
+   {
+    "id": "M2",
+    "name": "M2"
+   },
+   {
+    "id": "M3",
+    "name": "M3"
+   },
+   {
+    "id": "M4",
+    "name": "M4"
+   },
+   {
+    "id": "M5",
+    "name": "M5"
+   },
+   {
+    "id": "M6",
+    "name": "M6"
+   },
+   {
+    "id": "M7",
+    "name": "M7"
+   }
+  ],
+  "workingWeek": "every-day",
+  "horizon": 30,
+  "defaultConfirmation": {
+   "dayOffset": 4,
+   "workedIfMet": true
+  },
+  "script": {
+   "7": [
+    {
+     "member": "M1",
+     "smiley": "green",
+     "chips": [
+      "199-P1"
+     ]
+    },
+    {
+     "member": "M2",
+     "smiley": "green",
+     "chips": [
+      "199-P1"
+     ]
+    },
+    {
+     "member": "M3",
+     "smiley": "green",
+     "chips": [
+      "199-P1"
+     ]
+    }
+   ],
+   "13": [
+    {
+     "member": "M1",
+     "smiley": "green",
+     "chips": [
+      "199-P2"
+     ]
+    },
+    {
+     "member": "M2",
+     "smiley": "green",
+     "chips": [
+      "199-P3"
+     ]
+    },
+    {
+     "member": "M3",
+     "smiley": "green",
+     "chips": [
+      "199-P4"
+     ]
+    },
+    {
+     "member": "M4",
+     "smiley": "yellow",
+     "chips": [],
+     "text": "None of those fitted."
+    },
+    {
+     "member": "M5",
+     "smiley": "yellow",
+     "chips": [],
+     "text": "None of those fitted."
+    },
+    {
+     "member": "M6",
+     "smiley": "yellow",
+     "chips": [],
+     "text": "None of those fitted."
+    },
+    {
+     "member": "M7",
+     "smiley": "yellow",
+     "chips": [],
+     "text": "None of those fitted."
+    }
+   ]
+  }
+ },
+ "days": [
+  {
+   "day": 1,
+   "askedDayIndex": 1,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F1",
+     "kind": "daily",
+     "day": 1,
+     "cycleId": null,
+     "rung": null,
+     "situation": "calibrating",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "calibrating",
+      "team_state": "Cruise",
+      "days_answered": 1,
+      "days_until_first_state": 6,
+      "enrolled": 7
+     }
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "askedDayIndex": 2,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F2",
+     "kind": "daily",
+     "day": 2,
+     "cycleId": null,
+     "rung": null,
+     "situation": "calibrating",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "calibrating",
+      "team_state": "Cruise",
+      "days_answered": 2,
+      "days_until_first_state": 5,
+      "enrolled": 7
+     }
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "askedDayIndex": 3,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F3",
+     "kind": "daily",
+     "day": 3,
+     "cycleId": null,
+     "rung": null,
+     "situation": "calibrating",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "calibrating",
+      "team_state": "Cruise",
+      "days_answered": 3,
+      "days_until_first_state": 4,
+      "enrolled": 7
+     }
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "askedDayIndex": 4,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F4",
+     "kind": "daily",
+     "day": 4,
+     "cycleId": null,
+     "rung": null,
+     "situation": "calibrating",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "calibrating",
+      "team_state": "Cruise",
+      "days_answered": 4,
+      "days_until_first_state": 3,
+      "enrolled": 7
+     }
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "askedDayIndex": 5,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F5",
+     "kind": "daily",
+     "day": 5,
+     "cycleId": null,
+     "rung": null,
+     "situation": "calibrating",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "calibrating",
+      "team_state": "Cruise",
+      "days_answered": 5,
+      "days_until_first_state": 2,
+      "enrolled": 7
+     }
+    }
+   ]
+  },
+  {
+   "day": 6,
+   "askedDayIndex": 6,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F6",
+     "kind": "daily",
+     "day": 6,
+     "cycleId": null,
+     "rung": null,
+     "situation": "calibrating",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "calibrating",
+      "team_state": "Cruise",
+      "days_answered": 6,
+      "days_until_first_state": 1,
+      "enrolled": 7
+     }
+    }
+   ]
+  },
+  {
+   "day": 7,
+   "askedDayIndex": 7,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": {
+    "id": "C1",
+    "index": 1,
+    "rung": 1,
+    "issueFile": "MA-C-069",
+    "actionId": "MA-C-069-28",
+    "rung1ActionId": "MA-C-069-28",
+    "rung2ActionId": "MA-C-069-24",
+    "tallyActionId": "MA-C-069-28",
+    "triggeringChipId": "199-P1",
+    "triggeringQuestionId": 199,
+    "selectedDay": 7,
+    "deliveredDay": 7,
+    "baselineDay": 7,
+    "baseline": {
+     "day": 7,
+     "contributors": 3,
+     "responses": 3,
+     "meanSmileyIndex": 3
+    },
+    "confirmationDueDay": 10,
+    "confirmed": false,
+    "confirmedDay": null,
+    "confirmationSource": null,
+    "workedIfMet": null,
+    "signalReadDay": 13,
+    "readDeferrals": 0,
+    "readDeferredFrom": [],
+    "rung2Skipped": false,
+    "rung2SkipReason": null,
+    "outcome": null,
+    "resolvedDay": null,
+    "declined": null,
+    "routing": {
+     "route": "none",
+     "actionId": "MA-C-069-28",
+     "storedIn": "ask",
+     "share": 0.42857142857142855,
+     "shareText": "3 of 7",
+     "threshold": 0.5,
+     "aboveThreshold": false,
+     "capabilityGap": true,
+     "runKind": null,
+     "fellBack": null,
+     "substitution": null,
+     "substitutionCondition": null,
+     "worksheets": [],
+     "phases": [],
+     "runMinutes": null,
+     "contraindications": [],
+     "locus": {
+      "internal": 1,
+      "external": 0,
+      "neutral": 0,
+      "untagged": 0,
+      "total": 1,
+      "majorityNeutral": false
+     }
+    },
+    "deliveredWorkedIf": "They told you what they want to be known for, and you have since noticed it out loud.",
+    "deliveredActionText": "Ask the person you last praised what they would like to be known for next, and watch for it.",
+    "signalRead": null,
+    "rungOneRecord": null
+   },
+   "eranPayloads": [
+    {
+     "id": "F7",
+     "kind": "weekly",
+     "day": 7,
+     "cycleId": null,
+     "rung": null,
+     "situation": null,
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "state_before": "Cruise",
+      "state_after": "Cruise",
+      "changed": false,
+      "answer_balance": "positive",
+      "how_the_questions_compare": "the team question went unanswered this week, so there is nothing to compare",
+      "where_the_causes_sit": "unlocated",
+      "active_cycle": "nothing is running",
+      "awaiting_a_check_back": null,
+      "outward_condition": null,
+      "floor_cleared": false
+     }
+    },
+    {
+     "id": "F8",
+     "kind": "daily",
+     "day": 7,
+     "cycleId": "C1",
+     "rung": 1,
+     "situation": "action_first_day",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "action_first_day",
+      "team_state": "Cruise",
+      "action_text": "Ask the person you last praised what they would like to be known for next, and watch for it.",
+      "action_mode": "One-to-one",
+      "how_you_will_know": "They told you what they want to be known for, and you have since noticed it out loud.",
+      "issue_title": "Lack of Feedback and Recognition for Employees",
+      "move": "the first move on this theme, a conversation",
+      "route": "build",
+      "share_of_team": "fewer than half the team",
+      "triggering_condition": "Asked \"Do you feel genuinely recognised for the work you do?\", the team said this is one of the things that is working, and they said so across the week rather than on a single day. It is filed under \"Lack of Feedback and Recognition for Employees\", which is the name of the problem this theme covers rather than a description of what the team reported. Do not write it up as a fault.",
+      "how_it_came_through": "came through clearly, from more than one direction",
+      "days_since_delivered": 1,
+      "confirmation_due_in": "in 3 working days"
+     }
+    }
+   ]
+  },
+  {
+   "day": 8,
+   "askedDayIndex": 8,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": {
+    "id": "C1",
+    "index": 1,
+    "rung": 1,
+    "issueFile": "MA-C-069",
+    "actionId": "MA-C-069-28",
+    "rung1ActionId": "MA-C-069-28",
+    "rung2ActionId": "MA-C-069-24",
+    "tallyActionId": "MA-C-069-28",
+    "triggeringChipId": "199-P1",
+    "triggeringQuestionId": 199,
+    "selectedDay": 7,
+    "deliveredDay": 7,
+    "baselineDay": 7,
+    "baseline": {
+     "day": 7,
+     "contributors": 3,
+     "responses": 3,
+     "meanSmileyIndex": 3
+    },
+    "confirmationDueDay": 10,
+    "confirmed": false,
+    "confirmedDay": null,
+    "confirmationSource": null,
+    "workedIfMet": null,
+    "signalReadDay": 13,
+    "readDeferrals": 0,
+    "readDeferredFrom": [],
+    "rung2Skipped": false,
+    "rung2SkipReason": null,
+    "outcome": null,
+    "resolvedDay": null,
+    "declined": null,
+    "routing": {
+     "route": "none",
+     "actionId": "MA-C-069-28",
+     "storedIn": "ask",
+     "share": 0.42857142857142855,
+     "shareText": "3 of 7",
+     "threshold": 0.5,
+     "aboveThreshold": false,
+     "capabilityGap": true,
+     "runKind": null,
+     "fellBack": null,
+     "substitution": null,
+     "substitutionCondition": null,
+     "worksheets": [],
+     "phases": [],
+     "runMinutes": null,
+     "contraindications": [],
+     "locus": {
+      "internal": 1,
+      "external": 0,
+      "neutral": 0,
+      "untagged": 0,
+      "total": 1,
+      "majorityNeutral": false
+     }
+    },
+    "deliveredWorkedIf": "They told you what they want to be known for, and you have since noticed it out loud.",
+    "deliveredActionText": "Ask the person you last praised what they would like to be known for next, and watch for it.",
+    "signalRead": null,
+    "rungOneRecord": null
+   },
+   "eranPayloads": [
+    {
+     "id": "F9",
+     "kind": "daily",
+     "day": 8,
+     "cycleId": "C1",
+     "rung": 1,
+     "situation": "action_reminder",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "action_reminder",
+      "team_state": "Cruise",
+      "action_text": "Ask the person you last praised what they would like to be known for next, and watch for it.",
+      "action_mode": "One-to-one",
+      "how_you_will_know": "They told you what they want to be known for, and you have since noticed it out loud.",
+      "move": "the first move on this theme, a conversation",
+      "route": "build",
+      "days_since_delivered": 2,
+      "confirmation_due_in": "in 2 working days"
+     }
+    }
+   ]
+  },
+  {
+   "day": 9,
+   "askedDayIndex": 9,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": {
+    "id": "C1",
+    "index": 1,
+    "rung": 1,
+    "issueFile": "MA-C-069",
+    "actionId": "MA-C-069-28",
+    "rung1ActionId": "MA-C-069-28",
+    "rung2ActionId": "MA-C-069-24",
+    "tallyActionId": "MA-C-069-28",
+    "triggeringChipId": "199-P1",
+    "triggeringQuestionId": 199,
+    "selectedDay": 7,
+    "deliveredDay": 7,
+    "baselineDay": 7,
+    "baseline": {
+     "day": 7,
+     "contributors": 3,
+     "responses": 3,
+     "meanSmileyIndex": 3
+    },
+    "confirmationDueDay": 10,
+    "confirmed": false,
+    "confirmedDay": null,
+    "confirmationSource": null,
+    "workedIfMet": null,
+    "signalReadDay": 13,
+    "readDeferrals": 0,
+    "readDeferredFrom": [],
+    "rung2Skipped": false,
+    "rung2SkipReason": null,
+    "outcome": null,
+    "resolvedDay": null,
+    "declined": null,
+    "routing": {
+     "route": "none",
+     "actionId": "MA-C-069-28",
+     "storedIn": "ask",
+     "share": 0.42857142857142855,
+     "shareText": "3 of 7",
+     "threshold": 0.5,
+     "aboveThreshold": false,
+     "capabilityGap": true,
+     "runKind": null,
+     "fellBack": null,
+     "substitution": null,
+     "substitutionCondition": null,
+     "worksheets": [],
+     "phases": [],
+     "runMinutes": null,
+     "contraindications": [],
+     "locus": {
+      "internal": 1,
+      "external": 0,
+      "neutral": 0,
+      "untagged": 0,
+      "total": 1,
+      "majorityNeutral": false
+     }
+    },
+    "deliveredWorkedIf": "They told you what they want to be known for, and you have since noticed it out loud.",
+    "deliveredActionText": "Ask the person you last praised what they would like to be known for next, and watch for it.",
+    "signalRead": null,
+    "rungOneRecord": null
+   },
+   "eranPayloads": [
+    {
+     "id": "F10",
+     "kind": "daily",
+     "day": 9,
+     "cycleId": "C1",
+     "rung": 1,
+     "situation": "action_reminder",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "action_reminder",
+      "team_state": "Cruise",
+      "action_text": "Ask the person you last praised what they would like to be known for next, and watch for it.",
+      "action_mode": "One-to-one",
+      "how_you_will_know": "They told you what they want to be known for, and you have since noticed it out loud.",
+      "move": "the first move on this theme, a conversation",
+      "route": "build",
+      "days_since_delivered": 3,
+      "confirmation_due_in": "in 1 working day"
+     }
+    }
+   ]
+  },
+  {
+   "day": 10,
+   "askedDayIndex": 10,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": {
+    "id": "C1",
+    "index": 1,
+    "rung": 1,
+    "issueFile": "MA-C-069",
+    "actionId": "MA-C-069-28",
+    "rung1ActionId": "MA-C-069-28",
+    "rung2ActionId": "MA-C-069-24",
+    "tallyActionId": "MA-C-069-28",
+    "triggeringChipId": "199-P1",
+    "triggeringQuestionId": 199,
+    "selectedDay": 7,
+    "deliveredDay": 7,
+    "baselineDay": 7,
+    "baseline": {
+     "day": 7,
+     "contributors": 3,
+     "responses": 3,
+     "meanSmileyIndex": 3
+    },
+    "confirmationDueDay": 10,
+    "confirmed": false,
+    "confirmedDay": null,
+    "confirmationSource": null,
+    "workedIfMet": null,
+    "signalReadDay": 13,
+    "readDeferrals": 0,
+    "readDeferredFrom": [],
+    "rung2Skipped": false,
+    "rung2SkipReason": null,
+    "outcome": null,
+    "resolvedDay": null,
+    "declined": null,
+    "routing": {
+     "route": "none",
+     "actionId": "MA-C-069-28",
+     "storedIn": "ask",
+     "share": 0.42857142857142855,
+     "shareText": "3 of 7",
+     "threshold": 0.5,
+     "aboveThreshold": false,
+     "capabilityGap": true,
+     "runKind": null,
+     "fellBack": null,
+     "substitution": null,
+     "substitutionCondition": null,
+     "worksheets": [],
+     "phases": [],
+     "runMinutes": null,
+     "contraindications": [],
+     "locus": {
+      "internal": 1,
+      "external": 0,
+      "neutral": 0,
+      "untagged": 0,
+      "total": 1,
+      "majorityNeutral": false
+     }
+    },
+    "deliveredWorkedIf": "They told you what they want to be known for, and you have since noticed it out loud.",
+    "deliveredActionText": "Ask the person you last praised what they would like to be known for next, and watch for it.",
+    "signalRead": null,
+    "rungOneRecord": null
+   },
+   "eranPayloads": [
+    {
+     "id": "F11",
+     "kind": "daily",
+     "day": 10,
+     "cycleId": "C1",
+     "rung": 1,
+     "situation": "action_reminder",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "action_reminder",
+      "team_state": "Cruise",
+      "action_text": "Ask the person you last praised what they would like to be known for next, and watch for it.",
+      "action_mode": "One-to-one",
+      "how_you_will_know": "They told you what they want to be known for, and you have since noticed it out loud.",
+      "move": "the first move on this theme, a conversation",
+      "route": "build",
+      "days_since_delivered": 4,
+      "confirmation_due_in": "today"
+     }
+    }
+   ]
+  },
+  {
+   "day": 11,
+   "askedDayIndex": 11,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": {
+    "id": "C1",
+    "index": 1,
+    "rung": 1,
+    "issueFile": "MA-C-069",
+    "actionId": "MA-C-069-28",
+    "rung1ActionId": "MA-C-069-28",
+    "rung2ActionId": "MA-C-069-24",
+    "tallyActionId": "MA-C-069-28",
+    "triggeringChipId": "199-P1",
+    "triggeringQuestionId": 199,
+    "selectedDay": 7,
+    "deliveredDay": 7,
+    "baselineDay": 7,
+    "baseline": {
+     "day": 7,
+     "contributors": 3,
+     "responses": 3,
+     "meanSmileyIndex": 3
+    },
+    "confirmationDueDay": 10,
+    "confirmed": true,
+    "confirmedDay": 11,
+    "confirmationSource": "scripted manager",
+    "workedIfMet": true,
+    "signalReadDay": 13,
+    "readDeferrals": 0,
+    "readDeferredFrom": [],
+    "rung2Skipped": false,
+    "rung2SkipReason": null,
+    "outcome": null,
+    "resolvedDay": null,
+    "declined": null,
+    "routing": {
+     "route": "none",
+     "actionId": "MA-C-069-28",
+     "storedIn": "ask",
+     "share": 0.42857142857142855,
+     "shareText": "3 of 7",
+     "threshold": 0.5,
+     "aboveThreshold": false,
+     "capabilityGap": true,
+     "runKind": null,
+     "fellBack": null,
+     "substitution": null,
+     "substitutionCondition": null,
+     "worksheets": [],
+     "phases": [],
+     "runMinutes": null,
+     "contraindications": [],
+     "locus": {
+      "internal": 1,
+      "external": 0,
+      "neutral": 0,
+      "untagged": 0,
+      "total": 1,
+      "majorityNeutral": false
+     }
+    },
+    "deliveredWorkedIf": "They told you what they want to be known for, and you have since noticed it out loud.",
+    "deliveredActionText": "Ask the person you last praised what they would like to be known for next, and watch for it.",
+    "signalRead": null,
+    "rungOneRecord": null
+   },
+   "eranPayloads": [
+    {
+     "id": "F12",
+     "kind": "daily",
+     "day": 11,
+     "cycleId": "C1",
+     "rung": 1,
+     "situation": "action_confirmed",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "action_confirmed",
+      "team_state": "Cruise",
+      "action_text": "Ask the person you last praised what they would like to be known for next, and watch for it.",
+      "action_mode": "One-to-one",
+      "how_you_will_know": "They told you what they want to be known for, and you have since noticed it out loud.",
+      "issue_title": "Lack of Feedback and Recognition for Employees",
+      "move": "the first move on this theme, a conversation",
+      "route": "build",
+      "share_of_team": "fewer than half the team",
+      "triggering_condition": "Asked \"Do you feel genuinely recognised for the work you do?\", the team said this is one of the things that is working, and they said so across the week rather than on a single day. It is filed under \"Lack of Feedback and Recognition for Employees\", which is the name of the problem this theme covers rather than a description of what the team reported. Do not write it up as a fault.",
+      "how_it_came_through": "came through clearly, from more than one direction",
+      "days_since_delivered": 5,
+      "confirmation_due_in": "today",
+      "confirmed_on_day": 11
+     }
+    }
+   ]
+  },
+  {
+   "day": 12,
+   "askedDayIndex": 12,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": {
+    "id": "C1",
+    "index": 1,
+    "rung": 1,
+    "issueFile": "MA-C-069",
+    "actionId": "MA-C-069-28",
+    "rung1ActionId": "MA-C-069-28",
+    "rung2ActionId": "MA-C-069-24",
+    "tallyActionId": "MA-C-069-28",
+    "triggeringChipId": "199-P1",
+    "triggeringQuestionId": 199,
+    "selectedDay": 7,
+    "deliveredDay": 7,
+    "baselineDay": 7,
+    "baseline": {
+     "day": 7,
+     "contributors": 3,
+     "responses": 3,
+     "meanSmileyIndex": 3
+    },
+    "confirmationDueDay": 10,
+    "confirmed": true,
+    "confirmedDay": 11,
+    "confirmationSource": "scripted manager",
+    "workedIfMet": true,
+    "signalReadDay": 13,
+    "readDeferrals": 0,
+    "readDeferredFrom": [],
+    "rung2Skipped": false,
+    "rung2SkipReason": null,
+    "outcome": null,
+    "resolvedDay": null,
+    "declined": null,
+    "routing": {
+     "route": "none",
+     "actionId": "MA-C-069-28",
+     "storedIn": "ask",
+     "share": 0.42857142857142855,
+     "shareText": "3 of 7",
+     "threshold": 0.5,
+     "aboveThreshold": false,
+     "capabilityGap": true,
+     "runKind": null,
+     "fellBack": null,
+     "substitution": null,
+     "substitutionCondition": null,
+     "worksheets": [],
+     "phases": [],
+     "runMinutes": null,
+     "contraindications": [],
+     "locus": {
+      "internal": 1,
+      "external": 0,
+      "neutral": 0,
+      "untagged": 0,
+      "total": 1,
+      "majorityNeutral": false
+     }
+    },
+    "deliveredWorkedIf": "They told you what they want to be known for, and you have since noticed it out loud.",
+    "deliveredActionText": "Ask the person you last praised what they would like to be known for next, and watch for it.",
+    "signalRead": null,
+    "rungOneRecord": null
+   },
+   "eranPayloads": [
+    {
+     "id": "F13",
+     "kind": "daily",
+     "day": 12,
+     "cycleId": "C1",
+     "rung": 1,
+     "situation": "action_confirmed",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "action_confirmed",
+      "team_state": "Cruise",
+      "action_text": "Ask the person you last praised what they would like to be known for next, and watch for it.",
+      "action_mode": "One-to-one",
+      "how_you_will_know": "They told you what they want to be known for, and you have since noticed it out loud.",
+      "issue_title": "Lack of Feedback and Recognition for Employees",
+      "move": "the first move on this theme, a conversation",
+      "route": "build",
+      "share_of_team": "fewer than half the team",
+      "triggering_condition": "Asked \"Do you feel genuinely recognised for the work you do?\", the team said this is one of the things that is working, and they said so across the week rather than on a single day. It is filed under \"Lack of Feedback and Recognition for Employees\", which is the name of the problem this theme covers rather than a description of what the team reported. Do not write it up as a fault.",
+      "how_it_came_through": "came through clearly, from more than one direction",
+      "days_since_delivered": 6,
+      "confirmation_due_in": "today",
+      "confirmed_on_day": 11
+     }
+    }
+   ]
+  },
+  {
+   "day": 13,
+   "askedDayIndex": 13,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F14",
+     "kind": "outcome",
+     "day": 13,
+     "cycleId": "C1",
+     "rung": 1,
+     "situation": null,
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "signal_moved": true,
+      "how_read": "fewer people selected it",
+      "manager_confirmed": true,
+      "manager_saw_the_change": true,
+      "next_step": "this one closes here"
+     }
+    },
+    {
+     "id": "F15",
+     "kind": "note",
+     "day": 13,
+     "cycleId": "C1",
+     "rung": 1,
+     "situation": null,
+     "noteType": "Learned",
+     "noteTypeDerived": false,
+     "payload": {
+      "note_type": "Learned",
+      "action_text": "Ask the person you last praised what they would like to be known for next, and watch for it.",
+      "outcome": "the signal on this question moved after the manager acted (fewer people selected it)",
+      "issue_title": "Lack of Feedback and Recognition for Employees"
+     }
+    },
+    {
+     "id": "F16",
+     "kind": "daily",
+     "day": 13,
+     "cycleId": null,
+     "rung": null,
+     "situation": "between_cycles",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "between_cycles",
+      "team_state": "Cruise",
+      "posture": "Maintain and monitor. No action delivered.",
+      "nearest_condition": "lack of feedback and recognition for employees is still in the reading, but it is the same signal the last piece of work was built on, so it cannot start the same thing again",
+      "what_happened_last": "Lack of Feedback and Recognition for Employees closed, and the reports fell away, today"
+     }
+    }
+   ]
+  },
+  {
+   "day": 14,
+   "askedDayIndex": 14,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F17",
+     "kind": "weekly",
+     "day": 14,
+     "cycleId": null,
+     "rung": null,
+     "situation": null,
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "state_before": "Cruise",
+      "state_after": "Cruise",
+      "changed": false,
+      "answer_balance": "positive",
+      "how_the_questions_compare": "the team question went unanswered this week, so there is nothing to compare",
+      "where_the_causes_sit": "unlocated",
+      "active_cycle": "nothing is running",
+      "awaiting_a_check_back": null,
+      "outward_condition": null,
+      "floor_cleared": false
+     }
+    },
+    {
+     "id": "F18",
+     "kind": "daily",
+     "day": 14,
+     "cycleId": null,
+     "rung": null,
+     "situation": "nothing_cleared",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "nothing_cleared",
+      "team_state": "Cruise",
+      "posture": "Maintain and monitor. No action delivered.",
+      "nearest_condition": "the closest is lack of feedback and recognition for employees, and it is the closest thing to a pattern, but it is not yet consistent enough to act on",
+      "what_happened_last": "Lack of Feedback and Recognition for Employees closed, and the reports fell away, 1 working day ago"
+     }
+    }
+   ]
+  },
+  {
+   "day": 15,
+   "askedDayIndex": 15,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F19",
+     "kind": "daily",
+     "day": 15,
+     "cycleId": null,
+     "rung": null,
+     "situation": "nothing_cleared",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "nothing_cleared",
+      "team_state": "Cruise",
+      "posture": "Maintain and monitor. No action delivered.",
+      "nearest_condition": "the closest is lack of feedback and recognition for employees, and it is the closest thing to a pattern, but it is not yet consistent enough to act on",
+      "what_happened_last": "Lack of Feedback and Recognition for Employees closed, and the reports fell away, 2 working days ago"
+     }
+    }
+   ]
+  },
+  {
+   "day": 16,
+   "askedDayIndex": 16,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F20",
+     "kind": "daily",
+     "day": 16,
+     "cycleId": null,
+     "rung": null,
+     "situation": "nothing_cleared",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "nothing_cleared",
+      "team_state": "Cruise",
+      "posture": "Maintain and monitor. No action delivered.",
+      "nearest_condition": "the closest is lack of feedback and recognition for employees, and it is the closest thing to a pattern, but it is not yet consistent enough to act on",
+      "what_happened_last": "Lack of Feedback and Recognition for Employees closed, and the reports fell away, 3 working days ago"
+     }
+    }
+   ]
+  },
+  {
+   "day": 17,
+   "askedDayIndex": 17,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F21",
+     "kind": "daily",
+     "day": 17,
+     "cycleId": null,
+     "rung": null,
+     "situation": "nothing_cleared",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "nothing_cleared",
+      "team_state": "Cruise",
+      "posture": "Maintain and monitor. No action delivered.",
+      "nearest_condition": "the closest is lack of feedback and recognition for employees, and it is the closest thing to a pattern, but it is not yet consistent enough to act on",
+      "what_happened_last": "Lack of Feedback and Recognition for Employees closed, and the reports fell away, 4 working days ago"
+     }
+    }
+   ]
+  },
+  {
+   "day": 18,
+   "askedDayIndex": 18,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F22",
+     "kind": "daily",
+     "day": 18,
+     "cycleId": null,
+     "rung": null,
+     "situation": "nothing_cleared",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "nothing_cleared",
+      "team_state": "Cruise",
+      "posture": "Maintain and monitor. No action delivered.",
+      "nearest_condition": "the closest is lack of feedback and recognition for employees, and it is the closest thing to a pattern, but it is not yet consistent enough to act on",
+      "what_happened_last": "Lack of Feedback and Recognition for Employees closed, and the reports fell away, 5 working days ago"
+     }
+    }
+   ]
+  },
+  {
+   "day": 19,
+   "askedDayIndex": 19,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F23",
+     "kind": "daily",
+     "day": 19,
+     "cycleId": null,
+     "rung": null,
+     "situation": "nothing_cleared",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "nothing_cleared",
+      "team_state": "Cruise",
+      "posture": "Maintain and monitor. No action delivered.",
+      "nearest_condition": "the closest is lack of feedback and recognition for employees, and it is the closest thing to a pattern, but it is not yet consistent enough to act on",
+      "what_happened_last": "Lack of Feedback and Recognition for Employees closed, and the reports fell away, 6 working days ago"
+     }
+    }
+   ]
+  },
+  {
+   "day": 20,
+   "askedDayIndex": 20,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F24",
+     "kind": "daily",
+     "day": 20,
+     "cycleId": null,
+     "rung": null,
+     "situation": "nothing_cleared",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "nothing_cleared",
+      "team_state": "Cruise",
+      "posture": "Maintain and monitor. No action delivered.",
+      "nearest_condition": "nobody has reported anything that points the same way this week",
+      "what_happened_last": "Lack of Feedback and Recognition for Employees closed, and the reports fell away, 7 working days ago"
+     }
+    }
+   ]
+  },
+  {
+   "day": 21,
+   "askedDayIndex": 21,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F25",
+     "kind": "weekly",
+     "day": 21,
+     "cycleId": null,
+     "rung": null,
+     "situation": null,
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "state_before": "Cruise",
+      "state_after": "Cruise",
+      "changed": false,
+      "answer_balance": "positive",
+      "how_the_questions_compare": "neither question was answered this week",
+      "where_the_causes_sit": "unlocated",
+      "active_cycle": "nothing is running",
+      "awaiting_a_check_back": null,
+      "outward_condition": null,
+      "floor_cleared": false
+     }
+    },
+    {
+     "id": "F26",
+     "kind": "daily",
+     "day": 21,
+     "cycleId": null,
+     "rung": null,
+     "situation": "nothing_cleared",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "nothing_cleared",
+      "team_state": "Cruise",
+      "posture": "Maintain and monitor. No action delivered.",
+      "nearest_condition": "nobody has reported anything that points the same way this week",
+      "what_happened_last": "Lack of Feedback and Recognition for Employees closed, and the reports fell away, 8 working days ago"
+     }
+    }
+   ]
+  },
+  {
+   "day": 22,
+   "askedDayIndex": 22,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F27",
+     "kind": "daily",
+     "day": 22,
+     "cycleId": null,
+     "rung": null,
+     "situation": "nothing_cleared",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "nothing_cleared",
+      "team_state": "Cruise",
+      "posture": "Maintain and monitor. No action delivered.",
+      "nearest_condition": "nobody has reported anything that points the same way this week",
+      "what_happened_last": "Lack of Feedback and Recognition for Employees closed, and the reports fell away, 9 working days ago"
+     }
+    }
+   ]
+  },
+  {
+   "day": 23,
+   "askedDayIndex": 23,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F28",
+     "kind": "daily",
+     "day": 23,
+     "cycleId": null,
+     "rung": null,
+     "situation": "nothing_cleared",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "nothing_cleared",
+      "team_state": "Cruise",
+      "posture": "Maintain and monitor. No action delivered.",
+      "nearest_condition": "nobody has reported anything that points the same way this week",
+      "what_happened_last": "Lack of Feedback and Recognition for Employees closed, and the reports fell away, 10 working days ago"
+     }
+    }
+   ]
+  },
+  {
+   "day": 24,
+   "askedDayIndex": 24,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F29",
+     "kind": "daily",
+     "day": 24,
+     "cycleId": null,
+     "rung": null,
+     "situation": "nothing_cleared",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "nothing_cleared",
+      "team_state": "Cruise",
+      "posture": "Maintain and monitor. No action delivered.",
+      "nearest_condition": "nobody has reported anything that points the same way this week",
+      "what_happened_last": "Lack of Feedback and Recognition for Employees closed, and the reports fell away, 11 working days ago"
+     }
+    }
+   ]
+  },
+  {
+   "day": 25,
+   "askedDayIndex": 25,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F30",
+     "kind": "daily",
+     "day": 25,
+     "cycleId": null,
+     "rung": null,
+     "situation": "nothing_cleared",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "nothing_cleared",
+      "team_state": "Cruise",
+      "posture": "Maintain and monitor. No action delivered.",
+      "nearest_condition": "nobody has reported anything that points the same way this week",
+      "what_happened_last": "Lack of Feedback and Recognition for Employees closed, and the reports fell away, 12 working days ago"
+     }
+    }
+   ]
+  },
+  {
+   "day": 26,
+   "askedDayIndex": 26,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F31",
+     "kind": "daily",
+     "day": 26,
+     "cycleId": null,
+     "rung": null,
+     "situation": "nothing_cleared",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "nothing_cleared",
+      "team_state": "Cruise",
+      "posture": "Maintain and monitor. No action delivered.",
+      "nearest_condition": "nobody has reported anything that points the same way this week",
+      "what_happened_last": "Lack of Feedback and Recognition for Employees closed, and the reports fell away, 13 working days ago"
+     }
+    }
+   ]
+  },
+  {
+   "day": 27,
+   "askedDayIndex": 27,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F32",
+     "kind": "daily",
+     "day": 27,
+     "cycleId": null,
+     "rung": null,
+     "situation": "nothing_cleared",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "nothing_cleared",
+      "team_state": "Cruise",
+      "posture": "Maintain and monitor. No action delivered.",
+      "nearest_condition": "nobody has reported anything that points the same way this week",
+      "what_happened_last": "Lack of Feedback and Recognition for Employees closed, and the reports fell away, 14 working days ago"
+     }
+    },
+    {
+     "id": "F33",
+     "kind": "monthly",
+     "day": 27,
+     "cycleId": null,
+     "rung": null,
+     "situation": null,
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "actions_taken": [
+       {
+        "when": "20 working days ago",
+        "area": "Lack of Feedback and Recognition for Employees",
+        "move": "first move, a conversation",
+        "outcome": "closed",
+        "action": "Ask the person you last praised what they would like to be known for next, and watch for it."
+       }
+      ],
+      "state_start": "Cruise",
+      "state_end": "Cruise",
+      "two_line_trend": "the balance of answers is positive, and the causes named sit unlocated",
+      "confirmations": [
+       "Lack of Feedback and Recognition for Employees, confirmed 16 working days ago"
+      ],
+      "cycles": {
+       "closed": 1,
+       "failed": 0,
+       "unattributed": 0,
+       "unread": 0,
+       "running": 0
+      },
+      "repeated_draws": []
+     }
+    }
+   ]
+  },
+  {
+   "day": 28,
+   "askedDayIndex": 28,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F34",
+     "kind": "weekly",
+     "day": 28,
+     "cycleId": null,
+     "rung": null,
+     "situation": null,
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "state_before": "Cruise",
+      "state_after": "Cruise",
+      "changed": false,
+      "answer_balance": "positive",
+      "how_the_questions_compare": "neither question was answered this week",
+      "where_the_causes_sit": "unlocated",
+      "active_cycle": "nothing is running",
+      "awaiting_a_check_back": null,
+      "outward_condition": null,
+      "floor_cleared": false
+     }
+    },
+    {
+     "id": "F35",
+     "kind": "daily",
+     "day": 28,
+     "cycleId": null,
+     "rung": null,
+     "situation": "nothing_cleared",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "nothing_cleared",
+      "team_state": "Cruise",
+      "posture": "Maintain and monitor. No action delivered.",
+      "nearest_condition": "nobody has reported anything that points the same way this week",
+      "what_happened_last": "Lack of Feedback and Recognition for Employees closed, and the reports fell away, 15 working days ago"
+     }
+    }
+   ]
+  },
+  {
+   "day": 29,
+   "askedDayIndex": 29,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F36",
+     "kind": "daily",
+     "day": 29,
+     "cycleId": null,
+     "rung": null,
+     "situation": "nothing_cleared",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "nothing_cleared",
+      "team_state": "Cruise",
+      "posture": "Maintain and monitor. No action delivered.",
+      "nearest_condition": "nobody has reported anything that points the same way this week",
+      "what_happened_last": "Lack of Feedback and Recognition for Employees closed, and the reports fell away, 16 working days ago"
+     }
+    }
+   ]
+  },
+  {
+   "day": 30,
+   "askedDayIndex": 30,
+   "state": "Cruise",
+   "liveTally": "build",
+   "cycle": null,
+   "eranPayloads": [
+    {
+     "id": "F37",
+     "kind": "daily",
+     "day": 30,
+     "cycleId": null,
+     "rung": null,
+     "situation": "nothing_cleared",
+     "noteType": null,
+     "noteTypeDerived": null,
+     "payload": {
+      "situation": "nothing_cleared",
+      "team_state": "Cruise",
+      "posture": "Maintain and monitor. No action delivered.",
+      "nearest_condition": "nobody has reported anything that points the same way this week",
+      "what_happened_last": "Lack of Feedback and Recognition for Employees closed, and the reports fell away, 17 working days ago"
+     }
+    }
+   ]
+  }
+ ],
+ "cycleHistory": [
+  {
+   "id": "C1",
+   "issueFile": "MA-C-069",
+   "outcome": "closed",
+   "resolvedDay": 13
+  }
+ ]
+}

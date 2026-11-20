@@ -1,0 +1,174 @@
+{
+ "state": {
+  "levelScale": [
+   0,
+   0.3333333333333333,
+   0.6666666666666666,
+   1
+  ],
+  "relative": {
+   "lag": 14,
+   "minDays": 14,
+   "maxDays": 56,
+   "k": 0.15,
+   "h": 31,
+   "s0Floor": 0.15
+  },
+  "absolute": {
+   "pRef": 0.34,
+   "g": 17.5
+  },
+  "classifier": {
+   "zBound": 3,
+   "rateWindow": 30,
+   "track": "team"
+  },
+  "concentration": {
+   "windowDays": 14,
+   "lookup": [
+    [
+     2,
+     0.68
+    ],
+    [
+     3,
+     0.525
+    ],
+    [
+     4,
+     0.43
+    ],
+    [
+     6,
+     0.32
+    ],
+    [
+     8,
+     0.255
+    ]
+   ]
+  },
+  "watch": {
+   "levels": [
+    0.5,
+    0.75
+   ],
+   "exposed": {
+    "limb": "absolute",
+    "level": 0.75
+   }
+  }
+ },
+ "engine": {
+  "windowDays": 7,
+  "floor": {
+   "percentage": 0.33,
+   "absoluteMinimum": 2,
+   "rule": "max(2, floor(0.33 * enrolled)), counted in distinct contributors across the window rather than per day (spec 6.3)"
+  },
+  "shareThreshold": 0.5,
+  "shareThresholdRule": "at or below the line takes the ask route, above it does not (simple majority, spec 5.1.1)",
+  "calibrationDays": 6,
+  "firstMessageDay": 7,
+  "recalcInterval": 5,
+  "confirmationLag": 3,
+  "earliestReadOffset": 4,
+  "maxReadDeferrals": 2,
+  "crossTeamCycleDays": 9,
+  "crossTeamActiveTeams": 3,
+  "crossTeamFailingTeams": 2,
+  "rollUpVisibilityFloor": 4,
+  "runMinutesCap": 60,
+  "lookbackDays": 28,
+  "trendThreshold": 6,
+  "rotationCycleLength": 6,
+  "minDays": 90,
+  "note": "crossTeamCycleDays, crossTeamActiveTeams and crossTeamFailingTeams are guessed rather than derived and are flagged provisional everywhere they appear (build spec 7.4). runMinutesCap is read from meta.json at load and this is only the fallback for a caller with no context."
+ },
+ "vocabulary": {
+  "smileyOrder": [
+   "red",
+   "orange",
+   "yellow",
+   "green"
+  ],
+  "smileyLabel": {
+   "red": "Angry",
+   "orange": "Sad",
+   "yellow": "Indifferent",
+   "green": "Happy"
+  },
+  "smileyPolarity": {
+   "red": "negative",
+   "orange": "negative",
+   "yellow": "indifferent",
+   "green": "positive"
+  },
+  "smileyTally": {
+   "red": "fix",
+   "orange": "fix",
+   "yellow": "yellow",
+   "green": "build"
+  },
+  "severity": {
+   "red": 1,
+   "orange": 0.5,
+   "yellow": 0.5,
+   "green": 0.5
+  },
+  "locusValues": [
+   "internal",
+   "external",
+   "neutral"
+  ],
+  "tracks": [
+   "individual",
+   "team"
+  ],
+  "routes": [
+   "ask",
+   "team",
+   "content"
+  ],
+  "routeColumn": {
+   "ask": "rung_1_ask",
+   "team": "rung_1_team",
+   "content": "rung_1_content"
+  },
+  "tallyKey": "ask",
+  "liveTally": {
+   "Cruise": "build",
+   "Drift": "fix",
+   "Stall": "yellow"
+  },
+  "verticals": [
+   "cruise",
+   "drift",
+   "stall"
+  ],
+  "horizontals": [
+   "unlocated",
+   "internal",
+   "external"
+  ],
+  "limbs": [
+   "relative",
+   "absolute",
+   "both"
+  ],
+  "concentrationReadings": [
+   "unknown",
+   "marginal",
+   "concentrated",
+   "spread"
+  ],
+  "cycleOutcomes": [
+   "closed",
+   "failed",
+   "cannot_attribute",
+   "unread"
+  ],
+  "stateLogSchema": "rrida.state.daily.v1",
+  "stateLogConfigSchema": "rrida.state.config.v1"
+ }
+}

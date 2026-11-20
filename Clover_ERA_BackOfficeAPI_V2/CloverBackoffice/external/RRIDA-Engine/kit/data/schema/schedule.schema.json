@@ -1,0 +1,35 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "rrida.kit.schedule.v1",
+ "title": "How the two tracks share a day",
+ "description": "Data rather than code, so the shape can change without an engine change and the engine never has to decide it. A mode that is named but not implemented halts the loader rather than degrading to one track.",
+ "type": "object",
+ "required": [
+  "mode",
+  "modes"
+ ],
+ "additionalProperties": true,
+ "properties": {
+  "mode": {
+   "type": "string"
+  },
+  "modes": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "required": [
+     "implemented"
+    ],
+    "additionalProperties": true,
+    "properties": {
+     "implemented": {
+      "type": "boolean"
+     },
+     "description": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ }
+}

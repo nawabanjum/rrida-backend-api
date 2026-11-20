@@ -1,0 +1,141 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "rrida.kit.worksheets.v1",
+ "title": "The worksheet library",
+ "description": "The unit of delivery is a phase, not a worksheet (spec 5.1.3a). A worksheet is the container and the citation; the crosswalk points at a run of phases.",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "required": [
+   "code",
+   "phases"
+  ],
+  "additionalProperties": true,
+  "properties": {
+   "code": {
+    "type": "string"
+   },
+   "title": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "pillar": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "difficulty": {
+    "type": [
+     "integer",
+     "null"
+    ],
+    "description": "Sequences rather than gates. Null sorts last, which is the conservative reading: an unlevelled worksheet is not assumed to be the easy one."
+   },
+   "time_minutes": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "group_size": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "formerly": {
+    "type": [
+     "string",
+     "null"
+    ]
+   },
+   "formerlyRebuilt": {
+    "type": "boolean"
+   },
+   "prerequisites": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "contraindications": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    },
+    "description": "Stated to the manager and declined by them. The layer does not evaluate these and must not try."
+   },
+   "phases": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "required": [
+      "id",
+      "number",
+      "title",
+      "timing"
+     ],
+     "additionalProperties": true,
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "number": {
+       "type": "integer"
+      },
+      "title": {
+       "type": "string"
+      },
+      "minutes": {
+       "type": "array",
+       "items": {
+        "type": [
+         "number",
+         "null"
+        ]
+       },
+       "description": "[low, high]. An async phase carries none: it is not a timed block and giving it one would put it into the session total (5.1.3c)."
+      },
+      "produces": {
+       "type": [
+        "string",
+        "null"
+       ]
+      },
+      "requires_phases": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       },
+       "description": "What must run in the SAME session if this one does. A phase that surfaces something is never delivered without the phase that responds to it, and that rule is absolute (spec 5.1.3b)."
+      },
+      "role": {
+       "type": [
+        "string",
+        "null"
+       ]
+      },
+      "excerptable": {
+       "type": "boolean"
+      },
+      "timing": {
+       "enum": [
+        "session",
+        "async"
+       ]
+      },
+      "timing_note": {
+       "type": [
+        "string",
+        "null"
+       ]
+      }
+     }
+    }
+   }
+  }
+ }
+}

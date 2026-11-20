@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    The resolver.
+
+    It imports from the engine and is never imported by it, which is the same direction
+    the JavaScript runs in. Swap it for a call to the real RRIDA service and nothing in
+    the engine changes.
+
+    NO PackageReference, and none may be added. Every threshold arrives by injection;
+    nothing in here carries a default.
+  -->
+  <ItemGroup>
+    <ProjectReference Include="..\Rrida.Engine\Rrida.Engine.csproj" />
+  </ItemGroup>
+
+</Project>

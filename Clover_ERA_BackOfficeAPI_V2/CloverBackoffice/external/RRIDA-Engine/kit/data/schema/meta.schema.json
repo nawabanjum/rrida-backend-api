@@ -1,0 +1,13 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "rrida.kit.meta.v1",
+ "title": "What produced this kit, and the versions in it",
+ "type": "object",
+ "required": [
+  "kitVersion",
+  "generatedFrom",
+  "versions",
+  "counts"
+ ],
+ "additionalProperties": true
+}

@@ -1,0 +1,42 @@
+[
+ {
+  "id": "team-platform",
+  "name": "Platform engineering",
+  "file": "team-platform.json"
+ },
+ {
+  "id": "team-care",
+  "name": "Regional care team",
+  "file": "team-care.json"
+ },
+ {
+  "id": "team-claims",
+  "name": "Claims operations",
+  "file": "team-claims.json"
+ },
+ {
+  "id": "team-field-sales",
+  "name": "Field sales",
+  "file": "team-field-sales.json"
+ },
+ {
+  "id": "team-design",
+  "name": "Design studio",
+  "file": "team-design.json"
+ },
+ {
+  "id": "team-data",
+  "name": "Data and analytics",
+  "file": "team-data.json"
+ },
+ {
+  "id": "team-support",
+  "name": "Customer support",
+  "file": "team-support.json"
+ },
+ {
+  "id": "team-engineering-leads",
+  "name": "Engineering leadership",
+  "file": "team-engineering-leads.json"
+ }
+]

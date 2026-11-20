@@ -1,0 +1,39 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "rrida.kit.issue_files.v1",
+ "title": "The issue files",
+ "description": "The condition each action sits in. The issue file is the natural grouping and the unit the succession rule holds (spec 8.2).",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "required": [
+   "issue_file",
+   "issue",
+   "pillar"
+  ],
+  "additionalProperties": true,
+  "properties": {
+   "issue_file": {
+    "type": "string"
+   },
+   "issue": {
+    "type": "string"
+   },
+   "pillar": {
+    "type": "string"
+   },
+   "conversational": {
+    "type": "integer",
+    "minimum": 0
+   },
+   "structural": {
+    "type": "integer",
+    "minimum": 0
+   },
+   "gesture": {
+    "type": "integer",
+    "minimum": 0
+   }
+  }
+ }
+}

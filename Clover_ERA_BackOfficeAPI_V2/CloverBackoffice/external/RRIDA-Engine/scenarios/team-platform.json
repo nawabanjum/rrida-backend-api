@@ -1,0 +1,10695 @@
+{
+ "id": "team-platform",
+ "name": "Platform engineering",
+ "industry": "B2B SaaS",
+ "managerName": "Dana Okafor",
+ "managerLevel": "Team manager",
+ "tenureWithTeam": "2 years",
+ "arc": "The clean close. Drift. Blockers clears the floor on day 9, closes on day 15.",
+ "intendedState": null,
+ "intendedStateNeeds": null,
+ "intendedRoutes": [],
+ "intendedRoutesNeed": null,
+ "childTeamIds": [],
+ "roster": [
+  {
+   "id": "P1",
+   "name": "Ana"
+  },
+  {
+   "id": "P2",
+   "name": "Bo"
+  },
+  {
+   "id": "P3",
+   "name": "Cass"
+  },
+  {
+   "id": "P4",
+   "name": "Dev"
+  },
+  {
+   "id": "P5",
+   "name": "Eli"
+  },
+  {
+   "id": "P6",
+   "name": "Fen"
+  },
+  {
+   "id": "P7",
+   "name": "Gus"
+  }
+ ],
+ "workingWeek": "mon-fri",
+ "confirmations": [
+  {
+   "cycleIndex": 1,
+   "rung": 1,
+   "dayOffset": 4,
+   "workedIfMet": true
+  }
+ ],
+ "defaultConfirmation": {
+  "dayOffset": 4,
+  "workedIfMet": true
+ },
+ "horizon": 124,
+ "script": {
+  "1": [
+   {
+    "member": "P1",
+    "smiley": "orange",
+    "chips": [
+     "199-N1",
+     "199-N5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "orange",
+    "chips": [
+     "199-N3"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "yellow",
+    "chips": [
+     "199-I2"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "199-I4",
+     "199-I6"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "yellow",
+    "chips": [
+     "199-I1"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "green",
+    "chips": [
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "199-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "301-I4"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "301-P5"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "301-N2",
+     "301-N6",
+     "301-N3"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "301-I2"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "301-N2",
+     "301-N6",
+     "301-N3"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "301-I1",
+     "301-I2"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "red",
+    "chips": [
+     "301-N3",
+     "301-N2"
+    ]
+   }
+  ],
+  "2": [
+   {
+    "member": "P1",
+    "smiley": "orange",
+    "chips": [
+     "206-N1",
+     "206-N4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "orange",
+    "chips": [
+     "206-N2",
+     "206-N5"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "206-P4",
+     "206-P1"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "orange",
+    "chips": [
+     "206-N1",
+     "206-N2"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "orange",
+    "chips": [
+     "206-N1",
+     "206-N2"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "A bit of everything, nothing in particular."
+   },
+   {
+    "member": "P7",
+    "smiley": "yellow",
+    "chips": [
+     "206-I6",
+     "206-I1",
+     "206-I3"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "302-I3",
+     "302-I5",
+     "302-I2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "302-N4"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "302-N1",
+     "302-N2",
+     "302-N5"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "302-P3",
+     "302-P4"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "302-I3",
+     "302-I6"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "302-N1"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "302-I4",
+     "302-I3",
+     "302-I6"
+    ]
+   }
+  ],
+  "3": [
+   {
+    "member": "P1",
+    "smiley": "orange",
+    "chips": [
+     "191-N4",
+     "191-N5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "orange",
+    "chips": [
+     "191-N4",
+     "191-N5"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "yellow",
+    "chips": [
+     "191-I2"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "orange",
+    "chips": [
+     "191-N4",
+     "191-N5"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "orange",
+    "chips": [
+     "191-N4",
+     "191-N5"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "green",
+    "chips": [
+     "191-P1"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "yellow",
+    "chips": [
+     "191-I6"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "red",
+    "chips": [
+     "303-N4"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "303-N4",
+     "303-N1"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "303-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "303-I3",
+     "303-I6"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "303-I4",
+     "303-I1",
+     "303-I5"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "303-P6",
+     "303-P1"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "303-N4",
+     "303-N2",
+     "303-N3"
+    ]
+   }
+  ],
+  "4": [
+   {
+    "member": "P1",
+    "smiley": "red",
+    "chips": [
+     "208-N1",
+     "208-N5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "red",
+    "chips": [
+     "208-N2",
+     "208-N3"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "red",
+    "chips": [
+     "208-N4",
+     "208-N6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "orange",
+    "chips": [
+     "208-N1",
+     "208-N2"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "yellow",
+    "chips": [
+     "208-I2",
+     "208-I1",
+     "208-I3"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "208-I3"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "yellow",
+    "chips": [
+     "208-I4",
+     "208-I5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "304-P1",
+     "304-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "304-I1",
+     "304-I4",
+     "304-I6"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "304-N6"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "304-I1",
+     "304-I2"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "304-I3",
+     "304-I2",
+     "304-I4"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "304-P6",
+     "304-P4"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "304-P2",
+     "304-P6"
+    ]
+   }
+  ],
+  "5": [
+   {
+    "member": "P1",
+    "smiley": "red",
+    "chips": [
+     "195-N1",
+     "195-N2"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "red",
+    "chips": [
+     "195-N3",
+     "195-N4"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "red",
+    "chips": [
+     "195-N5",
+     "195-N6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "orange",
+    "chips": [
+     "195-N1",
+     "195-N2"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "yellow",
+    "chips": [
+     "195-I2"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "195-I3",
+     "195-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "yellow",
+    "chips": [
+     "195-I4",
+     "195-I5",
+     "195-I1"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "305-N4"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "305-I2",
+     "305-I3",
+     "305-I5"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "305-N6",
+     "305-N5"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "305-P5",
+     "305-P1",
+     "305-P4"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "305-P4",
+     "305-P6",
+     "305-P5"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "305-I6",
+     "305-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "305-N5"
+    ]
+   }
+  ],
+  "6": [
+   {
+    "member": "P1",
+    "smiley": "red",
+    "chips": [
+     "186-N1",
+     "186-N2"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "red",
+    "chips": [
+     "186-N3",
+     "186-N5"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "red",
+    "chips": [
+     "186-N4",
+     "186-N6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "orange",
+    "chips": [
+     "186-N1",
+     "186-N2"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "yellow",
+    "chips": [
+     "186-I2",
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "186-I3",
+     "186-I5",
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "yellow",
+    "chips": [
+     "186-I4"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "306-N1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "306-N3"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "306-I2"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "306-I6"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "306-N3",
+     "306-N1"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "306-N3",
+     "306-N1"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "306-I1"
+    ]
+   }
+  ],
+  "7": [
+   {
+    "member": "P1",
+    "smiley": "orange",
+    "chips": [
+     "199-N1",
+     "199-N5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "orange",
+    "chips": [
+     "199-N3"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "yellow",
+    "chips": [
+     "199-I2"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "orange",
+    "chips": [
+     "199-N1",
+     "199-N3"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "orange",
+    "chips": [
+     "199-N1",
+     "199-N3"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "green",
+    "chips": [
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "307-P4",
+     "307-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "307-I5"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "307-I1",
+     "307-I5",
+     "307-I3"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "307-P6"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "307-P3",
+     "307-P2",
+     "307-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "307-P5",
+     "307-P6",
+     "307-P3"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "307-I2",
+     "307-I6",
+     "307-I4"
+    ]
+   }
+  ],
+  "8": [
+   {
+    "member": "P1",
+    "smiley": "red",
+    "chips": [
+     "206-N1",
+     "206-N4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "red",
+    "chips": [
+     "206-N2",
+     "206-N5"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "red",
+    "chips": [
+     "206-N3",
+     "206-N6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "orange",
+    "chips": [
+     "206-N1",
+     "206-N2"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "yellow",
+    "chips": [
+     "206-I2"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "206-I3",
+     "206-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "yellow",
+    "chips": [
+     "206-I4",
+     "206-I5",
+     "206-I1"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "308-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "308-I6",
+     "308-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "308-P4",
+     "308-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "308-N3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "308-P3",
+     "308-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "308-N3"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "308-N3"
+    ]
+   }
+  ],
+  "9": [
+   {
+    "member": "P1",
+    "smiley": "orange",
+    "chips": [
+     "191-N4",
+     "191-N5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "orange",
+    "chips": [
+     "191-N4",
+     "191-N5"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "orange",
+    "chips": [
+     "191-N4",
+     "191-N5"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "orange",
+    "chips": [
+     "191-N5",
+     "191-N4"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "green",
+    "chips": [
+     "191-P1"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "191-P6"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "309-I6",
+     "309-I1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "309-P4"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "309-P4"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "309-P6",
+     "309-P3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "red",
+    "chips": [
+     "309-N4",
+     "309-N2"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "309-P6"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "red",
+    "chips": [
+     "309-N2"
+    ]
+   }
+  ],
+  "10": [
+   {
+    "member": "P1",
+    "smiley": "red",
+    "chips": [
+     "208-N1",
+     "208-N5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "red",
+    "chips": [
+     "208-N2",
+     "208-N3"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "red",
+    "chips": [
+     "208-N4",
+     "208-N6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "orange",
+    "chips": [
+     "208-N1",
+     "208-N2"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "yellow",
+    "chips": [
+     "208-I2",
+     "208-I1",
+     "208-I3"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "208-I3"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "yellow",
+    "chips": [
+     "208-I4",
+     "208-I5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "310-I6",
+     "310-I2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "310-I4",
+     "310-I3",
+     "310-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "310-I1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "red",
+    "chips": [
+     "310-N5"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "310-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "310-P2"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "310-N2",
+     "310-N5",
+     "310-N3"
+    ]
+   }
+  ],
+  "11": [
+   {
+    "member": "P1",
+    "smiley": "red",
+    "chips": [
+     "195-N1",
+     "195-N2"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "red",
+    "chips": [
+     "195-N3",
+     "195-N4"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "red",
+    "chips": [
+     "195-N5",
+     "195-N6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "orange",
+    "chips": [
+     "195-N1",
+     "195-N2"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "yellow",
+    "chips": [
+     "195-I2"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "195-I3",
+     "195-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "yellow",
+    "chips": [
+     "195-I4",
+     "195-I5",
+     "195-I1"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "311-N5"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "311-P4",
+     "311-P5"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "311-P4",
+     "311-P5",
+     "311-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "311-I5",
+     "311-I1",
+     "311-I4"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "311-P1",
+     "311-P2",
+     "311-P5"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "311-N5"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "311-I5",
+     "311-I6",
+     "311-I4"
+    ]
+   }
+  ],
+  "12": [
+   {
+    "member": "P1",
+    "smiley": "red",
+    "chips": [
+     "186-N1",
+     "186-N2"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "red",
+    "chips": [
+     "186-N3",
+     "186-N5"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "red",
+    "chips": [
+     "186-N4",
+     "186-N6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "orange",
+    "chips": [
+     "186-N1",
+     "186-N2"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "yellow",
+    "chips": [
+     "186-I2",
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "186-I3",
+     "186-I5",
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "yellow",
+    "chips": [
+     "186-I4"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "312-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "312-N2"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "312-I1",
+     "312-I6",
+     "312-I4"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "312-I5",
+     "312-I6",
+     "312-I2"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "312-P5",
+     "312-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "312-P2",
+     "312-P5",
+     "312-P3"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "312-P4"
+    ]
+   }
+  ],
+  "13": [
+   {
+    "member": "P1",
+    "smiley": "orange",
+    "chips": [
+     "199-N1",
+     "199-N5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "orange",
+    "chips": [
+     "199-N3"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "yellow",
+    "chips": [
+     "199-I2"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "orange",
+    "chips": [
+     "199-N1",
+     "199-N3"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "orange",
+    "chips": [
+     "199-N1",
+     "199-N3"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "green",
+    "chips": [
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "313-N3",
+     "313-N1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "313-P1",
+     "313-P2"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "313-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "313-P2",
+     "313-P3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "313-P2",
+     "313-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "313-I2",
+     "313-I6"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "313-N4",
+     "313-N3",
+     "313-N6"
+    ]
+   }
+  ],
+  "14": [
+   {
+    "member": "P1",
+    "smiley": "red",
+    "chips": [
+     "206-N1",
+     "206-N4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "red",
+    "chips": [
+     "206-N2",
+     "206-N5"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "red",
+    "chips": [
+     "206-N3",
+     "206-N6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "orange",
+    "chips": [
+     "206-N1",
+     "206-N2"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "yellow",
+    "chips": [
+     "206-I2"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "206-I3",
+     "206-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "yellow",
+    "chips": [
+     "206-I4",
+     "206-I5",
+     "206-I1"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "314-N1",
+     "314-N2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "314-I6",
+     "314-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "314-I5",
+     "314-I3",
+     "314-I1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "red",
+    "chips": [
+     "314-N1"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "314-N4"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "314-P6",
+     "314-P3"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "314-I5",
+     "314-I6",
+     "314-I4"
+    ]
+   }
+  ],
+  "15": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "191-P1",
+     "191-P3"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "191-I1",
+     "191-I3"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "191-P6",
+     "191-P3",
+     "191-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "191-I2"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "191-P1",
+     "191-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "191-I3",
+     "191-I5",
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "191-P6"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "315-P3"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "315-I4"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "315-P1",
+     "315-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "315-P5"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "315-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "315-P1",
+     "315-P3"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "315-P3",
+     "315-P5"
+    ]
+   }
+  ],
+  "16": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "208-P1",
+     "208-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "208-I2",
+     "208-I4",
+     "208-I6"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Something is off and I cannot name it."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "208-P5",
+     "208-P4",
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "208-I6"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "208-P2",
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "316-I6",
+     "316-I2",
+     "316-I1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "316-P1",
+     "316-P2"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "316-I6",
+     "316-I3"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "316-P3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "316-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "316-I3"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "316-N2",
+     "316-N6"
+    ]
+   }
+  ],
+  "17": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "195-P1",
+     "195-P2",
+     "195-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "195-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "195-P3",
+     "195-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "A bit of everything, nothing in particular."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "195-P5"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "195-I6",
+     "195-I2"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "195-P2",
+     "195-P3",
+     "195-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "317-I1",
+     "317-I4"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "317-P4",
+     "317-P5",
+     "317-P3"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "317-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "317-I4"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "317-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "317-N4",
+     "317-N2"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "317-I5",
+     "317-I3"
+    ]
+   }
+  ],
+  "18": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "186-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "186-I2",
+     "186-I4"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "186-P3",
+     "186-P6",
+     "186-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Depends which day you ask me."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "186-P5",
+     "186-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "186-I6",
+     "186-I2",
+     "186-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "186-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "318-P1",
+     "318-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "318-I4",
+     "318-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "318-I5",
+     "318-I3"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "318-I2",
+     "318-I3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "318-I4",
+     "318-I1"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "318-P6",
+     "318-P2",
+     "318-P5"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "318-P1"
+    ]
+   }
+  ],
+  "19": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "199-P1",
+     "199-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "199-I2",
+     "199-I4",
+     "199-I6"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Fine, but I could not tell you why."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "199-P5",
+     "199-P4",
+     "199-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "199-I6"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "199-P2",
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "319-I2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "319-I4"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "319-N1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "319-P2",
+     "319-P5",
+     "319-P4"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "319-P2",
+     "319-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "319-P1"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "319-P6",
+     "319-P4",
+     "319-P2"
+    ]
+   }
+  ],
+  "20": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "206-P1",
+     "206-P2",
+     "206-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "206-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "206-P3",
+     "206-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "None of those quite covers it."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "206-P5"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "206-I6",
+     "206-I2"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "206-P2",
+     "206-P3",
+     "206-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "320-P5",
+     "320-P1",
+     "320-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "320-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "320-P4"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "320-P1",
+     "320-P6",
+     "320-P2"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "320-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "320-P5",
+     "320-P1",
+     "320-P6"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "320-P3",
+     "320-P1"
+    ]
+   }
+  ],
+  "21": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "191-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "191-I2",
+     "191-I4"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "191-P3",
+     "191-P6",
+     "191-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Something is off and I cannot name it."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "191-P5",
+     "191-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "191-I6",
+     "191-I2",
+     "191-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "191-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "321-P6"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "321-P6"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "321-P4",
+     "321-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "321-I1",
+     "321-I5"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "321-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "321-P3",
+     "321-P6"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "321-P1"
+    ]
+   }
+  ],
+  "22": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "208-P4",
+     "208-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "208-I5",
+     "208-I1",
+     "208-I3"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "208-I1",
+     "208-I5"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "208-P2",
+     "208-P1",
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "208-I3"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "208-P5",
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "322-P3",
+     "322-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "322-P3",
+     "322-P5"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "322-I4",
+     "322-I1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "322-P2",
+     "322-P3",
+     "322-P1"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "322-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "322-P4",
+     "322-P3",
+     "322-P6"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "322-I1"
+    ]
+   }
+  ],
+  "23": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "195-P4",
+     "195-P5",
+     "195-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "195-I5"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "195-P6",
+     "195-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "195-I1",
+     "195-I5",
+     "195-I3"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "195-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "195-I3",
+     "195-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "195-P5",
+     "195-P6",
+     "195-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "323-P6"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "323-P2",
+     "323-P5"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "323-P3",
+     "323-P1",
+     "323-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "323-I4",
+     "323-I1"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "323-I6",
+     "323-I4"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "323-P4"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "323-I1",
+     "323-I3"
+    ]
+   }
+  ],
+  "24": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "186-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "186-I5",
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "186-P6",
+     "186-P3",
+     "186-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "186-P2",
+     "186-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "186-I3",
+     "186-I5",
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "186-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "324-N5",
+     "324-N6"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "324-P3",
+     "324-P6"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "324-I5",
+     "324-I1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "324-I3",
+     "324-I1"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "324-I6"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "324-I2"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "324-P5",
+     "324-P3"
+    ]
+   }
+  ],
+  "25": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "199-P4",
+     "199-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "199-I5",
+     "199-I1",
+     "199-I3"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "199-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "199-I1",
+     "199-I5"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "199-P2",
+     "199-P1",
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "199-I3"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "199-P5",
+     "199-P6"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "325-I4",
+     "325-I1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "325-P5",
+     "325-P6"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "325-I1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "325-P4",
+     "325-P5"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "325-P4",
+     "325-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "325-P2",
+     "325-P6",
+     "325-P4"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "325-P3",
+     "325-P6"
+    ]
+   }
+  ],
+  "26": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "206-P4",
+     "206-P5",
+     "206-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "206-I5"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "206-P6",
+     "206-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "206-I1",
+     "206-I5",
+     "206-I3"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "206-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "206-I3",
+     "206-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "206-P5",
+     "206-P6",
+     "206-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "326-P4",
+     "326-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "326-I6",
+     "326-I4",
+     "326-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "326-I1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "326-I5",
+     "326-I2"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "326-P4",
+     "326-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "326-I2"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "326-I5",
+     "326-I1"
+    ]
+   }
+  ],
+  "27": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "191-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "191-I5",
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "191-P6",
+     "191-P3",
+     "191-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "191-P2",
+     "191-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "191-I3",
+     "191-I5",
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "191-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "327-I3",
+     "327-I5"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "327-I6"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "327-P4",
+     "327-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "327-I3",
+     "327-I1"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "327-P3",
+     "327-P2",
+     "327-P5"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "327-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "327-I4",
+     "327-I3"
+    ]
+   }
+  ],
+  "28": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "208-P1",
+     "208-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "208-I2",
+     "208-I4",
+     "208-I6"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Depends which day you ask me."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "208-P5",
+     "208-P4",
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "208-I6"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "208-P2",
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "328-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "328-N5",
+     "328-N4"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "328-N4",
+     "328-N6",
+     "328-N2"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "328-P2"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "328-I6"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "328-P1",
+     "328-P5"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "328-P2"
+    ]
+   }
+  ],
+  "29": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "195-P1",
+     "195-P2",
+     "195-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "195-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "195-P3",
+     "195-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "It is more about the pace than any one thing."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "195-P5"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "195-I6",
+     "195-I2"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "195-P2",
+     "195-P3",
+     "195-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "329-I6"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "329-P6"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "329-I6",
+     "329-I1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "329-I5",
+     "329-I6"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "329-I2",
+     "329-I5"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "329-N2",
+     "329-N6"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "329-P4"
+    ]
+   }
+  ],
+  "30": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "186-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "186-I2",
+     "186-I4"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "186-P3",
+     "186-P6",
+     "186-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Hard to put in a box this week."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "186-P5",
+     "186-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "186-I6",
+     "186-I2",
+     "186-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "186-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "330-P2",
+     "330-P1",
+     "330-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "330-P1",
+     "330-P6"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "330-I1",
+     "330-I3"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "330-I3",
+     "330-I2"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "330-P6",
+     "330-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "330-I2",
+     "330-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "330-P1",
+     "330-P2",
+     "330-P4"
+    ]
+   }
+  ],
+  "31": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "199-P1",
+     "199-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "199-I2",
+     "199-I4",
+     "199-I6"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Something is off and I cannot name it."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "199-P5",
+     "199-P4",
+     "199-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "199-I6"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "199-P2",
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "331-P2",
+     "331-P6"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "331-P3",
+     "331-P1"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "331-P5",
+     "331-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "331-P4",
+     "331-P1"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "331-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "331-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "331-I6"
+    ]
+   }
+  ],
+  "32": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "206-P1",
+     "206-P2",
+     "206-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "206-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "206-P3",
+     "206-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "A bit of everything, nothing in particular."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "206-P5"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "206-I6",
+     "206-I2"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "206-P2",
+     "206-P3",
+     "206-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "332-I4",
+     "332-I3"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "332-P2"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "332-I6"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "332-P1",
+     "332-P3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "332-P3",
+     "332-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "332-P1"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "332-I3"
+    ]
+   }
+  ],
+  "33": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "191-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "191-I2",
+     "191-I4"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "191-P3",
+     "191-P6",
+     "191-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Depends which day you ask me."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "191-P5",
+     "191-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "191-I6",
+     "191-I2",
+     "191-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "191-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "333-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "333-P4"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "333-I4",
+     "333-I1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "333-N5",
+     "333-N4"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "333-I6",
+     "333-I4"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "333-N1",
+     "333-N4"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "333-N3"
+    ]
+   }
+  ],
+  "34": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "208-P4",
+     "208-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "208-I5",
+     "208-I1",
+     "208-I3"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "208-I1",
+     "208-I5"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "208-P2",
+     "208-P1",
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "208-I3"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "208-P5",
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "334-I5"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "334-I3",
+     "334-I5"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "334-N4",
+     "334-N3"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "334-N1"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "334-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "334-P4",
+     "334-P3"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "334-P2",
+     "334-P4"
+    ]
+   }
+  ],
+  "35": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "195-P4",
+     "195-P5",
+     "195-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "195-I5"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "195-P6",
+     "195-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "195-I1",
+     "195-I5",
+     "195-I3"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "195-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "195-I3",
+     "195-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "195-P5",
+     "195-P6",
+     "195-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "335-I6",
+     "335-I2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "335-P3",
+     "335-P4"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "335-I1",
+     "335-I5",
+     "335-I2"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "335-I2"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "335-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "335-P2",
+     "335-P4"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "335-P3"
+    ]
+   }
+  ],
+  "36": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "186-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "186-I5",
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "186-P6",
+     "186-P3",
+     "186-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "186-P2",
+     "186-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "186-I3",
+     "186-I5",
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "186-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "336-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "336-P2",
+     "336-P6"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "336-I5",
+     "336-I2"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "336-P3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "336-I3",
+     "336-I6",
+     "336-I5"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "336-P4"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "336-I2"
+    ]
+   }
+  ],
+  "37": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "199-P4",
+     "199-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "199-I5",
+     "199-I1",
+     "199-I3"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "199-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "199-I1",
+     "199-I5"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "199-P2",
+     "199-P1",
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "199-I3"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "199-P5",
+     "199-P6"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "337-I2",
+     "337-I3",
+     "337-I1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "337-I5"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "337-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "337-P1"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "red",
+    "chips": [
+     "337-N4"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "337-P3"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "337-I2"
+    ]
+   }
+  ],
+  "38": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "206-P4",
+     "206-P5",
+     "206-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "206-I5"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "206-P6",
+     "206-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "206-I1",
+     "206-I5",
+     "206-I3"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "206-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "206-I3",
+     "206-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "206-P5",
+     "206-P6",
+     "206-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "338-P2",
+     "338-P1",
+     "338-P3"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "338-P4"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "338-P1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "338-P3",
+     "338-P2",
+     "338-P1"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "338-I1"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "338-I1",
+     "338-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "338-P1"
+    ]
+   }
+  ],
+  "39": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "191-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "191-I5",
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "191-P6",
+     "191-P3",
+     "191-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "191-P2",
+     "191-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "191-I3",
+     "191-I5",
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "191-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "339-P6",
+     "339-P3"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "339-I1",
+     "339-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "339-N1",
+     "339-N5"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "339-I6",
+     "339-I5"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "339-I1",
+     "339-I2",
+     "339-I4"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "339-P3",
+     "339-P6"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "339-P3"
+    ]
+   }
+  ],
+  "40": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "208-P1",
+     "208-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "208-I2",
+     "208-I4",
+     "208-I6"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Hard to put in a box this week."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "208-P5",
+     "208-P4",
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "208-I6"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "208-P2",
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "340-P4",
+     "340-P6"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "340-N3",
+     "340-N5"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "340-P1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "340-P4"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "340-I4"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "340-P4",
+     "340-P2"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "340-I5"
+    ]
+   }
+  ],
+  "41": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "195-P1",
+     "195-P2",
+     "195-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "195-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "195-P3",
+     "195-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Fine, but I could not tell you why."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "195-P5"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "195-I6",
+     "195-I2"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "195-P2",
+     "195-P3",
+     "195-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "341-I1",
+     "341-I5"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "341-P6",
+     "341-P5"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "341-I3",
+     "341-I2"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "341-P1"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "341-I3"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "341-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "341-I6",
+     "341-I4",
+     "341-I1"
+    ]
+   }
+  ],
+  "42": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "186-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "186-I2",
+     "186-I4"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "186-P3",
+     "186-P6",
+     "186-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "None of those quite covers it."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "186-P5",
+     "186-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "186-I6",
+     "186-I2",
+     "186-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "186-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "342-P6",
+     "342-P2",
+     "342-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "342-P2",
+     "342-P4",
+     "342-P6"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "342-P4"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "342-P4"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "342-I2"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "342-P1"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "342-P6"
+    ]
+   }
+  ],
+  "43": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "199-P1",
+     "199-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "199-I2",
+     "199-I4",
+     "199-I6"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Depends which day you ask me."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "199-P5",
+     "199-P4",
+     "199-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "199-I6"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "199-P2",
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "343-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "343-P6",
+     "343-P3",
+     "343-P4"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "343-I4"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "343-I4",
+     "343-I5"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "343-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "343-P4",
+     "343-P2"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "343-P4",
+     "343-P2",
+     "343-P6"
+    ]
+   }
+  ],
+  "44": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "206-P1",
+     "206-P2",
+     "206-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "206-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "206-P3",
+     "206-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "It is more about the pace than any one thing."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "206-P5"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "206-I6",
+     "206-I2"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "206-P2",
+     "206-P3",
+     "206-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "344-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "344-I1",
+     "344-I4"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "344-P1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "344-P6"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "344-I1",
+     "344-I6",
+     "344-I4"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "344-P1"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "344-P6",
+     "344-P1",
+     "344-P2"
+    ]
+   }
+  ],
+  "45": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "191-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "191-I2",
+     "191-I4"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "191-P3",
+     "191-P6",
+     "191-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Hard to put in a box this week."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "191-P5",
+     "191-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "191-I6",
+     "191-I2",
+     "191-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "191-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "345-I3",
+     "345-I2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "345-P1"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "345-P3",
+     "345-P2",
+     "345-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "345-P4",
+     "345-P2"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "345-I2",
+     "345-I5"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "345-I2",
+     "345-I3",
+     "345-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "345-N3"
+    ]
+   }
+  ],
+  "46": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "208-P4",
+     "208-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "208-I5",
+     "208-I1",
+     "208-I3"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "208-I1",
+     "208-I5"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "208-P2",
+     "208-P1",
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "208-I3"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "208-P5",
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "346-P2",
+     "346-P3"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "346-I1",
+     "346-I3",
+     "346-I4"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "346-P6",
+     "346-P1",
+     "346-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "346-P6",
+     "346-P3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "346-I5",
+     "346-I2"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "346-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "346-I6",
+     "346-I1",
+     "346-I3"
+    ]
+   }
+  ],
+  "47": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "195-P4",
+     "195-P5",
+     "195-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "195-I5"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "195-P6",
+     "195-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "195-I1",
+     "195-I5",
+     "195-I3"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "195-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "195-I3",
+     "195-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "195-P5",
+     "195-P6",
+     "195-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "347-P3",
+     "347-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "347-P6",
+     "347-P1"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "347-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "347-I4",
+     "347-I5"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "347-I2"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "347-P6",
+     "347-P1",
+     "347-P5"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "347-I3",
+     "347-I6",
+     "347-I1"
+    ]
+   }
+  ],
+  "48": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "186-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "186-I5",
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "186-P6",
+     "186-P3",
+     "186-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "186-P2",
+     "186-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "186-I3",
+     "186-I5",
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "186-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "348-P2",
+     "348-P4",
+     "348-P3"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "348-P3"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "348-P2",
+     "348-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "red",
+    "chips": [
+     "348-N4"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "348-I6"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "348-P3",
+     "348-P1"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "348-I3",
+     "348-I5",
+     "348-I4"
+    ]
+   }
+  ],
+  "49": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "199-P4",
+     "199-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "199-I5",
+     "199-I1",
+     "199-I3"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "199-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "199-I1",
+     "199-I5"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "199-P2",
+     "199-P1",
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "199-I3"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "199-P5",
+     "199-P6"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "349-P6",
+     "349-P4",
+     "349-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "349-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "349-I4"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "349-I1"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "349-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "349-P2"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "349-P5",
+     "349-P6",
+     "349-P4"
+    ]
+   }
+  ],
+  "50": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "206-P4",
+     "206-P5",
+     "206-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "206-I5"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "206-P6",
+     "206-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "206-I1",
+     "206-I5",
+     "206-I3"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "206-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "206-I3",
+     "206-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "206-P5",
+     "206-P6",
+     "206-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "350-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "350-I6",
+     "350-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "350-P6",
+     "350-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "red",
+    "chips": [
+     "350-N1",
+     "350-N3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "350-I3"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "350-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "350-I6",
+     "350-I1"
+    ]
+   }
+  ],
+  "51": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "191-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "191-I5",
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "191-P6",
+     "191-P3",
+     "191-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "191-P2",
+     "191-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "191-I3",
+     "191-I5",
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "191-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "351-I6",
+     "351-I4",
+     "351-I3"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "351-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "351-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "351-I6"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "351-I6"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "351-P4"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "351-I4"
+    ]
+   }
+  ],
+  "52": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "208-P1",
+     "208-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "208-I2",
+     "208-I4",
+     "208-I6"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "None of those quite covers it."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "208-P5",
+     "208-P4",
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "208-I6"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "208-P2",
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "352-P4",
+     "352-P6",
+     "352-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "352-P6",
+     "352-P2"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "352-P2",
+     "352-P4"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "352-P5"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "352-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "352-N3"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "352-P1"
+    ]
+   }
+  ],
+  "53": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "195-P1",
+     "195-P2",
+     "195-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "195-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "195-P3",
+     "195-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Something is off and I cannot name it."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "195-P5"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "195-I6",
+     "195-I2"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "195-P2",
+     "195-P3",
+     "195-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "353-N1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "353-P5"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "353-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "353-P6"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "353-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "353-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "red",
+    "chips": [
+     "353-N3"
+    ]
+   }
+  ],
+  "54": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "186-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "186-I2",
+     "186-I4"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "186-P3",
+     "186-P6",
+     "186-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "A bit of everything, nothing in particular."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "186-P5",
+     "186-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "186-I6",
+     "186-I2",
+     "186-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "186-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "354-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "354-P3"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "354-I3",
+     "354-I1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "354-I1",
+     "354-I3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "354-P5",
+     "354-P4",
+     "354-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "354-P4"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "354-N3"
+    ]
+   }
+  ],
+  "55": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "199-P1",
+     "199-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "199-I2",
+     "199-I4",
+     "199-I6"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Hard to put in a box this week."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "199-P5",
+     "199-P4",
+     "199-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "199-I6"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "199-P2",
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "355-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "355-P5"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "355-P4"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "355-N1"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "355-I4"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "355-P4"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "355-P3",
+     "355-P5",
+     "355-P2"
+    ]
+   }
+  ],
+  "56": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "206-P1",
+     "206-P2",
+     "206-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "206-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "206-P3",
+     "206-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Fine, but I could not tell you why."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "206-P5"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "206-I6",
+     "206-I2"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "206-P2",
+     "206-P3",
+     "206-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "356-I6"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "356-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "356-P4"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "356-P1",
+     "356-P3",
+     "356-P5"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "356-I6",
+     "356-I1"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "356-P3"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "356-I4",
+     "356-I5"
+    ]
+   }
+  ],
+  "57": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "191-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "191-I2",
+     "191-I4"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "191-P3",
+     "191-P6",
+     "191-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "None of those quite covers it."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "191-P5",
+     "191-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "191-I6",
+     "191-I2",
+     "191-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "191-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "357-P6",
+     "357-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "357-P5"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "357-P6",
+     "357-P1",
+     "357-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "357-P2",
+     "357-P4",
+     "357-P3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "357-I6",
+     "357-I3"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "357-P3"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "357-P5"
+    ]
+   }
+  ],
+  "58": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "208-P4",
+     "208-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "208-I5",
+     "208-I1",
+     "208-I3"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "208-I1",
+     "208-I5"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "208-P2",
+     "208-P1",
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "208-I3"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "208-P5",
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "358-I6",
+     "358-I5"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "358-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "358-P5",
+     "358-P3",
+     "358-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "358-I3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "358-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "358-P2"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "358-I3"
+    ]
+   }
+  ],
+  "59": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "195-P4",
+     "195-P5",
+     "195-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "195-I5"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "195-P6",
+     "195-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "195-I1",
+     "195-I5",
+     "195-I3"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "195-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "195-I3",
+     "195-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "195-P5",
+     "195-P6",
+     "195-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "359-P3",
+     "359-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "359-I3"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "359-I4",
+     "359-I1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "red",
+    "chips": [
+     "359-N3",
+     "359-N5"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "359-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "359-P1",
+     "359-P2"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "359-P6",
+     "359-P5"
+    ]
+   }
+  ],
+  "60": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "186-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "186-I5",
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "186-P6",
+     "186-P3",
+     "186-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "186-P2",
+     "186-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "186-I3",
+     "186-I5",
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "186-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "360-P2",
+     "360-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "360-P6"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "360-I3",
+     "360-I6"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "360-P4"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "360-I6",
+     "360-I2"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "360-I4",
+     "360-I6"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "red",
+    "chips": [
+     "360-N3",
+     "360-N4",
+     "360-N5"
+    ]
+   }
+  ],
+  "61": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "199-P4",
+     "199-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "199-I5",
+     "199-I1",
+     "199-I3"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "199-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "199-I1",
+     "199-I5"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "199-P2",
+     "199-P1",
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "199-I3"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "199-P5",
+     "199-P6"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "361-P4",
+     "361-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "361-N6"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "361-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "361-I4",
+     "361-I5",
+     "361-I2"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "361-P1",
+     "361-P3",
+     "361-P5"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "361-P2",
+     "361-P6"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "361-I6"
+    ]
+   }
+  ],
+  "62": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "206-P4",
+     "206-P5",
+     "206-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "206-I5"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "206-P6",
+     "206-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "206-I1",
+     "206-I5",
+     "206-I3"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "206-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "206-I3",
+     "206-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "206-P5",
+     "206-P6",
+     "206-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "362-P6",
+     "362-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "362-I4",
+     "362-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "362-N4",
+     "362-N2"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "362-P2"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "362-I5",
+     "362-I2"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "362-P4",
+     "362-P2"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "362-I6"
+    ]
+   }
+  ],
+  "63": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "191-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "191-I5",
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "191-P6",
+     "191-P3",
+     "191-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "191-P2",
+     "191-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "191-I3",
+     "191-I5",
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "191-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "363-I6",
+     "363-I2",
+     "363-I5"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "363-I4",
+     "363-I3"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "363-P4"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "363-I3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "363-P4",
+     "363-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "363-P3",
+     "363-P2"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "363-P4",
+     "363-P6"
+    ]
+   }
+  ],
+  "64": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "208-P1",
+     "208-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "208-I2",
+     "208-I4",
+     "208-I6"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "A bit of everything, nothing in particular."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "208-P5",
+     "208-P4",
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "208-I6"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "208-P2",
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "364-P6"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "364-P3"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "364-P1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "364-P2",
+     "364-P5"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "364-P1",
+     "364-P6",
+     "364-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "364-P3",
+     "364-P5"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "364-I2"
+    ]
+   }
+  ],
+  "65": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "195-P1",
+     "195-P2",
+     "195-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "195-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "195-P3",
+     "195-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Depends which day you ask me."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "195-P5"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "195-I6",
+     "195-I2"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "195-P2",
+     "195-P3",
+     "195-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "365-I3",
+     "365-I2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "365-I5",
+     "365-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "365-P1",
+     "365-P5",
+     "365-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "365-I5"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "365-I6",
+     "365-I1"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "365-P4",
+     "365-P2"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "365-P4",
+     "365-P5"
+    ]
+   }
+  ],
+  "66": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "186-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "186-I2",
+     "186-I4"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "186-P3",
+     "186-P6",
+     "186-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "It is more about the pace than any one thing."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "186-P5",
+     "186-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "186-I6",
+     "186-I2",
+     "186-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "186-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "366-I2",
+     "366-I4"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "366-I5"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "366-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "366-P6",
+     "366-P5"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "366-P4",
+     "366-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "366-P2"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "366-P1"
+    ]
+   }
+  ],
+  "67": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "199-P1",
+     "199-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "199-I2",
+     "199-I4",
+     "199-I6"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "None of those quite covers it."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "199-P5",
+     "199-P4",
+     "199-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "199-I6"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "199-P2",
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "367-P1",
+     "367-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "367-P1"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "367-I6",
+     "367-I2"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "367-I3",
+     "367-I4"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "367-P2",
+     "367-P3",
+     "367-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "367-I5",
+     "367-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "367-P3",
+     "367-P4"
+    ]
+   }
+  ],
+  "68": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "206-P1",
+     "206-P2",
+     "206-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "206-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "206-P3",
+     "206-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Something is off and I cannot name it."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "206-P5"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "206-I6",
+     "206-I2"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "206-P2",
+     "206-P3",
+     "206-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "368-P3",
+     "368-P5",
+     "368-P6"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "368-P1",
+     "368-P3"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "368-I2",
+     "368-I5"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "368-P1"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "368-I4",
+     "368-I5",
+     "368-I1"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "368-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "red",
+    "chips": [
+     "368-N6",
+     "368-N1"
+    ]
+   }
+  ],
+  "69": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "191-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "191-I2",
+     "191-I4"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "191-P3",
+     "191-P6",
+     "191-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "A bit of everything, nothing in particular."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "191-P5",
+     "191-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "191-I6",
+     "191-I2",
+     "191-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "191-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "369-P5",
+     "369-P4",
+     "369-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "369-P6",
+     "369-P1",
+     "369-P2"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "369-N1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "369-P4"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "369-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "369-P3"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "369-P3",
+     "369-P2"
+    ]
+   }
+  ],
+  "70": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "208-P4",
+     "208-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "208-I5",
+     "208-I1",
+     "208-I3"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "208-I1",
+     "208-I5"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "208-P2",
+     "208-P1",
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "208-I3"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "208-P5",
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "370-P1",
+     "370-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "370-P1",
+     "370-P4",
+     "370-P6"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "370-P5",
+     "370-P4"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "370-P6"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "370-I6",
+     "370-I2",
+     "370-I4"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "370-P1",
+     "370-P6",
+     "370-P4"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "370-I6"
+    ]
+   }
+  ],
+  "71": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "195-P4",
+     "195-P5",
+     "195-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "195-I5"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "195-P6",
+     "195-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "195-I1",
+     "195-I5",
+     "195-I3"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "195-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "195-I3",
+     "195-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "195-P5",
+     "195-P6",
+     "195-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "371-N3"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "371-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "371-P6",
+     "371-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "371-I1"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "371-I6"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "371-P6",
+     "371-P5"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "371-P6",
+     "371-P3"
+    ]
+   }
+  ],
+  "72": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "186-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "186-I5",
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "186-P6",
+     "186-P3",
+     "186-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "186-P2",
+     "186-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "186-I3",
+     "186-I5",
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "186-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "372-P6"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "372-N2"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "372-I6",
+     "372-I5"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "372-I5",
+     "372-I1"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "372-I6",
+     "372-I4",
+     "372-I5"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "372-P1"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "372-I6"
+    ]
+   }
+  ],
+  "73": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "199-P4",
+     "199-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "199-I5",
+     "199-I1",
+     "199-I3"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "199-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "199-I1",
+     "199-I5"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "199-P2",
+     "199-P1",
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "199-I3"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "199-P5",
+     "199-P6"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "373-P4",
+     "373-P6"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "373-P3",
+     "373-P6",
+     "373-P5"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "373-I3",
+     "373-I5",
+     "373-I1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "373-P3",
+     "373-P5",
+     "373-P4"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "373-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "373-I5",
+     "373-I2"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "373-P6",
+     "373-P1"
+    ]
+   }
+  ],
+  "74": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "206-P4",
+     "206-P5",
+     "206-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "206-I5"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "206-P6",
+     "206-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "206-I1",
+     "206-I5",
+     "206-I3"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "206-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "206-I3",
+     "206-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "206-P5",
+     "206-P6",
+     "206-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "374-I4",
+     "374-I2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "374-P3"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "374-P2",
+     "374-P3",
+     "374-P4"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "374-I5"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "374-P2",
+     "374-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "374-I6"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "374-I3"
+    ]
+   }
+  ],
+  "75": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "191-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "191-I5",
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "191-P6",
+     "191-P3",
+     "191-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "191-P2",
+     "191-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "191-I3",
+     "191-I5",
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "191-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "375-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "375-P5"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "375-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "375-I3",
+     "375-I5",
+     "375-I6"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "375-P2",
+     "375-P6",
+     "375-P5"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "375-I6"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "375-I5",
+     "375-I3",
+     "375-I4"
+    ]
+   }
+  ],
+  "76": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "208-P1",
+     "208-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "208-I2",
+     "208-I4",
+     "208-I6"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "It is more about the pace than any one thing."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "208-P5",
+     "208-P4",
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "208-I6"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "208-P2",
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "376-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "red",
+    "chips": [
+     "376-N1",
+     "376-N5"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "376-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "376-I3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "376-I1",
+     "376-I6",
+     "376-I5"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "376-I4",
+     "376-I5",
+     "376-I2"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "376-I4",
+     "376-I1"
+    ]
+   }
+  ],
+  "77": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "195-P1",
+     "195-P2",
+     "195-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "195-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "195-P3",
+     "195-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Hard to put in a box this week."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "195-P5"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "195-I6",
+     "195-I2"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "195-P2",
+     "195-P3",
+     "195-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "377-P5",
+     "377-P2",
+     "377-P3"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "377-P2",
+     "377-P6"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "377-I1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "377-N6",
+     "377-N3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "377-P1",
+     "377-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "377-I2",
+     "377-I1",
+     "377-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "377-I3"
+    ]
+   }
+  ],
+  "78": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "186-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "186-I2",
+     "186-I4"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "186-P3",
+     "186-P6",
+     "186-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Fine, but I could not tell you why."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "186-P5",
+     "186-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "186-I6",
+     "186-I2",
+     "186-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "186-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "378-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "378-N1",
+     "378-N3"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "378-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "378-P1",
+     "378-P6"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "378-I2"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "378-P5",
+     "378-P6"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "378-P4"
+    ]
+   }
+  ],
+  "79": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "199-P1",
+     "199-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "199-I2",
+     "199-I4",
+     "199-I6"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "A bit of everything, nothing in particular."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "199-P5",
+     "199-P4",
+     "199-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "199-I6"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "199-P2",
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "379-I4",
+     "379-I1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "379-I2",
+     "379-I4"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "379-I6"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "379-P6",
+     "379-P2"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "379-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "379-I3",
+     "379-I2",
+     "379-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "379-P1",
+     "379-P6"
+    ]
+   }
+  ],
+  "80": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "206-P1",
+     "206-P2",
+     "206-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "206-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "206-P3",
+     "206-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Depends which day you ask me."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "206-P5"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "206-I6",
+     "206-I2"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "206-P2",
+     "206-P3",
+     "206-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "380-P3",
+     "380-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "380-P2",
+     "380-P3"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "380-I2"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "380-P2",
+     "380-P4",
+     "380-P6"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "380-I2",
+     "380-I6"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "380-N4",
+     "380-N1"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "380-I3"
+    ]
+   }
+  ],
+  "81": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "191-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "191-I2",
+     "191-I4"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "191-P3",
+     "191-P6",
+     "191-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "It is more about the pace than any one thing."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "191-P5",
+     "191-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "191-I6",
+     "191-I2",
+     "191-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "191-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "381-P1",
+     "381-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "381-P6"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "381-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "381-P1",
+     "381-P3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "381-P4",
+     "381-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "381-P1"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "381-I2",
+     "381-I1"
+    ]
+   }
+  ],
+  "82": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "208-P4",
+     "208-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "208-I5",
+     "208-I1",
+     "208-I3"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "208-I1",
+     "208-I5"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "208-P2",
+     "208-P1",
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "208-I3"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "208-P5",
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "382-P2",
+     "382-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "382-P3",
+     "382-P5",
+     "382-P2"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "382-P3",
+     "382-P2",
+     "382-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "382-P2",
+     "382-P3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "382-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "382-P6"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "382-I1",
+     "382-I6",
+     "382-I4"
+    ]
+   }
+  ],
+  "83": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "195-P4",
+     "195-P5",
+     "195-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "195-I5"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "195-P6",
+     "195-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "195-I1",
+     "195-I5",
+     "195-I3"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "195-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "195-I3",
+     "195-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "195-P5",
+     "195-P6",
+     "195-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "383-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "383-I5"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "383-I1"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "383-P4",
+     "383-P1",
+     "383-P3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "383-I1",
+     "383-I6"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "383-P2",
+     "383-P3"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "383-I3",
+     "383-I1",
+     "383-I2"
+    ]
+   }
+  ],
+  "84": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "186-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "186-I5",
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "186-P6",
+     "186-P3",
+     "186-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "186-P2",
+     "186-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "186-I3",
+     "186-I5",
+     "186-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "186-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "384-P5",
+     "384-P1",
+     "384-P3"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "384-P5",
+     "384-P1"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "384-I3"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "384-P5",
+     "384-P1"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "384-I6"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "384-P1",
+     "384-P5",
+     "384-P2"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "red",
+    "chips": [
+     "384-N5"
+    ]
+   }
+  ],
+  "85": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "199-P4",
+     "199-P5"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "199-I5",
+     "199-I1",
+     "199-I3"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "199-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "199-I1",
+     "199-I5"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "199-P2",
+     "199-P1",
+     "199-P3"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "199-I3"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "199-P5",
+     "199-P6"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "385-I3"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "385-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "385-I3"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "385-N3",
+     "385-N2",
+     "385-N6"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "385-I6"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "385-I1",
+     "385-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "385-P3",
+     "385-P1",
+     "385-P5"
+    ]
+   }
+  ],
+  "86": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "206-P4",
+     "206-P5",
+     "206-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "206-I5"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "206-P6",
+     "206-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "206-I1",
+     "206-I5",
+     "206-I3"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "206-P2"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "206-I3",
+     "206-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "206-P5",
+     "206-P6",
+     "206-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "386-I5"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "386-P2"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "386-P6",
+     "386-P4"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "386-I6"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "386-I5",
+     "386-I6"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "386-P1",
+     "386-P3"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "386-I3"
+    ]
+   }
+  ],
+  "87": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "191-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "191-I5",
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "191-P6",
+     "191-P3",
+     "191-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "191-P2",
+     "191-P1"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "191-I3",
+     "191-I5",
+     "191-I1"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "191-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "387-P3",
+     "387-P4",
+     "387-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "387-I6"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "387-P4"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "387-P3"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "387-I1"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "387-I5"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "387-P2"
+    ]
+   }
+  ],
+  "88": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "208-P1",
+     "208-P2"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "208-I2",
+     "208-I4",
+     "208-I6"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Fine, but I could not tell you why."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "208-P5",
+     "208-P4",
+     "208-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "208-I6"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "208-P2",
+     "208-P3"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "388-P4",
+     "388-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "388-P1"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "388-P3",
+     "388-P5",
+     "388-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "388-P5"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "388-I5"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "388-N3"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "388-I6",
+     "388-I2"
+    ]
+   }
+  ],
+  "89": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "195-P1",
+     "195-P2",
+     "195-P4"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "195-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "195-P3",
+     "195-P6"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "None of those quite covers it."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "195-P5"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "195-I6",
+     "195-I2"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "195-P2",
+     "195-P3",
+     "195-P5"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "389-I5",
+     "389-I3",
+     "389-I1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "389-P2",
+     "389-P4",
+     "389-P1"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "389-P4",
+     "389-P5"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "389-I6"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "389-I3",
+     "389-I4",
+     "389-I2"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "389-P5"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "389-P5",
+     "389-P3"
+    ]
+   }
+  ],
+  "90": [
+   {
+    "member": "P1",
+    "smiley": "green",
+    "chips": [
+     "186-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "smiley": "yellow",
+    "chips": [
+     "186-I2",
+     "186-I4"
+    ]
+   },
+   {
+    "member": "P3",
+    "smiley": "green",
+    "chips": [
+     "186-P3",
+     "186-P6",
+     "186-P2"
+    ]
+   },
+   {
+    "member": "P4",
+    "smiley": "yellow",
+    "chips": [],
+    "text": "Something is off and I cannot name it."
+   },
+   {
+    "member": "P5",
+    "smiley": "green",
+    "chips": [
+     "186-P5",
+     "186-P4"
+    ]
+   },
+   {
+    "member": "P6",
+    "smiley": "yellow",
+    "chips": [
+     "186-I6",
+     "186-I2",
+     "186-I4"
+    ]
+   },
+   {
+    "member": "P7",
+    "smiley": "green",
+    "chips": [
+     "186-P2"
+    ]
+   },
+   {
+    "member": "P1",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "390-P3",
+     "390-P1"
+    ]
+   },
+   {
+    "member": "P2",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "390-I2"
+    ]
+   },
+   {
+    "member": "P3",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "390-P5",
+     "390-P4"
+    ]
+   },
+   {
+    "member": "P4",
+    "track": "team",
+    "smiley": "orange",
+    "chips": [
+     "390-N4"
+    ]
+   },
+   {
+    "member": "P5",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "390-P3",
+     "390-P6"
+    ]
+   },
+   {
+    "member": "P6",
+    "track": "team",
+    "smiley": "green",
+    "chips": [
+     "390-P3"
+    ]
+   },
+   {
+    "member": "P7",
+    "track": "team",
+    "smiley": "yellow",
+    "chips": [
+     "390-I2"
+    ]
+   }
+  ]
+ }
+}
